@@ -1,0 +1,14 @@
+{
+  "name": "submit-my-test-pwc",
+  "version": "1.0.0",
+  "description": "> This is a starter pack for building Bootstrap 4 themes with Sass. It uses the node-sass pakage for compiling .scss to .css",
+  "main": "index.js",
+  "scripts": {
+    "sass": "node-sass -w scss/ -o dist/assets/css/"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "node-sass": "^4.9.3"
+  }
+}
