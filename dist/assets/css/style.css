@@ -45,6 +45,31 @@
     min-height: 300px; }
   .car-main-content .custom-button {
     background-color: #fff !important; }
+  .car-main-content .gallery-wrap .img-big-wrap img {
+    cursor: zoom-in;
+    display: inline-block;
+    max-width: 100%;
+    vertical-align: top;
+    position: inherit; }
+  .car-main-content .gallery-wrap .img-small-wrap {
+    text-align: center; }
+    .car-main-content .gallery-wrap .img-small-wrap .item-gallery {
+      width: 71px;
+      height: 41px;
+      border: 1px solid #ddd;
+      margin: 7px 2px;
+      display: block;
+      overflow: hidden; }
+    .car-main-content .gallery-wrap .img-small-wrap img {
+      max-width: 100%;
+      max-height: 100%;
+      object-fit: cover;
+      border-radius: 4px;
+      cursor: pointer; }
+  .car-main-content .get-hover-color {
+    border: 1px solid #dc3545 !important; }
+  .car-main-content .no-border-wrap {
+    border: 0px !important; }
 
 .custom-btn {
   text-align: center;
@@ -70,12 +95,6 @@
     .custom-btn:hover i {
       color: #fff !important; }
 
-.list-location {
-  list-style-type: none !important; }
-
-.get-hover-color {
-  border: 1px solid #dc3545 !important; }
-
 /* Portrait and Landscape */
 @media only screen and (min-device-width: 375px) and (max-device-width: 667px) and (-webkit-min-device-pixel-ratio: 2) {
   .no-border {
@@ -83,23 +102,23 @@
   .zoom {
     height: 22px !important;
     width: 22px !important; }
-  .gallery-wrap .img-small-wrap li {
-    position: relative;
-    -webkit-box-flex: 0 !important;
-    -ms-flex: 0 1 auto !important;
-    flex: 0 1 auto !important;
-    width: 30px !important;
-    height: 3px !important;
-    margin-right: 3px !important;
-    margin-left: 3px !important;
-    text-indent: -999px !important;
-    background-color: rgba(255, 255, 255, 0.5); }
   .gallery-wrap {
     display: block !important; }
-  .gallery-wrap .img-small-wrap {
-    border: 0; }
-  .gallery-wrap .img-small-wrap .item-gallery {
-    display: inline-block !important; }
+    .gallery-wrap .img-small-wrap {
+      border: 0; }
+      .gallery-wrap .img-small-wrap li {
+        position: relative;
+        -webkit-box-flex: 0 !important;
+        -ms-flex: 0 1 auto !important;
+        flex: 0 1 auto !important;
+        width: 30px !important;
+        height: 3px !important;
+        margin-right: 3px !important;
+        margin-left: 3px !important;
+        text-indent: -999px !important;
+        background-color: rgba(255, 255, 255, 0.5); }
+      .gallery-wrap .img-small-wrap .item-gallery {
+        display: inline-block !important; }
   .custom-flex-column-reverse {
     flex-direction: column-reverse !important;
     border-bottom: 0px !important; }
