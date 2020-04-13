@@ -4,7 +4,9 @@
     h2 {
         font-size: 40px;
     }
-    
+    .car-details {
+        border-radius: 20px;
+    }
     .buttons {
         .showSingle {
             cursor: pointer;
@@ -157,7 +159,6 @@
              font-size: 20px;
         }
         .car-details {
-            border-radius: 20px;
             .pricing {
                 font-size: 13px !important;
                 vertical-align: middle;

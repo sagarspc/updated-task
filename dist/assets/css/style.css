@@ -3,6 +3,8 @@
   max-width: 1280px !important; }
   .car-main-content h2 {
     font-size: 40px; }
+  .car-main-content .car-details {
+    border-radius: 20px; }
   .car-main-content .buttons .showSingle {
     cursor: pointer; }
   .car-main-content .zoom {
@@ -115,12 +117,10 @@
   .car-main-content h3 {
     margin-top: 20px;
     font-size: 20px; }
-  .car-main-content .car-details {
-    border-radius: 20px; }
-    .car-main-content .car-details .pricing {
-      font-size: 13px !important;
-      vertical-align: middle;
-      margin-top: 6px;
-      line-height: 22px !important;
-      padding: 0 !important;
-      margin-bottom: 12px; } }
+  .car-main-content .car-details .pricing {
+    font-size: 13px !important;
+    vertical-align: middle;
+    margin-top: 6px;
+    line-height: 22px !important;
+    padding: 0 !important;
+    margin-bottom: 12px; } }
