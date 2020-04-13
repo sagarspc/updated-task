@@ -16,4 +16,11 @@ $(document).ready(function(){
       $('.item-gallery.get-hover-color').removeClass("get-hover-color");
       $(this).addClass("get-hover-color")
     })
+    $('.dropdown-toggle').dropdown();
+    $('#divNewNotifications li').on('click', function() {
+    $('#dropdown_title').html($(this).find('a').html());
+    });
+    $('#divNewNotifications2 li').on('click', function() {
+      $('#dropdown_title2').html($(this).find('a').html());
+      });
 });

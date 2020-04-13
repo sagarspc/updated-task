@@ -5,6 +5,9 @@
     font-size: 40px; }
   .car-main-content .car-details {
     border-radius: 20px; }
+    .car-main-content .car-details .list-location {
+      list-style-type: none !important;
+      padding-left: 0px; }
   .car-main-content .buttons .showSingle {
     cursor: pointer; }
   .car-main-content .zoom {
@@ -63,6 +66,9 @@
     background: #dc3545; }
     .custom-btn:hover i {
       color: #fff !important; }
+
+.list-location {
+  list-style-type: none !important; }
 
 .get-hover-color {
   border: 1px solid #dc3545 !important; }

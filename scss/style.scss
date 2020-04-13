@@ -6,6 +6,10 @@
     }
     .car-details {
         border-radius: 20px;
+        .list-location{
+            list-style-type: none !important;
+            padding-left: 0px;
+        }
     }
     .buttons {
         .showSingle {
@@ -84,6 +88,9 @@
 		color: #fff;
 		background: #dc3545;
 	}
+}
+.list-location{
+    list-style-type: none !important;
 }
 .get-hover-color{
     border: 1px solid #dc3545 !important;
