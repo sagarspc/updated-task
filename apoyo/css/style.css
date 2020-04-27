@@ -4427,7 +4427,7 @@ a[aria-expanded="true"] {
     border-radius: 50%;
     width: 220px;
     height: 220px;
-    margin: 4rem;
+    margin: 0px auto;
     -webkit-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.5);
   -moz-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.5);
   box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.5);
@@ -4607,7 +4607,7 @@ a[aria-expanded="true"] {
 .scrollbar
 {
     float: left;
-    min-height: 350px;
+    min-height: 270px;
 	height: 150px;
 	width: auto;
 	overflow-y: auto;
