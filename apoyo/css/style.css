@@ -777,6 +777,15 @@ Shortcode Content
 /*Media Query*/
 
 @media screen and (max-width: 768px) {
+    .bigimg-text{
+        font-size: 2rem;
+        line-height: 40px;
+        white-space: nowrap;
+    }
+    .serviceBox{
+        padding:20px !important;
+        height: 280px !important; 
+    }
     .hero-slide {
         padding-top: 60px;
     }
@@ -791,6 +800,10 @@ Shortcode Content
     }
     .hero-slide .carousel-control.left, .hero-slide .carousel-control.right{
         top: 60%;
+        border: 0;
+    font-size: 40px;
+    background-image: -webkit-linear-gradient(left,rgba(0,0,0,.0001) 0,rgba(0,0,0,.5) 100%) !important;
+    opacity: 1;
     }
     
     .single-page-title h2{
@@ -868,6 +881,9 @@ Shortcode Content
           top: 0;
           left: 0;
           min-height: 220px;
+      }
+      .scrollbar{
+          height: auto !important;
       }
 }
 
@@ -4309,7 +4325,7 @@ a[aria-expanded="true"] {
     top: 0;
     bottom: 0;
     padding: 0rem 0rem 1rem 0rem;
-    background-color: #ddd;
+    background-color: #fff;
     font-family: 'Lora', serif;
     height: 100%;
   }
@@ -4345,6 +4361,8 @@ a[aria-expanded="true"] {
   #teamcontent {
     display: none;
     margin-bottom: 15px;
+    box-shadow: 0 8px 17px 0 rgba(0,0,0,0.2),0 6px 20px 0 rgba(0,0,0,0.19) !important;
+    padding: 23px;
   }
   
   .team_box {
@@ -4425,7 +4443,7 @@ a[aria-expanded="true"] {
     width: 100%;
     opacity: 0;
     transition: 0.5s ease-in-out;
-  background-image: linear-gradient(15deg, rgba(19, 84, 122, 0.7) 0%, rgba(128, 208, 199, 0.7) 100%);
+    background-image: linear-gradient(15deg, rgba(19, 84, 122, 0.7) 0%, rgba(128, 208, 199, 0.7) 100%);
   }
   
   .profile_container::after {
@@ -4500,13 +4518,14 @@ a[aria-expanded="true"] {
     width: 100% !important;
     height: auto;
     display: block;
+    height: 250px;
   }
   
   #teamdetails {
     display: block;
     float: left;
     width: 600px;
-    padding-left: 15px;
+    padding: 20px;
   }
   
   .clearfix:after {
@@ -4570,3 +4589,40 @@ a[aria-expanded="true"] {
     }
   }
   
+
+
+  
+.scrollbar
+{
+    float: left;
+    min-height: 350px;
+	height: 150px;
+	width: auto;
+	overflow-y: auto;
+	margin-bottom: 25px;
+}
+
+/* .force-overflow
+{
+	min-height: 450px;
+} */
+
+#teamdetails::-webkit-scrollbar-track
+{
+	-webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
+	border-radius: 10px;
+	background-color: #F5F5F5;
+}
+
+#teamdetails::-webkit-scrollbar
+{
+	width: 6px;
+	background-color: #F5F5F5;
+}
+
+#teamdetails::-webkit-scrollbar-thumb
+{
+	border-radius: 10px;
+	-webkit-box-shadow: inset 0 0 6px rgba(0,0,0,.3);
+	background-color: #555;
+}
