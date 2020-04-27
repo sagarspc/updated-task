@@ -1046,7 +1046,9 @@ features start
 Team
 ------------------------------------------------- */
 
-.team {}
+.team {
+    display: flex !important;
+}
 
 .team .thumbnail {
     padding: 0;
@@ -4530,7 +4532,7 @@ a[aria-expanded="true"] {
     padding: 20px;
   }
   
-  .team.clearfix:after {
+   .clearfix:after {
     content: ".";
     display: block;
     clear: both;
@@ -4539,7 +4541,7 @@ a[aria-expanded="true"] {
     height: 0;
   }
   
-  .team.clearfix {
+  .clearfix {
     display: flex;
     flex-flow: row nowrap;
   }
