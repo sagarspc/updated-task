@@ -784,8 +784,8 @@ Shortcode Content
 
 @media screen and (max-width: 768px) {
     .serviceBox{
-        padding:20px !important;
-        height: 280px !important; 
+        /* padding:20px !important;
+        height: auto !important;  */
     }
     .hero-slide {
         padding-top: 60px;
@@ -2704,7 +2704,7 @@ h4.tab-title {
     position: relative;
     transition: all 0.3s ease 0s;
     width: 350px;
-    height: 270px;
+    height: auto;
     border-radius: 10px;
 }
 .serviceBox:hover {
@@ -4351,13 +4351,14 @@ a[aria-expanded="true"] {
 
 
 /* classes for responsive */
+
 @media screen and (max-width: 768px) {
-    .height-eq-225{
+    /* .height-eq-225{
         height: 225px !important;
-    }
-    .height-eq-250{
-        height: 250px !important;
-    }
+    } */
+    /* .height-eq-200{
+        height: 220px !important;
+    } */
     .m-b-25{
         margin-bottom: 25px !important;
     }
@@ -4437,3 +4438,67 @@ a[aria-expanded="true"] {
     margin-left: 25px;
     display: inline-block;
 }
+.footer-widget-section p{
+    color:#fff;
+}
+
+
+/* cards */
+.custom-cards img{
+    height:150px;
+    width:100%;
+  }
+  
+  .custom-cards .item{
+    padding-left:5px;
+    padding-right:5px;
+  }
+  .custom-cards .item-card{
+    transition:0.5s;
+    cursor:pointer;
+  }
+  .custom-cards .item-card-title{  
+    font-size:15px;
+    transition:1s;
+    cursor:pointer;
+  }
+  .custom-cards .item-card-title i{  
+    font-size:15px;
+    transition:1s;
+    cursor:pointer;
+    color:#ffa710
+  }
+  .custom-cards .card-title i:hover{
+    transform: scale(1.25) rotate(100deg); 
+    color:#18d4ca;
+    
+  }
+  .custom-cards .card:hover{
+    transform: scale(1.05);
+    box-shadow: 10px 10px 15px rgba(0,0,0,0.3);
+  }
+  .custom-cards .card-text{
+    height:80px;  
+  }
+  
+  .custom-cards .card::before, .custom-cards .card::after {
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    transform: scale3d(0, 0, 1);
+    transition: transform .3s ease-out 0s;
+    background: rgba(255, 255, 255, 0.1);
+    content: '';
+    pointer-events: none;
+  }
+  .custom-cards .card::before {
+    transform-origin: left top;
+  }
+  .custom-cards .card::after {
+    transform-origin: right bottom;
+  }
+  .custom-cards .card:hover::before, .custom-cards .card:hover::after, .custom-cards .card:focus::before, .custom-cards .card:focus::after {
+    transform: scale3d(1, 1, 1);
+  }
