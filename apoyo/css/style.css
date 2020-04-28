@@ -1,5 +1,5 @@
 body {
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Roboto', sans-serif !important;
     font-size: 13px;
     line-height: 24px;
     color: #969595;
@@ -18,6 +18,7 @@ h3,
 h4,
 h5,
 h6 {
+    font-family: 'Roboto', sans-serif !important;
     margin: 0 0 15px;
     color: #313131;
     font-weight: 400;
@@ -60,6 +61,7 @@ LINK STYLE
 ------------------------------------------*/
 
 a {
+    font-family: 'Roboto', sans-serif;
     color: #31aae2;
     text-decoration: none;
     -webkit-transition: all 0.3s ease 0s;
@@ -380,6 +382,10 @@ Shortcode Content
     .navbar-default .navbar-nav.content-increase>li.myli>a{
         font-size: 10px;
     }
+}
+
+.navbar-default .navbar-nav>li.myactive.myli>a{
+    color: #fff !important;
 }
 
 .navbar-default {
@@ -777,11 +783,6 @@ Shortcode Content
 /*Media Query*/
 
 @media screen and (max-width: 768px) {
-    .bigimg-text{
-        font-size: 2rem;
-        line-height: 40px;
-        white-space: nowrap;
-    }
     .serviceBox{
         padding:20px !important;
         height: 280px !important; 
@@ -824,7 +825,8 @@ Shortcode Content
 
     }
     .navbar-default .navbar-nav>li.myactive>a{
-        color: #ffffff;
+        color: #ffffff !important;
+        padding: 10px 35px !important;
     }
     .pdr{
         right: 0 !important;
@@ -844,8 +846,8 @@ Shortcode Content
         font-size: 10px;
     }
 
-    .navbar-default .navbar-nav>li>a {
-        padding: 20px 35px;
+    .navbar-default .navbar-nav>li.myli>a {
+        padding: 10px 35px !important;
     }
     .BACK {
         background-color: #fff !important;
@@ -882,8 +884,8 @@ Shortcode Content
           left: 0;
           min-height: 220px;
       }
-      .scrollbar{
-          height: auto !important;
+      .section-title{
+          margin-bottom: 0px !important;
       }
 }
 
@@ -1613,7 +1615,11 @@ service-icon-style
     font-weight: 600;
     text-transform: uppercase;
 }
-.footer .widget_text {}
+.footer .widget_text p{
+    font-size: 15px !important;
+    font-weight: 300 !important;
+    line-height: 1.4em !important;
+} 
 .footer .footer-logo {
     margin-bottom: 25px;
 }
@@ -1631,8 +1637,11 @@ service-icon-style
     border: 1px solid transparent;
 }
 .footer .footer-widget address {
-    line-height: 22px;
     margin-bottom: 30px;
+    font-size: 15px;
+    font-weight: 300;
+    line-height: 1.4em !important;
+    color: #000 !important;
 }
 .footer .footer-widget .social-links {}
 .footer .footer-widget .social-links li a {
@@ -1673,7 +1682,7 @@ service-icon-style
 }
 .footer .copyright-section li a:hover,
 .footer .copyright-section li.active a {
-    color: #800000;
+    color: #ff6600;
 }
 
 /* ---------------------------------------------- /*
@@ -2674,12 +2683,12 @@ h4.tab-title {
 /*=========service*/
 .serviceBox {
     text-align: center;
-    padding: 35px 15px;
+    padding: 10px 15px;
     overflow: hidden;
     position: relative;
     transition: all 0.3s ease 0s;
     width: 350px;
-    height: 320px;
+    height: 270px;
     border-radius: 10px;
 }
 .serviceBox:hover {
@@ -3274,19 +3283,18 @@ body {
 /*
     DEMO STYLE
 */
-@import "https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700";
+/* @import "https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700"; */
 
+/* @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;500&display=swap'); */
 /*@import url('https://fonts.googleapis.com/css?family=Source+Sans+Pro:200,300,400,600');*/
 
 /*font-family: 'Source Sans Pro', sans-serif;*/
 body {
-    font-family: 'Poppins',
-    sans-serif;
+    font-family: 'Roboto', sans-serif;
     background: #fafafa;
 }
 p {
-    font-family: 'Oxygen',
-    sans-serif;
+    font-family: 'Roboto', sans-serif;
     font-size: 15px;
     font-weight: 300;
     line-height: 1.4em;
@@ -3312,7 +3320,7 @@ a:focus {
 .sidebar {
     width: 550px;
     position: fixed;
-    top: 71px;
+    top: 0px;
     right: -550px;
     height: 100vh;
     z-index: 999;
@@ -3424,6 +3432,8 @@ a:focus {
 }
 .dismiss1 i{
     color: #fff;
+    font-size: 35px;
+    padding: 0px;
 }
 
 @media screen and (max-width: 650px) {
@@ -3434,7 +3444,12 @@ a:focus {
         display: block;
         border-radius: 50%;
         margin-top: 20px;
-        background-color: #ff6600;
+        color: #ff6600;
+        height: 50px;
+        width: 50px;
+        position: relative;
+        float: right;
+        right: 14px !important;
     }
     .dismiss1 i{
         color: #fff;
@@ -3489,8 +3504,10 @@ a:focus {
     background: #ffffff;
     color: #999;
     z-index: 999;
-    top: 10px;
-    right: -87%;
+    top: 66px;
+    float: right;
+    clear: both;
+    right: 12px;
     cursor: pointer;
     -webkit-transition: all 0.3s;
     -o-transition: all 0.3s;
@@ -3593,7 +3610,7 @@ a.article:hover {
     right: 0;
 }
 .myactive {
-    background: #f78829;
+    background: #ff6600;
     content: '';
     /* To generate the box */
     position: absolute;
@@ -3684,24 +3701,18 @@ a.article:hover {
     box-sizing: border-box;
 }
 .name {
-    font-family: 'Oxygen',
-    sans-serif;
     font-size: 16px;
     font-weight: 400;
     line-height: 1.3em;
     color: black;
 }
 .title {
-    font-family: 'Oxygen',
-    sans-serif;
     font-size: 16px;
-    font-weight: 500;
+    font-weight: 600;
     line-height: 1.7em;
     color: #f78829;
 }
 .read {
-    font-family: 'Oxygen',
-    sans-serif;
     font-size: 12px;
     font-weight: 200;
     line-height: 1.3em;
@@ -3892,8 +3903,7 @@ Documents Required For Accounting And Bookkeeping Services
 
 /* ----------------------------------1------------------ */
 body {
-    font-family: 'Roboto',
-    sans-serif;
+    font-family: 'Roboto', sans-serif;
     width:100%;
     margin:0;
 }
@@ -4305,338 +4315,68 @@ a[aria-expanded="true"] {
     font-size: 14px;
     line-height: 1.42857143;
     border-radius: 4px;
-    background-color: #800000;
+    background-color: dodgerblue;
 }
 .btn-custom:hover {
     color: #fff;
-    background-color: #800000;
-    border-color: #800000;
+    background-color: dodgerblue;
+    border-color: dodgerblue;
 }
 .blog-headings{
     margin-top: 25px;
 }
 
 
-/* our associate */
-
-
-#wrapper_team {
-    display: block;
-    margin: 0 auto;
-    width: 90%;
-    top: 0;
-    bottom: 0;
-    padding: 0rem 0rem 1rem 0rem;
-    background-color: #fff;
-    font-family: 'Lora', serif;
-    height: 100%;
-  }
-  
-  .title_team {
-    display: flex;
-    flex-flow: column nowrap;
-    width: 100%;
-    background-color: #bbb;
-    margin-top: 0 !important;
-    padding: 2rem 0;
-    align-items: center;
-    justify-content: center;
-    margin-left: auto;
-    margin-right: auto;
-    margin-bottom: 3rem;
-  }
-  
-  .title_team h1 {
-    font-size: 4rem;
-    margin-bottom: 0;
-    font-family: 'Montserrat', sans-serif;
-    font-family: "Avant Garde", Avantgarde, "Century Gothic", CenturyGothic, "AppleGothic", sans-serif;
-    font-weight:800;
-    text-transform: uppercase;
-    text-rendering: optimizeLegibility;
-    letter-spacing: .05em;
-    text-shadow: 
-      5px 5px 0px #d5d5d5, 
-      8px 8px 0px rgba(0, 0, 0, 0.2);
-  }
-  
-  #teamcontent {
-    display: none;
-    margin-bottom: 15px;
-    box-shadow: 0 8px 17px 0 rgba(0,0,0,0.2),0 6px 20px 0 rgba(0,0,0,0.19) !important;
-    padding: 23px;
-  }
-  
-  .team_box {
-    display: flex;
-    flex-flow: column nowrap;
-    justify-content: inherit;
-    align-items: inherit;
-    width: 100%;
-  }
-  
-  .container-left {
-    display: flex;
-    flex-flow: column nowrap;
-    justify-content: center;
-    align-content: center;
-    float: left;
-    width: 30%;
-  }
-  
-  .container-right {
-    display: flex;
-    flex-flow: column nowrap;
-    justify-content: center;
-    align-content: center;
-    width: 50%;
-  }
-  
-  .team {
-    display: block;
-    max-width: unset;
-  }
-  
-  ul li:before {
-    display: none;
-  }
-  
-  .team li {
-    display: block;
-    float: left;
-    width: 100%;
-    margin-right: 0px;
-    padding-left: unset;
-  }
-  .team li:hover {
-    cursor: pointer;
-  }
-  
-  .team li:last-child {
-    margin-right: 0;
-  }
-  
-  .team .hcontent {
-    display: none;
-  }
-  
-  #teamcontent .bigimg {
-    display: block;
-    float: right;
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: top center;
-    border-radius: 50%;
-    width: 220px;
-    height: 220px;
-    margin: 0px auto;
-    -webkit-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.5);
-  -moz-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.5);
-  box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.5);
-  }
-  
-  .bigimg-overlay {
-    position: absolute;
-    top: 0;
-    bottom: 0;
-    left: 0;
-    right: 0;
-    height: 100%;
-    width: 100%;
-    opacity: 0;
-    transition: 0.5s ease-in-out;
-    /* background-image: linear-gradient(15deg, rgba(19, 84, 122, 0.7) 0%, rgba(128, 208, 199, 0.7) 100%);
-     */
-     background-image: linear-gradient(15deg,rgba(0,0,0,0.8) 0%, rgba(0,0,0,0.8) 0%);
-  }
-  
-  .profile_container::after {
-    content: "";
-    display: block;
-    width: 70%;
-    background: rgba(255, 255, 255, 0.2);
-    background: linear-gradient(
-      0deg,
-      rgba(255, 255, 255, 0.2)50%,
-      rgba(255, 255, 255, 0.7)100%
-    );
-    background: -o-linear-gradient(
-      0deg,
-      rgba(255, 255, 255, 0.2)50%,
-      rgba(255, 255, 255, 0.7)100%
-    );
-    background: -moz-linear-gradient(
-      0deg,
-      rgba(255, 255, 255, 0.2)50%,
-      rgba(255, 255, 255, 0.7)100%
-    );
-    background: linear-gradient(
-      0deg,
-      rgba(255, 255, 255, 0.2)50%,
-      rgba(255, 255, 255, 0.7)100%
-    );
-    left: -100%;
-    top: 0;
-    height: 100%;
-    position: absolute;
-    transition: none;
-    -webkit-transition: none;
-    -moz-transition: none;
-    -o-transition: none;
-    -ms-transition: none;
-    -ms-transform: skewX(-20deg);
-    -webkit-transform: skewX(-20deg);
-    transform: skewX(-20deg);
-  }
-  
-  .profile_container:hover::after {
-    left: 150%;
-    transition: all 1s;
-    -webkit-transition: all 0.75s;
-    -moz-transition: all 0.75s;
-    -o-transition: all 0.75s;
-    -ms-transition: all 0.75s;
-  }
-  
-  .profile_container:hover .bigimg-overlay {
-    opacity: 1;
-  }
-  
-  .bigimg-text {
-    color: #ffffff;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    -webkit-transform: translate(-50%, -50%);
-    -ms-transform: translate(-50%, -50%);
-    transform: translate(-50%, -50%);
-    text-align: center;
-  }
-  
-  .profile_container {
-    position: relative;
-    overflow: hidden;
-  }
-  
-  .profilepic {
-    width: 100% !important;
-    height: auto;
-    display: block;
-    height: 250px;
-  }
-  
-  #teamdetails {
-    display: block;
-    float: left;
-    width: 600px;
-    padding: 20px;
-  }
-  
-   .clearfix:after {
-    content: ".";
-    display: block;
-    clear: both;
-    visibility: hidden;
-    line-height: 0;
-    height: 0;
-  }
-  
-  .clearfix {
-    display: flex;
-    flex-flow: row nowrap;
-  }
-  
-  /* html[xmlns] .clearfix {
-    display: flex;
-  }
-  
-  * html .clearfix {
-    height: 1%;
-  } */
-  
-  .flipimg {
-    -webkit-transform: scaleX(-1);
-    transform: scaleX(-1);
-  }
-  
-  @media only screen and (max-width: 900px) {
-    .container-left{
-        float: none;
-        width: 100%;
-        padding-top: 30px;
+/* classes for responsive */
+@media screen and (max-width: 768px) {
+    .height-eq-225{
+        height: 225px !important;
     }
-    #teamdetails {
-      width: unset;
-      padding: 20px;
+    .height-eq-250{
+        height: 250px !important;
     }
-    #teamdetails h2{
+    .m-b-25{
+        margin-bottom: 25px !important;
+    }
+    .dismiss1 i{
+        color: #fff;
+    font-size: 50px;
+    padding: 0px;
+    }
+    .box-content{
         margin-top: 30px;
-        font-weight: 600;
     }
-    #teamdetails p{
-        font-size: 16px;
+    .hr-d-none{
+        display: none;
     }
-    li {
-      padding-left: unset;
+    .no-border{
+        border: 0px !important;
     }
-    .profile_container {
-      width: 100%;
+    .m-t-30{
+        margin-top: 30px !important;
     }
-    #teamcontent{
-        margin-bottom: 0px !important;
+    
+    .ptb-50{
+        padding-top:0px !important;
+        padding-bottom: 0px !important;
     }
-    #teamcontent .bigimg {
-      margin: 0px auto;
+    .about-text{
+        padding-top: 20px !important;
+        padding-bottom: 20px !important;
     }
-    .bigimg-overlay {
-      opacity: 1;
+    .cleatfloat{
+        float: none !important;
     }
-    .team li {
-      margin-right: unset;
-      width: 100%;
+    .thumbnail .caption div{
+        text-align: center !important
     }
-    #wrapper_team {
-      padding: 0;
+    .btn-custom{
+        padding: 15px 35px;
     }
-    .clearfix {
-      flex-flow: column nowrap;
-    }
-  }
-  
-
-
-  
-.scrollbar
-{
-    float: left;
-    min-height: 270px;
-	height: 150px;
-	width: auto;
-	overflow-y: auto;
-	margin-bottom: 25px;
 }
 
-/* .force-overflow
-{
-	min-height: 450px;
-} */
 
-#teamdetails::-webkit-scrollbar-track
-{
-	-webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
-	border-radius: 10px;
-	background-color: #F5F5F5;
-}
-
-#teamdetails::-webkit-scrollbar
-{
-	width: 6px;
-	background-color: #F5F5F5;
-}
-
-#teamdetails::-webkit-scrollbar-thumb
-{
-	border-radius: 10px;
-	-webkit-box-shadow: inset 0 0 6px rgba(0,0,0,.3);
-	background-color: #555;
+/* reusable classes */
+.m-b-30{
+    margin-bottom: 30px !important;
 }
