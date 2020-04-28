@@ -818,6 +818,7 @@ Shortcode Content
     }
     .navbar-default .navbar-nav>li>a{
         color: #000 !important;
+        padding: 12px 20px;
     }
     .navbar-default .navbar-nav>li>a.active{
         color: #fff !important;
@@ -4372,6 +4373,12 @@ a[aria-expanded="true"] {
     }
     .btn-custom{
         padding: 15px 35px;
+    }
+    .navbar-default .navbar-collapse, .navbar-default .navbar-form{
+        border:0px;
+    }
+    .navbar-brand img{
+        width: 200px !important
     }
 }
 
