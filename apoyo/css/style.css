@@ -800,12 +800,21 @@ Shortcode Content
         font-size: 12px;
     }
     .hero-slide .carousel-control.left, .hero-slide .carousel-control.right{
-        top: 60%;
-        border: 0;
-    font-size: 40px;
-    background-image: -webkit-linear-gradient(left,rgba(0,0,0,.0001) 0,rgba(0,0,0,.5) 100%) !important;
-    opacity: 1;
+        top: 95%;
+    border: 0;
+    font-size: 30px;
+    background-image: -webkit-linear-gradient(left,rgba(0,0,0,.0001) 0,rgba(0,0,0,.5) 0) !important;
+    opacity: 0.9;
     }
+    .hero-slide .carousel-control.left i, .hero-slide .carousel-control.right i{
+        position: relative;
+        top: -4px;
+    }
+    .hero-slide .carousel-control.left, .hero-slide .carousel-control.right{
+        width: 36px !important;
+        height: 36px !important;
+    }
+    
     
     .single-page-title h2{
         font-size: 44px !important;
@@ -1211,16 +1220,21 @@ filter: progid: DXImageTransform.Microsoft.gradient(startColorstr='#0c0fce', end
 
 /* client-logo */
 .client-logo {}
-.client-logo a img {
+/* .client-logo a img {
     width: 100%;
-    opacity: 0.5;
+    opacity: 1;
     -webkit-transition: all 0.8s ease 0s;
     -moz-transition: all 0.8s ease 0s;
     -o-transition: all 0.8s ease 0s;
     transition: all 0.8s ease 0s;
-}
+} */
 .client-logo a:hover img {
     opacity: 1;
+}
+.footer .copyright-section .copytext a img{
+    width: 150px !important;
+    height: 30px;
+    margin-left: 10px;
 }
 @media (max-width: 992px) {
     .client-logo .section-margin {
@@ -1582,12 +1596,12 @@ service-icon-style
     Footer
 ----------------------------------------------- */
 .footer {
-    background: #dbdbdbdc;
+    background: #182b5f;
 }
 .footer .footer-block {
     border-right: 1px solid #ffffff41;
-    padding: 80px 60px;
-    min-height: 380px;
+    padding: 50px 40px;
+    min-height: 345px;
 }
 @media (min-width: 992px) and (max-width: 1199px) {
     .footer .footer-block {
@@ -1611,7 +1625,7 @@ service-icon-style
 .footer .footer-widget h3 {
     font-size: 18px;
     line-height: 22px;
-    color: #000;
+    color: #fff;
     margin-bottom: 25px;
     font-weight: 600;
     text-transform: uppercase;
@@ -1642,7 +1656,7 @@ service-icon-style
     font-size: 15px;
     font-weight: 300;
     line-height: 1.4em !important;
-    color: #000 !important;
+    color: #fff !important;
 }
 .footer .footer-widget .social-links {}
 .footer .footer-widget .social-links li a {
@@ -1669,6 +1683,7 @@ service-icon-style
     text-transform: uppercase;
     color: #6b6b6b;
     font-weight: 600;
+    display: block;
 }
 @media (min-width: 768px) {
     .footer .copyright-section .list-inline>li {
@@ -3141,6 +3156,7 @@ h4.tab-title {
     -webkit-filter: grayscale(1);
     /* Webkit Nightlies & Chrome Canary */
     -webkit-transition: all .1s ease-in-out;
+    width: 100%;
 }
 .icn:hover {
     filter: none;
@@ -3319,7 +3335,7 @@ a:focus {
     SIDEBAR STYLE
 ----------------------------------------------------- */
 .sidebar {
-    width: 550px;
+    width: 500px;
     position: fixed;
     top: 0px;
     right: -550px;
@@ -3423,7 +3439,7 @@ a:focus {
 
 }*/
 .section-associate img{
-    border-radius: 50%;
+    border-radius: 0%;
 }
 .sidebar.active>.dismiss {
     display: block;
@@ -3440,6 +3456,10 @@ a:focus {
 @media screen and (max-width: 650px) {
     .section-associate img{
         border-radius: 50%;
+        display: block !important;
+    }
+    .section-associate{
+        padding: 0px !important;
     }
     .sidebar.active>.dismiss {
         display: block;
@@ -4283,11 +4303,13 @@ a[aria-expanded="true"] {
 /* Custom css on 25 April */
 .section-associate img{
     margin: 0px auto;
-    height: 300px;
-    width: 300px;
+    height: 185px;
+    width: 185px;
+    display: inline-block;
 }
 .section-associate{
-    margin-top:30px;
+    margin-top:50px;
+    padding: 20px;
     
 }
 .parent-association{
@@ -4380,10 +4402,38 @@ a[aria-expanded="true"] {
     .navbar-brand img{
         width: 200px !important
     }
+    .footer .copyright-section{
+        text-align: center;
+    }
+    .footer ul{
+        display: none;
+    }
+    .global-tab-panel{
+        box-shadow: none !important;
+    }
+    .sidebar .box-content{
+        margin-top:30px !important;
+        margin-left: 0px !important;
+        display: block !important;
+        text-align: center;
+    }
 }
 
 
 /* reusable classes */
 .m-b-30{
     margin-bottom: 30px !important;
+}
+.m-r-10{
+    margin-right: 10px;
+}
+.global-tab-panel{
+    background-color: #fff;
+    box-shadow: 0 2px 5px 0 rgba(0,0,0,0.16), 0 2px 10px 0 rgba(0,0,0,0.12);
+    border-top: solid 3px #f78829;
+}
+.sidebar .box-content{
+    margin-top:30px !important;
+    margin-left: 25px;
+    display: inline-block;
 }
