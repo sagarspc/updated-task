@@ -4530,9 +4530,7 @@ body {
     transition: opacity linear .1s;
   }
   
-  .sgallery-list:hover:before {
-    opacity: 1;
-  }
+ 
   
   .sgallery-list:hover .img-list {
     opacity: 1;
@@ -4758,7 +4756,9 @@ body {
     margin-top: 25px;
   }
   
-  
+  .p-t-0 {
+    padding-top: 0px !important;
+  }
   /* classes for responsive */
   
   @media screen and (max-width: 768px) {
