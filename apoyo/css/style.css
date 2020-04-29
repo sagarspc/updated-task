@@ -1025,7 +1025,7 @@ body {
     margin: 0;
   }
   
-  
+ 
   /* --------------------------------------------------
   features start
   -----------------------------------------------------*/
@@ -1034,7 +1034,7 @@ body {
     background: #f0f0f0;
     padding: 100px 0 85px;
   }
-  
+ 
   .x-features .section-title h2 {
     color: #ffffff;
   }
@@ -2719,56 +2719,40 @@ body {
   /*--------------------------------------------------------------
   # F.A.Q
   --------------------------------------------------------------*/
-  .faq {
-    padding: 10px 0;
-  }
-  
-  .faq .faq-list {
-    padding: 0;
-    list-style: none;
-  }
-  
-  .faq .faq-list li {
-    padding: 0 0 20px 25px;
-  }
-  
-  .faq .faq-list a {
-    display: block;
-    position: relative;
-    font-family: #eb5d1e;
-    font-size: 18px;
-    font-weight: 600;
-    color: #eb5d1e;
-  }
-  
-  .faq .faq-list i {
-    font-size: 18px;
-    position: absolute;
-    left: -25px;
-    top: 6px;
-  }
-  
-  .faq .faq-list p {
-    padding-top: 5px;
-    margin-bottom: 20px;
-    font-size: 15px;
-  }
-  
-  .faq .faq-list a.collapse {
-    color: #eb5d1e;
-  }
-  
-  .faq .faq-list a.collapsed {
-    color: #343a40;
-  }
-  
-  .faq .faq-list a.collapsed:hover {
-    color: #eb5d1e;
-  }
-  
-  .faq .faq-list a.collapsed i::before {
-    content: "\eab2" !important;
-  }
+  #accordion .panel,
+#accordion .panel-heading,
+#accordion panel-title,
+#accordion .panel-body {
+  border: 0;
+  color:#000;
+  font-weight: 400;
+}
+#accordion .panel {
+  box-shadow: none;
+}
+#accordion .panel .panel-heading {
+  border-radius: 0;
+  padding: 8px;
+}
+#accordion .panel .panel-heading .panel-title a {
+ display: block;
+  text-decoration: none;
+  padding: 0.1em 0;
+  color:#000;
+  font-size: 14px;
+}
+#accordion .panel .panel-heading .panel-title a span {
+  float: right;
+  width: 50px;
+}
+#accordion .panel .panel-heading .panel-title a span:after {
+  content: "\2014";
+  color: #1B5062;
+  font-size: 20px;
+}
+#accordion .panel .panel-heading .panel-title a.collapsed span:after {
+  content: "+";
+}
   
   /*====================================animation24-feb=============*/
   
@@ -4551,6 +4535,9 @@ body {
   .m-b-90 {
     margin-bottom: 90px !important;
   }
+  .m-b-20 {
+    margin-bottom: 20px !important;
+  }
   
   .sidebar ul li.active>a,
   a[aria-expanded="true"] {
@@ -4759,6 +4746,26 @@ body {
   .p-t-0 {
     padding-top: 0px !important;
   }
+  .p-t-20 {
+    padding-top: 20px !important;
+  }
+ 
+  .eq-height-col{
+    display: table;
+    width: 100%;
+    margin: 0;
+  }
+  .copyright-list{
+    padding: 0 20px 0;
+    list-style-type: disc !important;
+  }
+  .copyright-list li{
+    padding: 5px;
+    font-size: 14px;
+    color:#000;
+
+  }
+  
   /* classes for responsive */
   
   @media screen and (max-width: 768px) {
@@ -4835,6 +4842,7 @@ body {
   
     .global-tab-panel {
       box-shadow: none !important;
+      border: none !important;
     }
   
     .sidebar .box-content {
@@ -4842,6 +4850,9 @@ body {
       margin-left: 0px !important;
       display: block !important;
       text-align: center;
+    }
+    #accordion .panel .panel-heading .panel-title a span{
+        display: none;
     }
   }
   
@@ -4888,6 +4899,10 @@ body {
     border-width: 1px;
     padding: 20px; 
     margin-bottom: 25px;  
+  }
+  .custom-cards p {
+    font-weight: 400;
+    text-align: justify;
   }
   .custom-cards img {
     height: 150px;
@@ -4954,4 +4969,8 @@ body {
   .custom-cards .card:hover::before, .custom-cards .card:hover::after, .custom-cards .card:focus::before, .custom-cards .card:focus::after {
     transform: scale3d(1, 1, 1);
   }
+  
+  .tab-section-info p{
+      font-weight: 400;
+}
   
