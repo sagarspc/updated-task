@@ -2988,8 +2988,8 @@ body {
     font-size: 15px;
     margin: 0 0 15px;
     color: #313131;
-    font-weight: 400;
-    color: }
+    font-weight: 300;
+  }
   
   /*download Button========*/
   .btn {
@@ -4915,7 +4915,7 @@ body {
     margin-bottom: 25px;  
   }
   .custom-cards p {
-    font-weight: 400;
+    font-weight: 300;
     text-align: justify;
   }
   .custom-cards img {
