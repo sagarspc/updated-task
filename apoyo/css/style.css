@@ -2534,7 +2534,7 @@ body {
     padding: 8% 5% 5%;
     position: relative;
   }
-  
+ 
   #pg-header h3 {
     display: inline-block;
     font-size: 32px;
@@ -2732,7 +2732,8 @@ body {
 }
 #accordion .panel .panel-heading {
   border-radius: 0;
-  padding: 8px;
+  background-color: #efeeee;
+  padding: 10px 20px;
 }
 #accordion .panel .panel-heading .panel-title a {
  display: block;
@@ -2754,6 +2755,7 @@ body {
   content: "+";
 }
   
+
   /*====================================animation24-feb=============*/
   
   /*hide me animation scrolling effect*/
@@ -4715,12 +4717,10 @@ body {
       clear: none;
       display: table;
     }
+    
   }
   
-  .clearfloat {
-    float: left;
-    clear: both;
-  }
+  
   
   .btn-custom {
     display: inline-block;
@@ -4733,7 +4733,7 @@ body {
     background-color: dodgerblue;
   }
   
-  .btn-custom:hover {
+  .btn-custom:hover,.btn-custom:focus {
     color: #fff;
     background-color: dodgerblue;
     border-color: dodgerblue;
@@ -4769,6 +4769,17 @@ body {
   /* classes for responsive */
   
   @media screen and (max-width: 768px) {
+    .faq{
+      padding-top:0px !important;
+    }
+    #pg-header h2{
+      font-size: 30px !important;
+      margin-top: 30px !important;
+    }
+    .clearfloat {
+      float: left;
+      clear: both;
+    }
    .custom-cards{
     margin: 20px;
     padding-bottom: 0px !important;
@@ -4868,6 +4879,9 @@ body {
   
   .padding-20 {
     padding: 20px;
+  }
+  .p-t-30 {
+    padding-top: 30px !important;
   }
   
   .global-tab-panel {
@@ -4971,6 +4985,18 @@ body {
   }
   
   .tab-section-info p{
-      font-weight: 400;
+      font-weight: 300;
+}
+.tab-section-info p b{
+  font-weight: 300;
+}
+.tab-section-info .title{
+  font-weight: 600;
+}
+.tab-section-info .name{
+  font-weight: 400;
+}
+.tab-section-info .fa-arrow-right{
+  margin-right: 10px;
 }
   
