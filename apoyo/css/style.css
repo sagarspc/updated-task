@@ -945,6 +945,7 @@ body {
     font-size: 30px;
     text-transform: capitalize;
     position: relative;
+    line-height: 30px;
   }
   
   .section-title span.bordered-icon {
@@ -3939,6 +3940,7 @@ body {
   .mydivclass a div {
     padding-left: 0;
     background-color: #fff;
+
   }
   
   .mydivclass a .div2 {
@@ -4763,12 +4765,15 @@ body {
     padding: 5px;
     font-size: 14px;
     color:#000;
-
+    font-weight: 300;
   }
   
   /* classes for responsive */
   
   @media screen and (max-width: 768px) {
+    .mydivclass a div{
+      text-align: left;
+    }
     .faq{
       padding-top:0px !important;
     }
