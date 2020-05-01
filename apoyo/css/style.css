@@ -947,6 +947,7 @@ body {
     position: relative;
     line-height: 30px;
     color:#5c4141 !important;
+    font-weight: 600;
   }
   
   .section-title span.bordered-icon {
