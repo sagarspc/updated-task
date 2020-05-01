@@ -5004,11 +5004,11 @@ body {
   
   .tab-section-info p{
       font-weight: 300;
-      margin-bottom: 20px;
+      margin-bottom: 18px;
 }
-.tab-section-info p b{
+/* .tab-section-info p b{
   font-weight: 300;
-}
+} */
 .tab-section-info .title{
   font-weight: 600;
 }
