@@ -4924,7 +4924,7 @@ body {
     text-align: justify;
   }
   .custom-cards img {
-    height: 150px;
+    height: 150px !important;
     width: 100%;
   }
   
