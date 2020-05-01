@@ -946,6 +946,7 @@ body {
     text-transform: capitalize;
     position: relative;
     line-height: 30px;
+    color:#5c4141 !important;
   }
   
   .section-title span.bordered-icon {
@@ -2563,6 +2564,13 @@ body {
     display: block;
   }
   
+  #hd_panel button.btn{
+    padding: 10px 26px;
+    font-size: 14px;
+  }
+  #hd_panel button.btn.btn-primary:hover, #hd_panel button.btn.btn-primary:focus{
+    background-color: DodgerBlue !important;
+  }
   /*=-====Bootstrapthemes.co btco-hover-menu=====*/
   
   /*---------------------changed by sndp----------------------*/
@@ -2990,6 +2998,7 @@ body {
     margin: 0 0 15px;
     color: #313131;
     font-weight: 300;
+    text-align: justify;
   }
   
   /*download Button========*/
@@ -4729,7 +4738,7 @@ body {
     margin-bottom: 0;
     font-weight: 400;
     padding: 6px 12px;
-    font-size: 14px;
+    font-size: 12px;
     line-height: 1.42857143;
     border-radius: 4px;
     background-color: dodgerblue;
@@ -4778,7 +4787,7 @@ body {
       padding-top:0px !important;
     }
     #pg-header h2{
-      font-size: 30px !important;
+      font-size: 28px !important;
       margin-top: 30px !important;
     }
     .clearfloat {
@@ -4837,7 +4846,11 @@ body {
     }
   
     .btn-custom {
-      padding: 15px 35px;
+      padding: 10px 15px;
+    }
+    #hd_panel button.btn{
+      padding: 10px 26px;
+      font-size: 14px;
     }
   
     .navbar-default .navbar-collapse, .navbar-default .navbar-form {
@@ -4924,7 +4937,7 @@ body {
     text-align: justify;
   }
   .custom-cards img {
-    height: 150px !important;
+    height: 180px !important;
     width: 100%;
   }
   
@@ -4991,6 +5004,7 @@ body {
   
   .tab-section-info p{
       font-weight: 300;
+      margin-bottom: 20px;
 }
 .tab-section-info p b{
   font-weight: 300;
@@ -5001,7 +5015,29 @@ body {
 .tab-section-info .name{
   font-weight: 400;
 }
+.tab-section-info .fa-arrow-right:before{
+  content: "\f00c";
+  font-size: 10px;
+}
 .tab-section-info .fa-arrow-right{
   margin-right: 10px;
+    background: #85bc21;
+    width: 23px;
+    height: 23px;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 24px;
+    vertical-align: middle;
+    padding: 0px;
+    color: #fff;
+    font-size: 12px;
 }
-  
+.custom-table.table.table-bordered>thead>tr>td, .table-bordered>thead>tr>th{
+  background-color: #182b5f;
+  color:#fff;
+  font-size:14px;
+  font-weight: 400; 
+}
+.custom-table.table.table-bordered>tbody>tr>td{
+  color:#000;
+}

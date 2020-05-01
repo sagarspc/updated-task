@@ -10,8 +10,9 @@
     <link rel="icon" href="img/favicon.png" type="image/png" sizes="20x20">
     <title>Apoyo-Accounting</title>
     <!-- web-fonts -->
-    <link href='https://fonts.googleapis.com/css?family=Roboto:400,700,500' rel='stylesheet' type='text/css'>
-    <link href='http://fonts.googleapis.com/css?family=Montserrat:400,700' rel='stylesheet' type='text/css'>
+    <!-- <link href='https://fonts.googleapis.com/css?family=Roboto:400,700,500' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=Montserrat:400,700' rel='stylesheet' type='text/css'> -->
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;500&display=swap" rel="stylesheet">
     <!-- off-canvas -->
     <link href="css/mobile-menu.css" rel="stylesheet">
     <!-- font-awesome -->
@@ -45,29 +46,29 @@
         <div class="uc-mobile-menu-pusher">
 
             <div class="content-wrapper">
-                <nav class="navbar m-menu navbar-default navbar-fixed-top btco-hover-menu">
+                <nav class="navbar navbar-default navbar-fixed-top m-menu">
                     <div class="container">
                         <!-- Brand and toggle get grouped for better mobile display -->
                         <div class="navbar-header">
-                            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar-collapse-1">
-                 <span class="sr-only">Toggle navigation</span>
-                    <span class="icon-bar"></span>
-                         <span class="icon-bar"></span>
-                     <span class="icon-bar"></span>
-                 </button>
+                                <button class="navbar-toggle" type="button" data-toggle="collapse" data-target=".js-navbar-collapse">
+                                <span class="sr-only">Toggle navigation</span>
+                                <span class="icon-bar"></span>
+                                <span class="icon-bar"></span>
+                                <span class="icon-bar"></span>
+                                </button>
                             <a class="navbar-brand" href="index.html"><img src="img/logo--.png" alt="" height="40" width="222"></a>
                         </div>
 
 
-                        <div class="collapse navbar-collapse" id="#navbar-collapse-1">
+                        <div class="collapse navbar-collapse js-navbar-collapse">
 
                             <ul class="nav navbar-nav navbar-right main-nav BACK">
                                 <li><a href="index.html" class="effect-underline">Home</a></li>
                                 <li><a href="about.html" class="effect-underline">About Us</a></li>
                                 <li class="dropdown m-menu-fw">
-                                    <a href="services.html" class="effect-underline" data-toggle="dropdown" class="dropdown-toggle">
+                                    <a href="services.html" class="active effect-underline" data-toggle="dropdown" class="dropdown-toggle">
                                  Services
-                             <span><i class="fa fa-angle-down"></i></span>
+                             <span class="pull-right"><i class="fa fa-angle-down"></i></span>
                          </a>
                                     <ul class="dropdown-menu">
                                         <li>
@@ -148,8 +149,9 @@
 
                 <section id="pg-header" class="container center">
                     <div class="row">
-                        <div class="col-lg-12 comman-section-header text-center">
-                            <h2 style="color : #fff; font-size: 60px;">Professional Tax</h2>
+                        <div class="col-lg-12 text-center">
+                            
+                            <h2 class="" style="color : #fff; font-size: 60px;">Professional Tax</h2>
                             <br>
 
 
@@ -190,9 +192,14 @@
                 <!-- .page-banner -->
 
                 <!-- .Page-Trademark-Process -->
-                <section class="ptb-90 container text-left">
+                <section class="container text-center">
                     <br>
-                    <h2>What is a Professional Tax:</h2>
+                    <div class="section-title">
+                        <div class="container text-center">
+                            <h2 style=color:darkblue>What is a Professional Tax Returns ?</h2>
+                            <span class="bordered-icon m-b-25"><i class="fa fa-circle-thin"></i></span>
+                        </div>
+                    </div>
                     <p>Profession tax is the tax levied and collected by the state governments in India. It is a direct tax. A person earning an income from salary or anyone practicing a profession such as chartered accountant, company secretary, lawyer,
                         doctor etc. are required to pay this professional tax. Different states have different rates and methods of collection. In India, profession tax is imposed every month.</p>
 
@@ -200,7 +207,7 @@
                 </section>
 
                 <!-- ----------------------add tab----------------------- -->
-                <nav class="navbar navbar-default" style="background-color: #6c6055; border-bottom: solid 3px #f78829">
+                <nav class="navbar navbar-default global-tab-panel container">
                     <div class="container">
 
 
@@ -282,8 +289,8 @@
 
                 <!--End of Advantage -->
                 <!-- ======= F.A.Q Section ======= -->
-                <section id="faq" class="faq section-bg">
-                    <div class="container">
+                <section id="faq" class="faq section-bg p-t-30">
+                    <!-- <div class="container">
                         <br>
                         <div class="section-title text-center" data-aos="fade-up">
                             <h2>F.A.Q</h2>
@@ -679,8 +686,517 @@
 
                         </ul>
 
+                    </div> -->
+                    <div class="container">
+                            <div class="section-title text-center" data-aos="fade-up">
+                                <div class="section-title">
+                                    <div class="container text-center">
+                                        <h2 style=color:darkblue>F.A.Q</h2>
+                                        <span class="bordered-icon m-b-25"><i class="fa fa-circle-thin"></i></span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="panel-group" id="accordion" role="tablist" aria-multiselectable="true">
+                              <div class="panel panel-default">
+                                <div class="panel-heading" role="tab" id="headingOne">
+                                  <h4 class="panel-title">
+                                    <a role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                                         Who is required to file PT Return?
+                                      <span> </span>
+                                    </a>
+                                  </h4>
+                                </div>
+                                <div id="collapseOne" class="panel-collapse collapse in" role="tabpanel" aria-labelledby="headingOne">
+                                  <div class="panel-body">
+                                        A person earning an income from salary or anyone practicing a profession such as chartered accountant, company secretary, lawyer, doctor etc. are required to pay this professional tax.
+                                </div>
+                                </div>
+                              </div>
+                              <div class="panel panel-default">
+                                <div class="panel-heading" role="tab" id="headingTwo">
+                                  <h4 class="panel-title">
+                                    <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                                         Who pays Professional Tax?<span></span>
+                                    </a>
+                                  </h4>
+                                </div>
+                                <div id="collapseTwo" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingTwo">
+                                  <div class="panel-body">
+                                    Professional Tax is a tax levied on the income earned by salaried employees and professionals, including chartered accountants, doctors and lawyers, etc. to the state government.  
+                                 </div>
+                                </div>
+                              </div>
+                              <div class="panel panel-default">
+                                <div class="panel-heading" role="tab" id="headingThree">
+                                  <h4 class="panel-title">
+                                    <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                                         Do all states impose PT?
+                                      <span></span>
+                                    </a>
+                                  </h4>
+                                </div>
+                                <div id="collapseThree" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingThree">
+                                  <div class="panel-body">
+                                        No, it depends on state to state.        
+                                </div>
+                                </div>
+                              </div>
+    
+                              <div class="panel panel-default">
+                                    <div class="panel-heading" role="tab" id="headingFour">
+                                      <h4 class="panel-title">
+                                        <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
+                                                As of now which states impose PT?
+                                          <span></span>
+                                        </a>
+                                      </h4>
+                                    </div>
+                                    <div id="collapseFour" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingFour">
+                                      <div class="panel-body">
+                                            As of now the states which impose PT are as follows:
+                                        <br>
+                                            • Punjab
+                                            <br>
+                                            • Uttar Pradesh
+                                            <br>
+                                            • Karnataka
+                                            <br>
+                                            • Bihar
+                                            <br>
+                                            • West Bengal
+                                            <br>
+                                            • Andhra Pradesh
+                                            <br>
+                                            • Telangana
+                                            <br>
+                                            • Maharashtra
+                                            <br>
+                                            • Tamil Nadu
+                                            <br>
+                                            • Gujarat
+                                            <br>
+                                            • Assam
+                                            <br>
+                                            • Kerala
+                                            <br>
+                                            • Meghalaya
+                                            <br>
+                                            • Odisha
+                                            <br>
+                                            • Tripura
+                                            <br>
+                                            • Madhya Pradesh
+                                            <br>
+                                            • Jharkhand and
+                                            <br>
+                                            • Sikkim   
+                                     </div>
+                                    </div>
+                                </div>
+                                <div class="panel panel-default">
+                                    <div class="panel-heading" role="tab" id="headingFive">
+                                        <h4 class="panel-title">
+                                        <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseFive" aria-expanded="false" aria-controls="collapseFour">
+                                             Who are exempted from paying professional tax? <span></span>
+                                        </a>
+                                        </h4>
+                                    </div>
+                                    <div id="collapseFive" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingFive">
+                                        <div class="panel-body">
+                                                a. Senior Citizens who have completed 65 years of age.
+                                                <br>
+                                                b. Parent of a mentally challenged child
+                                                <br>
+                                                c. Persons or parents of children suffering from physical disability
+                                                <br>
+                                                d. Badli workers in the textile industry
+                                                <br>
+                                                e. Physically handicapped persons with 40% or more disability    
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="panel panel-default">
+                                    <div class="panel-heading" role="tab" id="headingSix">
+                                        <h4 class="panel-title">
+                                        <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseSix" aria-expanded="false" aria-controls="collapseFour">
+                                             What is the penalty for non-compliance? <span></span>
+                                        </a>
+                                        </h4>
+                                    </div>
+                                    <div id="collapseSix" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingSix">
+                                        <div class="panel-body">
+                                                In case of non/late payment of profession tax, penalty will be 10% of the amount of tax. In case of late filing of returns, a penalty of Rs. 1000 per return will be imposed if you filed after due date in 1 month. After 1 month, a penalty of Rs. 2000 will be imposed.   
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="panel panel-default">
+                                    <div class="panel-heading" role="tab" id="headingSeven">
+                                        <h4 class="panel-title">
+                                        <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseSeven" aria-expanded="false" aria-controls="collapseFour">
+                                                What are the slabs for Professional Tax?<span></span>
+                                        </a>
+                                        </h4>
+                                    </div>
+                                    <div id="collapseSeven" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingSeven">
+                                        <div class="panel-body">
+                                                <P>The different slab rates for different states is as under:</P>
+                                                <P><b>Maharashtra:</b></P>
+                                                <table class="table table-bordered custom-table">
+                                                    <thead class="thead-dark">
+                                                        <tr>
+                                                            <th scope="col">Monthly salary</th>
+                                                            <th scope="col">Tax</th>
+                            
+                                                        </tr>
+                                                    </thead>
+                                                    <tbody>
+                                                        <tr>
+                                                            <td>Upto 7,500 for men</td>
+                                                            <td>Nil</td>
+                                                        </tr>
+                                                        <tr>
+                                                            <td>Upto 10,000 for women</td>
+                                                            <td>Nil</td>
+                                                        </tr>
+                                                        <tr>
+                                                            <td>7,500 to 10,000</td>
+                                                            <td>175</td>
+                                                        </tr>
+                                                        <tr>
+                                                            <td>10,000 and above</td>
+                                                            <td>200 (and 300 for February)</td>
+                                                        </tr>
+                            
+                                                    </tbody>
+                                                </table>
+                            
+                                                <P><b>Karnataka:</b></P>
+                                                <table class="table table-bordered custom-table">
+                                                    <thead class="thead-dark">
+                                                        <tr>
+                                                            <th scope="col">Monthly salary</th>
+                                                            <th scope="col">Tax</th>
+                            
+                                                        </tr>
+                                                    </thead>
+                                                    <tbody>
+                                                        <tr>
+                                                            <td>Upto 15,000 </td>
+                                                            <td>Nil</td>
+                                                        </tr>
+                                                        <tr>
+                                                            <td>More than 15,000 </td>
+                                                            <td>200</td>
+                                                        </tr>
+                            
+                            
+                                                    </tbody>
+                                                </table>
+                            
+                                                <P><b>West Bengal:</b></P>
+                                                <table class="table table-bordered custom-table">
+                                                    <thead class="thead-dark">
+                                                        <tr>
+                                                            <th scope="col">Monthly salary</th>
+                                                            <th scope="col">Tax</th>
+                            
+                                                        </tr>
+                                                    </thead>
+                                                    <tbody>
+                                                        <tr>
+                                                            <td>Upto 8,500 </td>
+                                                            <td>Nil</td>
+                                                        </tr>
+                                                        <tr>
+                                                            <td>8,501 to 10,000 </td>
+                                                            <td>90</td>
+                                                        </tr>
+                                                        <tr>
+                                                            <td>10,001 to 15,000</td>
+                                                            <td>110</td>
+                                                        </tr>
+                                                        <tr>
+                                                            <td>15,001 to 25,000 </td>
+                                                            <td>130</td>
+                                                        </tr>
+                                                        <tr>
+                                                            <td>25,001 to 40,000</td>
+                                                            <td>150</td>
+                                                        </tr>
+                                                        <tr>
+                                                            <td>More than 40,000 </td>
+                                                            <td>200</td>
+                                                        </tr>
+                            
+                            
+                                                    </tbody>
+                                                </table>
+                            
+                                                <P><b>Madhya Pradesh:</b></P>
+                                                <table class="table table-bordered custom-table">
+                                                    <thead class="thead-dark">
+                                                        <tr>
+                                                            <th scope="col">Monthly salary</th>
+                                                            <th scope="col">Tax</th>
+                            
+                                                        </tr>
+                                                    </thead>
+                                                    <tbody>
+                                                        <tr>
+                                                            <td>Upto 1,50,000</td>
+                                                            <td>Nil</td>
+                                                        </tr>
+                                                        <tr>
+                                                            <td>1,50,000 to 1,80,000 </td>
+                                                            <td>125</td>
+                                                        </tr>
+                                                        <tr>
+                                                            <td>More than 1,80,000</td>
+                                                            <td>212</td>
+                                                        </tr>
+                            
+                            
+                                                    </tbody>
+                                                </table>
+                            
+                                                <P><b>Tamil Nadu:</b></P>
+                                                <table class="table table-bordered custom-table">
+                                                    <thead class="thead-dark">
+                                                        <tr>
+                                                            <th scope="col">Monthly salary</th>
+                                                            <th scope="col">Tax</th>
+                            
+                                                        </tr>
+                                                    </thead>
+                                                    <tbody>
+                                                        <tr>
+                                                            <td>Upto 21,000 </td>
+                                                            <td>Nil</td>
+                                                        </tr>
+                                                        <tr>
+                                                            <td>21,001 to 30,000 </td>
+                                                            <td>100</td>
+                                                        </tr>
+                                                        <tr>
+                                                            <td>30,001 to 40,000</td>
+                                                            <td>235</td>
+                                                        </tr>
+                                                        <tr>
+                                                            <td>40,001 to 60,000</td>
+                                                            <td>510</td>
+                                                        </tr>
+                                                        <tr>
+                                                            <td>60,001 to 75,000</td>
+                                                            <td>760 </td>
+                                                        </tr>
+                                                        <tr>
+                                                            <td>More than 75,000</td>
+                                                            <td>1095</td>
+                                                        </tr>
+                            
+                            
+                                                    </tbody>
+                                                </table>
+                            
+                                                <P><b>Andhra Pradesh:</b></P>
+                                                <table class="table table-bordered custom-table">
+                                                    <thead class="thead-dark">
+                                                        <tr>
+                                                            <th scope="col">Monthly salary</th>
+                                                            <th scope="col">Tax</th>
+                            
+                                                        </tr>
+                                                    </thead>
+                                                    <tbody>
+                                                        <tr>
+                                                            <td>Upto 15,000</td>
+                                                            <td>Nil</td>
+                                                        </tr>
+                                                        <tr>
+                                                            <td>15,001 to 20,000 </td>
+                                                            <td>150</td>
+                                                        </tr>
+                                                        <tr>
+                                                            <td>More than 20,000</td>
+                                                            <td>200</td>
+                                                        </tr>
+                            
+                            
+                            
+                                                    </tbody>
+                                                </table>
+                            
+                                                <P><b>Gujarat:</b></P>
+                                                <table class="table table-bordered custom-table">
+                                                    <thead class="thead-dark">
+                                                        <tr>
+                                                            <th scope="col">Monthly salary</th>
+                                                            <th scope="col">Tax</th>
+                            
+                                                        </tr>
+                                                    </thead>
+                                                    <tbody>
+                                                        <tr>
+                                                            <td>Upto 5,999</td>
+                                                            <td>Nil</td>
+                                                        </tr>
+                                                        <tr>
+                                                            <td>6,000 to 8,999 </td>
+                                                            <td>80</td>
+                                                        </tr>
+                                                        <tr>
+                                                            <td>9,000 to 11,999</td>
+                                                            <td>150</td>
+                                                        </tr>
+                                                        <tr>
+                                                            <td>More than 12,000</td>
+                                                            <td>200</td>
+                                                        </tr>
+                            
+                            
+                            
+                                                    </tbody>
+                                                </table>
+                            
+                                                <P><b>Odisha:</b></P>
+                                                <table class="table table-bordered custom-table">
+                                                    <thead class="thead-dark">
+                                                        <tr>
+                                                            <th scope="col">Monthly salary</th>
+                                                            <th scope="col">Tax</th>
+                            
+                                                        </tr>
+                                                    </thead>
+                                                    <tbody>
+                                                        <tr>
+                                                            <td>Upto 5,000</td>
+                                                            <td>Nil</td>
+                                                        </tr>
+                                                        <tr>
+                                                            <td>5,001 to 6,000 </td>
+                                                            <td>30</td>
+                                                        </tr>
+                                                        <tr>
+                                                            <td>6,001 to 8,000</td>
+                                                            <td>50</td>
+                                                        </tr>
+                                                        <tr>
+                                                            <td>8,001 to 10,000</td>
+                                                            <td>75</td>
+                                                        </tr>
+                            
+                                                        <tr>
+                                                            <td>10,001 to 15,000</td>
+                                                            <td>100</td>
+                                                        </tr>
+                                                        <tr>
+                                                            <td>15,001 to 20,000</td>
+                                                            <td>150</td>
+                                                        </tr>
+                                                        <tr>
+                                                            <td>More than 20,000</td>
+                                                            <td>200</td>
+                                                        </tr>
+                            
+                                                    </tbody>
+                                                </table>                               
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="panel panel-default">
+                                    <div class="panel-heading" role="tab" id="headingEight">
+                                        <h4 class="panel-title">
+                                        <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseEight" aria-expanded="false" aria-controls="collapseFour">
+                                             Is it mandatory to pay professional tax? <span></span>
+                                        </a>
+                                        </h4>
+                                    </div>
+                                    <div id="collapseEight" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingEight">
+                                        <div class="panel-body">
+                                                If you belong to the service category, it is mandatory to pay professional tax.  
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="panel panel-default">
+                                    <div class="panel-heading" role="tab" id="headingNine">
+                                        <h4 class="panel-title">
+                                        <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseNine" aria-expanded="false" aria-controls="collapseFour">
+                                            Are there any exemptions from Professional Tax in Maharashtra?   <span></span>
+                                        </a>
+                                        </h4>
+                                    </div>
+                                    <div id="collapseNine" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingNine">
+                                        <div class="panel-body">
+                                                <P>The following is the list of exemptions from Professional Tax in Maharashtra:</P>
+                                                <P>• Persons on establishment of defence ordnance factories.</P>
+                                                <P>• Badli workers in textile industry.</P>
+                                                <P>• Members of army, air force, navy and related auxiliary forces or reservists.</P>
+                                                <P>• Persons with permanent physical disability including blindness.</P>
+                                                <P>• Women exclusively engaged as agents under MPKBY scheme of directorate of small savings.</P>
+                                                <P>• Persons who have completed the age of 65 years.</P>
+                                                <P>• Parents or guardian of any person suffering from a physical disability or mental retardation.</P>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="panel panel-default">
+                                    <div class="panel-heading" role="tab" id="headingTen">
+                                        <h4 class="panel-title">
+                                        <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseTen" aria-expanded="false" aria-controls="collapseFour">
+                                                Is professional tax applicable in Union Territories?<span></span>    
+                                        </a>
+                                        </h4>
+                                    </div>
+                                    <div id="collapseTen" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingTen">
+                                        <div class="panel-body">
+                                                Yes, professional tax does not apply to employees working in Union Territories.  
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="panel panel-default">
+                                    <div class="panel-heading" role="tab" id="headingEleven">
+                                        <h4 class="panel-title">
+                                        <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseEleven" aria-expanded="false" aria-controls="collapseFour">
+                                             What is the maximum amount of professional tax levied?<span></span>    
+                                        </a>
+                                        </h4>
+                                    </div>
+                                    <div id="collapseEleven" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingEleven">
+                                        <div class="panel-body">
+                                                The maximum amount of professional tax levied is Rs. 2,500.  
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="panel panel-default">
+                                    <div class="panel-heading" role="tab" id="headingTwleve">
+                                        <h4 class="panel-title">
+                                        <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseTwelve" aria-expanded="false" aria-controls="collapseFour">
+                                                Will the amount of professional tax paid be allowed as deduction?<span></span>    
+                                        </a>
+                                        </h4>
+                                    </div>
+                                    <div id="collapseTwelve" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingTwleve">
+                                        <div class="panel-body">
+                                                Yes, the same is allowed as deduction from the salary.  
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="panel panel-default">
+                                    <div class="panel-heading" role="tab" id="headingThirteen">
+                                        <h4 class="panel-title">
+                                        <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseThirteen" aria-expanded="false" aria-controls="collapseFour">
+                                                 What is registration certificate and enrolment certificate?<span></span>    
+                                        </a>
+                                        </h4>
+                                    </div>
+                                    <div id="collapseThirteen" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingThirteen">
+                                        <div class="panel-body">
+                                                Every employer who deducts and pays professional tax on behalf of his or her employees is handed a registration certificate. Every Individual liable to pay professional tax besides those whose professional tax is paid to the State Government by their employer, receives an enrolment certificate.  
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            
                     </div>
-
 
                 </section>
                 <!-- End of F.A.Q Section -->
@@ -696,7 +1212,7 @@
                                 <div class="col-sm-4 footer-block">
                                     <div class="footer-widget widget_text">
                                         <div class="footer-logo">
-                                            <a href="#"><img src="img/logo.png" alt="" height="40" width="222"></a>
+                                            <a href="#"><img src="img/logo__.png" alt="" height="40" width="222"></a>
                                         </div>
                                         <p>Apoyo, To support businesses in all non-core areas ensuring entrepreneurs focus on the core area of expertise and thus fulfill their dream</p>
 
@@ -739,18 +1255,22 @@
                     <!-- /.Footer Widget Section -->
 
                     <div class="copyright-section">
-                        <div class="container clearfix">
-                            <span class="copytext">Copyright &copy; 2020 | <a href="https://uicookies.com/downloads/x-corporation-free-bootstrap-html-template/">APOYO</a> 
-            <ul class="list-inline pull-right">
-                <li class="active"><a href="#">Home</a></li>
-                <li><a href="about.html">About Us</a></li>
-                <li><a href="services.html">Services</a></li>
-                <li><a href="#">Portfolio</a></li>
-                <li><a href="#">Blog</a></li>
-                <li><a href="contact.html">Contact</a></li>
-            </ul>
-        </div><!-- .container -->
-    </div><!-- .copyright-section -->
+                            <div class="container clearfix">
+                                <span class="copytext"><span class="m-r-10">Copyright &copy; 2020</span> | 
+                                    <a href="#">
+                                        <img src="img/logo.png" alt="" height="40" width="40">
+                                    </a>
+                                    <ul class="list-inline pull-right">
+                                        <li class="active"><a href="#">Home</a></li>
+                                        <li><a href="about.html">About Us</a></li>
+                                        <li><a href="services.html">Services</a></li>
+                                        <li><a href="#">Portfolio</a></li>
+                                        <li><a href="#">Blog</a></li>
+                                        <li><a href="contact.html">Contact</a></li>
+                                    </ul>
+                                </span>
+                            </div><!-- .container -->
+                    </div><!-- .copyright-section -->
 </footer>
 <!-- .footer -->
 
@@ -759,20 +1279,6 @@
 </div>
 <!-- .offcanvas-pusher -->
 
-<div class="uc-mobile-menu uc-mobile-menu-effect">
-    <button type="button" class="close" aria-hidden="true" data-toggle="offcanvas"
-            id="uc-mobile-menu-close-btn">&times;</button>
-    <div>
-        <div>
-            <ul id="menu">
-                <li><a href="index.html">Home</a></li>
-                <li><a href="about.html">About</a></li>
-                <li><a href="services.html">Services</a></li>
-                <li><a href="contact.html">Contact</a></li>
-            </ul>
-        </div>
-    </div>
-</div>
 <!-- .uc-mobile-menu -->
 
 
@@ -785,7 +1291,6 @@
         integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS"
         crossorigin="anonymous"></script>
 <script src="js/smoothscroll.js"></script>
-<script src="js/mobile-menu.js"></script>
 <script src="js/flexSlider/jquery.flexslider-min.js"></script>
 <script src="js/scripts.js"></script>
 </body>

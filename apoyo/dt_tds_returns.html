@@ -10,8 +10,9 @@
     <link rel="icon" href="img/favicon.png" type="image/png" sizes="20x20">
     <title>Apoyo-Accounting</title>
     <!-- web-fonts -->
-    <link href='https://fonts.googleapis.com/css?family=Roboto:400,700,500' rel='stylesheet' type='text/css'>
-    <link href='http://fonts.googleapis.com/css?family=Montserrat:400,700' rel='stylesheet' type='text/css'>
+    <!-- <link href='https://fonts.googleapis.com/css?family=Roboto:400,700,500' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=Montserrat:400,700' rel='stylesheet' type='text/css'> -->
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;500&display=swap" rel="stylesheet">
     <!-- off-canvas -->
     <link href="css/mobile-menu.css" rel="stylesheet">
     <!-- font-awesome -->
@@ -45,29 +46,29 @@
         <div class="uc-mobile-menu-pusher">
 
             <div class="content-wrapper">
-                <nav class="navbar m-menu navbar-default navbar-fixed-top btco-hover-menu">
+                <nav class="navbar m-menu navbar-default navbar-fixed-top">
                     <div class="container">
                         <!-- Brand and toggle get grouped for better mobile display -->
                         <div class="navbar-header">
-                            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar-collapse-1">
-                 <span class="sr-only">Toggle navigation</span>
-                    <span class="icon-bar"></span>
-                         <span class="icon-bar"></span>
-                     <span class="icon-bar"></span>
-                 </button>
-                            <a class="navbar-brand" href="index.html"><img src="img/logo--.png" alt="" height="40" width="222"></a>
+                            <button class="navbar-toggle" type="button" data-toggle="collapse" data-target=".js-navbar-collapse">
+                            <span class="sr-only">Toggle navigation</span>
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                            </button>
+                        <a class="navbar-brand" href="index.html"><img src="img/logo--.png" alt="" height="40" width="222"></a>
                         </div>
 
 
-                        <div class="collapse navbar-collapse" id="#navbar-collapse-1">
+                        <div class="collapse navbar-collapse js-navbar-collapse">
 
                             <ul class="nav navbar-nav navbar-right main-nav BACK">
                                 <li><a href="index.html" class="effect-underline">Home</a></li>
                                 <li><a href="about.html" class="effect-underline">About Us</a></li>
                                 <li class="dropdown m-menu-fw">
-                                    <a href="services.html" class="effect-underline" data-toggle="dropdown" class="dropdown-toggle">
+                                    <a href="services.html" class="active effect-underline" data-toggle="dropdown" class="dropdown-toggle">
                                  Services
-                             <span><i class="fa fa-angle-down"></i></span>
+                             <span class="pull-right"><i class="fa fa-angle-down"></i></span>
                          </a>
                                     <ul class="dropdown-menu">
                                         <li>
@@ -148,8 +149,8 @@
 
                 <section id="pg-header" class="container center">
                     <div class="row">
-                        <div class="col-lg-12 comman-section-header text-center">
-                            <h2 style="color : #fff; font-size: 60px;">TDS</h2>
+                        <div class="col-lg-12 text-center">
+                            <h2 style="color : #fff; font-size: 60px;">TDS Returns</h2>
                             <br>
 
 
@@ -190,10 +191,11 @@
                 <!-- .page-banner -->
 
                 <!-- .Page-Trademark-Process -->
+                
+    
 
-
-                <!-- ----------------------add tab----------------------- -->
-                <nav class="navbar navbar-default" style="background-color: #6c6055; border-bottom: solid 3px #f78829">
+                <!-- ----------------------add tab----------------------- --><br>
+                <nav class="navbar navbar-default global-tab-panel container m-t-30">
                     <div class="container">
 
 
@@ -278,112 +280,160 @@
 
                 <!--End of Advantage -->
                 <!-- ======= F.A.Q Section ======= -->
-                <section id="faq" class="faq section-bg">
-                    <div class="container">
-                        <br>
-                        <div class="section-title text-center" data-aos="fade-up">
-                            <h2>F.A.Q</h2>
-
+                <section id="faq" class="faq section-bg m-t-30">
+                        <div class="container">
+                                <div class="section-title text-center" data-aos="fade-up">
+                                    <div class="section-title">
+                                        <div class="container text-center">
+                                            <h2 style=color:darkblue>F.A.Q</h2>
+                                            <span class="bordered-icon m-b-25"><i class="fa fa-circle-thin"></i></span>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="panel-group" id="accordion" role="tablist" aria-multiselectable="true">
+                                  <div class="panel panel-default">
+                                    <div class="panel-heading" role="tab" id="headingOne">
+                                      <h4 class="panel-title">
+                                        <a role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                                             Who is required to file TDS Return?<span> </span>
+                                        </a>
+                                      </h4>
+                                    </div>
+                                    <div id="collapseOne" class="panel-collapse collapse in" role="tabpanel" aria-labelledby="headingOne">
+                                      <div class="panel-body">
+                                            <P>
+                                                    It is the duty of the person who is making payment to someone for specified goods or services to deduct TDS and file TDS return. The specified payment includes salary, interest, commission, brokerage, professional fees,
+                                                    royalty, contract payments, etc. The person who deducts TDS is called deductor and the person whose tax is being deducted is called deductee.
+                                                </P>
+                                                <P>
+                                                    TDS is not required to be deducted by Individuals and HUF except for those whose accounts are required to be audited u/s 44AB i.e. whose gross receipts in preceding financial year in case of business is more than 2
+                                                    crore (AY 2017-2018) or 1 crore ( AY 2016-2017) and in case of profession 50 lakhs ( AY 2017-2018) or 25 lakhs (AY 2016-2017).
+                                                </P>    
+                                    </div>
+                                    </div>
+                                  </div>
+                                  <div class="panel panel-default">
+                                    <div class="panel-heading" role="tab" id="headingTwo">
+                                      <h4 class="panel-title">
+                                        <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                                             What are the examples of TDS Forms?
+                                         <span></span>
+                                        </a>
+                                      </h4>
+                                    </div>
+                                    <div id="collapseTwo" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingTwo">
+                                      <div class="panel-body">
+                                            <p>Form 24Q- TDS on salaries</p>
+                                            <p>Form 26Q- TDS on payments other than salaries</p>
+                                            <p>Form 27Q- TDS on payments made to Non-Residents</p>
+                                            <p>Form 27EQ- TCS</p> 
+                                    </div>
+                                    </div>
+                                  </div>
+                                  <div class="panel panel-default">
+                                    <div class="panel-heading" role="tab" id="headingThree">
+                                      <h4 class="panel-title">
+                                        <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                                             What are the due dates of submission of quarterly TDS returns?<span></span>
+                                        </a>
+                                      </h4>
+                                    </div>
+                                    <div id="collapseThree" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingThree">
+                                      <div class="panel-body">
+                                            <p>The due dates are as follows:</p>
+                                            <P>• Q1 ending June- 31st July of the financial year</P>
+                                            <P>• Q2 ending September- 31st October of the financial year</P>
+                                            <P>• Q3 ending December- 31st January of the financial year</P>
+                                            <P>• Q4 ending March- 31st May of the financial year immediately following the financial year in which the deduction is made.</P>
+                                     </div>
+                                    </div>
+                                  </div>
+        
+                                  <div class="panel panel-default">
+                                        <div class="panel-heading" role="tab" id="headingFour">
+                                          <h4 class="panel-title">
+                                            <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
+                                                How do I deposit TDS?
+                                              <span></span>
+                                            </a>
+                                          </h4>
+                                        </div>
+                                        <div id="collapseFour" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingFour">
+                                          <div class="panel-body">
+                                                <p>Payment can be made online on NSDL by selecting Challan 281 and making the payment using net banking. These TDS payments need to be made before filing the TDS return.</p>
+                                                <P>E-payment is compulsory for all Corporate assesses & non-corporate assessees who are liable for audit u/s 44AB.</P>
+                                                <P>Physical payment can be made using Challan 281 in authorised bank branch.</P>   
+                                         </div>
+                                        </div>
+                                    </div>
+                                    <div class="panel panel-default">
+                                        <div class="panel-heading" role="tab" id="headingFive">
+                                            <h4 class="panel-title">
+                                            <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseFive" aria-expanded="false" aria-controls="collapseFour">
+                                                What are the due dates for filing TDS returns?<span></span>
+                                            </a>
+                                            </h4>
+                                        </div>
+                                        <div id="collapseFive" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingFive">
+                                            <div class="panel-body">
+                                                    <table class="table table-bordered custom-table">
+                                                            <thead class="thead-dark">
+                                                                <tr>
+                                                                    <th scope="col">Sr. No.</th>
+                                                                    <th scope="col">Type of deductor</th>
+                                                                    <th scope="col">April-Feb payment</th>
+                                                                    <th scope="col">March payment</th>
+                                    
+                                                                </tr>
+                                                            </thead>
+                                                            <tbody>
+                                                                <tr>
+                                                                    <td>1 </td>
+                                                                    <td>Government</td>
+                                                                    <td>
+                                                                        Same day (Without challan) On or before of 7th of next month (with Challan)
+                                                                    </td>
+                                                                    <td>
+                                                                        Same day (Without challan) On or before of 7th of next month (with Challan)
+                                                                    </td>
+                                                                </tr>
+                                                                <tr>
+                                                                    <td>2</td>
+                                                                    <td>Other than Government</td>
+                                                                    <td>On or before of 7th of next month</td>
+                                                                    <td>On or before 30th April</td>
+                                                                </tr>
+                                    
+                                    
+                                                            </tbody>
+                                                        </table>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="panel panel-default">
+                                        <div class="panel-heading" role="tab" id="headingSix">
+                                            <h4 class="panel-title">
+                                            <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseSix" aria-expanded="false" aria-controls="collapseFour">
+                                                Who are the list of deductors liable to deduct TDS? <span></span>
+                                            </a>
+                                            </h4>
+                                        </div>
+                                        <div id="collapseSix" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingSix">
+                                            <div class="panel-body">
+                                                    <P>Following is the list of deductors liable to deduct TDS:</P>
+                                                    <P>• Individuals</P>
+                                                    <P>• Hindu Undivided Family</P>
+                                                    <P>• Limited Companies</P>
+                                                    <P>• Limited Companies</P>
+                                                    <P>• Partnership Firms</P>
+                                                    <P>• Body of Individuals</P>
+                                                    <P>• Association of Individuals</P>
+                                                    <P>• Local Authorities</P>    
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
                         </div>
-
-                        <ul class="faq-list">
-
-
-
-                            <li data-aos="fade-up" data-aos-delay="200">
-                                <a data-toggle="collapse" href="#faq2" class="collapsed">1. The status of my trademark is ‘objected’. What does it signify?</a>
-                                <div id="faq2" class="collapse" data-parent=".faq-list">
-                                    <p>If the status of the trademark application is ‘objected’ it means that your application is being objected, and that the Trademark Examiner has raised a query on the trademark under the Trademarks Act. </p>
-                                    <p>
-                                        The same shall be communicated over to you through an examination report, to which a reply is to be filed or you shall apply for a hearing.
-                                    </p>
-                                </div>
-                            </li>
-
-                            <li data-aos="fade-up" data-aos-delay="300">
-                                <a data-toggle="collapse" href="#faq3" class="collapsed">2. How can one check for trademark objection?</a>
-                                <div id="faq3" class="collapse" data-parent=".faq-list">
-                                    <p>Step 1: Go to the official website i.e. http://www.ipindia.nic.in/</p>
-                                    <p>Step 2: Under trademarks tab go to related links sub tab. Now under related links click for trademark status.</p>
-                                    <p>Step 3: You’ll be directed to an external website</p>
-                                    <p>Step 4: Click on Trade Mark Application/ Registered Mark</p>
-                                    <p>Step 5: Now enter the relevant trademark application number</p>
-                                    <p>Step 6: Now you can view the complete information about the trademark, along with the status of the application number.</p>
-                                    <p>Step 7: If your application status appears as objected, it means that the same has been objected and you shall provide the reply to it.</p>
-                                </div>
-                            </li>
-
-                            <li data-aos="fade-up" data-aos-delay="400">
-                                <a data-toggle="collapse" href="#faq4" class="collapsed">3. Is there any Government fees to file the examination reply?</a>
-                                <div id="faq4" class="collapse" data-parent=".faq-list">
-                                    <p>No, there is no Government Fees involved in the same.</p>
-                                </div>
-                            </li>
-
-                            <li data-aos="fade-up" data-aos-delay="500">
-                                <a data-toggle="collapse" href="#faq5" class="collapsed">4. What if someone misses out the deadline for filing the objection?</a>
-                                <div id="faq5" class="collapse" data-parent=".faq-list">
-                                    <p>If the applicant does not submit the objection within the prescribed time lines as mentioned in the examination report, the trademark status shall be marked as abandoned.</p>
-                                </div>
-                            </li>
-
-                            <li data-aos="fade-up" data-aos-delay="200">
-                                <a data-toggle="collapse" href="#faq6" class="collapsed">5. Why should I file an objection reply?</a>
-                                <div id="faq6" class="collapse" data-parent=".faq-list">
-                                    <p>It shall have the following benefits:
-                                        <P>• The application will be saved from being abandoned;</P>
-                                        <P>• The application shall proceed further;</P>
-                                        <P>• You can defend your application</P>
-                                </div>
-                            </li>
-
-                            <li data-aos="fade-up" data-aos-delay="200">
-                                <a data-toggle="collapse" href="#faq7" class="collapsed">6. My trademark application continues to be marked as ‘objected’ even after the examination reply is filed. What should I do?</a>
-                                <div id="faq7" class="collapse" data-parent=".faq-list">
-                                    <P>The examiner would take roughly 6-8 months to reply to the same. So it might take some time for the same.</P>
-                                </div>
-                            </li>
-
-                            <li data-aos="fade-up" data-aos-delay="200">
-                                <a data-toggle="collapse" href="#faq8" class="collapsed">7. Time limit to file the reply?</a>
-                                <div id="faq8" class="collapse" data-parent=".faq-list">
-                                    <P>The time-limit to file the trademark objection reply is thirty days from the date of issuance of the report to the applicant or thirty days of viewing the same online.</P>
-                                </div>
-                            </li>
-
-                            <li data-aos="fade-up" data-aos-delay="200">
-                                <a data-toggle="collapse" href="#faq9" class="collapsed">8. Who issues the Examination report?</a>
-                                <div id="faq9" class="collapse" data-parent=".faq-list">
-                                    <P>The Trademark examiners at Trademark registry issue the examination report.</P>
-                                </div>
-                            </li>
-
-                            <li data-aos="fade-up" data-aos-delay="200">
-                                <a data-toggle="collapse" href="#faq10" class="collapsed">9. How do I check if my reply has been filed?</a>
-                                <div id="faq10" class="collapse" data-parent=".faq-list">
-                                    <p>
-                                        Dolor sit amet consectetur adipiscing elit pellentesque habitant morbi. Id interdum velit laoreet id donec ultrices. Fringilla phasellus faucibus scelerisque eleifend donec pretium. Est pellentesque elit ullamcorper dignissim. Mauris ultrices eros in
-                                        cursus turpis massa tincidunt dui.
-                                    </p>
-                                </div>
-                            </li>
-
-                            <li data-aos="fade-up" data-aos-delay="200">
-                                <a data-toggle="collapse" href="#faq11" class="collapsed">10. Is trademark registration compulsory?</a>
-                                <div id="faq11" class="collapse" data-parent=".faq-list">
-                                    <P>Registration of Trademark is voluntary, but it is a good idea to register a trademark in every country where you offer your products or services. Registration of Trade mark provides you with the legal protection in
-                                        the event of any infringement arises and aids as protection to your business.</P>
-
-                                </div>
-                            </li>
-
-
-
-
-                        </ul>
-
-                    </div>
-
 
                 </section>
                 <!-- End of F.A.Q Section -->
@@ -399,7 +449,7 @@
                                 <div class="col-sm-4 footer-block">
                                     <div class="footer-widget widget_text">
                                         <div class="footer-logo">
-                                            <a href="#"><img src="img/logo.png" alt="" height="40" width="222"></a>
+                                            <a href="#"><img src="img/logo__.png" alt="" height="40" width="222"></a>
                                         </div>
                                         <p>Apoyo, To support businesses in all non-core areas ensuring entrepreneurs focus on the core area of expertise and thus fulfill their dream</p>
 
@@ -440,20 +490,23 @@
                         </div>
                     </div>
                     <!-- /.Footer Widget Section -->
-
                     <div class="copyright-section">
-                        <div class="container clearfix">
-                            <span class="copytext">Copyright &copy; 2020 | <a href="https://uicookies.com/downloads/x-corporation-free-bootstrap-html-template/">APOYO</a> 
-            <ul class="list-inline pull-right">
-                <li class="active"><a href="#">Home</a></li>
-                <li><a href="about.html">About Us</a></li>
-                <li><a href="services.html">Services</a></li>
-                <li><a href="#">Portfolio</a></li>
-                <li><a href="#">Blog</a></li>
-                <li><a href="contact.html">Contact</a></li>
-            </ul>
-        </div><!-- .container -->
-    </div><!-- .copyright-section -->
+                            <div class="container clearfix">
+                                <span class="copytext"><span class="m-r-10">Copyright &copy; 2020</span> | 
+                                    <a href="#">
+                                        <img src="img/logo.png" alt="" height="40" width="40">
+                                    </a>
+                                    <ul class="list-inline pull-right">
+                                        <li class="active"><a href="#">Home</a></li>
+                                        <li><a href="about.html">About Us</a></li>
+                                        <li><a href="services.html">Services</a></li>
+                                        <li><a href="#">Portfolio</a></li>
+                                        <li><a href="#">Blog</a></li>
+                                        <li><a href="contact.html">Contact</a></li>
+                                    </ul>
+                                </span>
+                            </div><!-- .container -->
+                    </div><!-- .copyright-section -->
 </footer>
 <!-- .footer -->
 
@@ -462,20 +515,6 @@
 </div>
 <!-- .offcanvas-pusher -->
 
-<div class="uc-mobile-menu uc-mobile-menu-effect">
-    <button type="button" class="close" aria-hidden="true" data-toggle="offcanvas"
-            id="uc-mobile-menu-close-btn">&times;</button>
-    <div>
-        <div>
-            <ul id="menu">
-                <li><a href="index.html">Home</a></li>
-                <li><a href="about.html">About</a></li>
-                <li><a href="services.html">Services</a></li>
-                <li><a href="contact.html">Contact</a></li>
-            </ul>
-        </div>
-    </div>
-</div>
 <!-- .uc-mobile-menu -->
 
 
