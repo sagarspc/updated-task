@@ -5042,3 +5042,7 @@ body {
 .custom-table.table.table-bordered>tbody>tr>td{
   color:#000;
 }
+
+.vis-icon p b{
+font-weight: 300;
+}
