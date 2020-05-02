@@ -10,8 +10,9 @@
     <link rel="icon" href="img/favicon.png" type="image/png" sizes="20x20">
     <title>Apoyo-Accounting</title>
     <!-- web-fonts -->
-    <link href='https://fonts.googleapis.com/css?family=Roboto:400,700,500' rel='stylesheet' type='text/css'>
-    <link href='http://fonts.googleapis.com/css?family=Montserrat:400,700' rel='stylesheet' type='text/css'>
+    <!-- <link href='https://fonts.googleapis.com/css?family=Roboto:400,700,500' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=Montserrat:400,700' rel='stylesheet' type='text/css'> -->
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;500&display=swap" rel="stylesheet">
     <!-- off-canvas -->
     <link href="css/mobile-menu.css" rel="stylesheet">
     <!-- font-awesome -->
@@ -45,29 +46,29 @@
         <div class="uc-mobile-menu-pusher">
 
             <div class="content-wrapper">
-                <nav class="navbar m-menu navbar-default navbar-fixed-top btco-hover-menu">
+                <nav class="navbar m-menu navbar-default navbar-fixed-top">
                     <div class="container">
                         <!-- Brand and toggle get grouped for better mobile display -->
                         <div class="navbar-header">
-                            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar-collapse-1">
-                 <span class="sr-only">Toggle navigation</span>
-                    <span class="icon-bar"></span>
-                         <span class="icon-bar"></span>
-                     <span class="icon-bar"></span>
-                 </button>
+                                <button class="navbar-toggle" type="button" data-toggle="collapse" data-target=".js-navbar-collapse">
+                                    <span class="sr-only">Toggle navigation</span>
+                                    <span class="icon-bar"></span>
+                                    <span class="icon-bar"></span>
+                                    <span class="icon-bar"></span>
+                                </button>
                             <a class="navbar-brand" href="index.html"><img src="img/logo--.png" alt="" height="40" width="222"></a>
                         </div>
 
 
-                        <div class="collapse navbar-collapse" id="#navbar-collapse-1">
+                        <div class="collapse navbar-collapse js-navbar-collapse">
 
                             <ul class="nav navbar-nav navbar-right main-nav BACK">
                                 <li><a href="index.html" class="effect-underline">Home</a></li>
                                 <li><a href="about.html" class="effect-underline">About Us</a></li>
                                 <li class="dropdown m-menu-fw">
-                                    <a href="services.html" class="effect-underline" data-toggle="dropdown" class="dropdown-toggle">
+                                    <a href="services.html" class="active effect-underline" data-toggle="dropdown" class="dropdown-toggle">
                                  Services
-                             <span><i class="fa fa-angle-down"></i></span>
+                             <span class="pull-right"><i class="fa fa-angle-down"></i></span>
                          </a>
                                     <ul class="dropdown-menu">
                                         <li>
@@ -148,11 +149,11 @@
 
                 <section id="pg-header" class="container">
                     <div class="row">
-                        <div class="col-lg-6 text-center ">
-                            <h2 style="color : #fff; font-size: 60px;">Limited Liability Partnership (LLP)</h2>
+                        <div class="col-lg-12 text-center ">
+                            <h2 style="color : #fff; font-size: 60px;">LLP</h2>
                             <br>
 
-                            <div id='hd_panel' class="panel panel-default">
+                            <div id='hd_panel' class="col-lg-6 panel panel-default">
                                 <div class="panel-body">
                                     <form>
                                         <div class="form-row">
@@ -191,8 +192,13 @@
                 <!-- .Page-Trademark-Process -->
                 <section class="ptb-90 container text-center">
                     <br>
-                    <h2>Limited Liability Partnership (LLP):</h2>
-                    <p>The concept of LLP was introduced when the Limited Liability Partnership Act, 2008 came into force. LLP is an alternative corporate business form that gives the benefits of limited liability of a company and the flexibility of a partnership.
+                    <div class="section-title">
+                        <div class="container text-center">
+                            <h2 style=color:darkblue>Limited Liability Partnership (LLP)</h2>
+                            <span class="bordered-icon m-b-25"><i class="fa fa-circle-thin"></i></span>
+                        </div>
+                    </div>
+                    <p class="p2">The concept of LLP was introduced when the Limited Liability Partnership Act, 2008 came into force. LLP is an alternative corporate business form that gives the benefits of limited liability of a company and the flexibility of a partnership.
 
                         The LLP can continue its existence irrespective of changes in partners. It is capable of entering into contracts and holding property in its own name.
                         
@@ -205,19 +211,19 @@
                 </section>
 
                 <!-- ----------------------add tab----------------------- -->
-                <nav class="navbar navbar-default" style="background-color: #6c6055; border-bottom: solid 3px #f78829">
+                <nav class="navbar navbar-default global-tab-panel container">
                     <div class="container">
 
 
                         <div class="collapse navbar-collapse1 in" id="nav-acumen" aria-expanded="true">
                             <ul class="nav navbar-nav text-center" id="navpadding" style="padding-top: 7px">
                                 <li class="myli myactive" id="link-1">
-                                    <a href="javascript:void(0)" class="mytext">DIFFERENCE BETWEEN LLP, PARTNERSHIP AND COMPANY:</a>
+                                    <a href="javascript:void(0)" class="mytext">DIFFERENCE BETWEEN LLP, PARTNERSHIP AND COMPANY</a>
                                 </li>
                                 <!-- <li class="myli" id="link-2"><a href="javascript:void(0)" class="mytext">Process of Apoyo:</a></li> -->
 
                                 <li class="myli" id="link-2">
-                                    <a href="javascript:void(0)" class="mytext">INFORMATION:
+                                    <a href="javascript:void(0)" class="mytext">INFORMATION
                                     </a>
                                 </li>
                                 <li class="myli" id="link-3">
@@ -239,13 +245,13 @@
                     <div class="container">
                         <div class="row">
 
-                            <div class="col-lg-12 col-xs-12 col-md-12">
+                            <div class="col-lg-12 col-xs-12 col-md-12 tab-section-info">
 
 
                                 <div id="nav-1" style="">
                                     <div>
                                         <h2></h2>
-                                        <table class="table table-bordered">
+                                        <table class="table table-bordered custom-table">
                                             <thead class="thead-dark">
                                                 <tr>
                                                     <th scope="col">PARTNERSHIP</th>
@@ -308,9 +314,9 @@
 
 
                                 <div id="nav-2" style="display: none">
-
+                                    <br>
                                     <section id="faq" class="faq section-bg">
-                                        <div class="container">
+                                        <div class="">
                                             
                     
                                             <ul class="faq-list">
@@ -470,21 +476,20 @@
 
 
                                 <div id="nav-3" style="display: none">
+                                    <br>
                                     <P>
-                                        Following are the advantages for incorporating a LLP:
-
-                                        <br>•	Audit is not required for a LLP annual sales turnover is less than Rs.40 lakhs and the LLP has a capital contribution of less than Rs.25 lakhs. Whereas, for a Private Limited Company, audit is mandatory irrespective of sales turnover or capital.
-
-                                        <br>•	LLP there is no concept of dividend distribution tax.
-
-                                        <br>•	In LLP, there is no concept of Board Meetings or Annual General Meetings. So annual compliance is comparatively lesser.
-
-                                        <br>•	The government fee for incorporation of LLP is significantly lower than the government fee for incorporation of private limited company. 
-
-                                        <br>•	The process for incorporation of LLP also involves less documents and is less cumbersome.
-
+                                        <b>Following are the advantages for incorporating a LLP:</b>
+                                        
                                     </P>
-    
+                                    <p>Audit is not required for a LLP annual sales turnover is less than Rs.40 lakhs and the LLP has a capital contribution of less than Rs.25 lakhs. Whereas, for a Private Limited Company, audit is mandatory irrespective of sales turnover or capital.
+                                    </p>
+                                    <p>LLP there is no concept of dividend distribution tax.</p>
+                                    <p>In LLP, there is no concept of Board Meetings or Annual General Meetings. So annual compliance is comparatively lesser.
+                                     </p>
+                                     <p>The government fee for incorporation of LLP is significantly lower than the government fee for incorporation of private limited company. 
+                                        </p>
+                                    <p>The process for incorporation of LLP also involves less documents and is less cumbersome.
+                                        </p>
                                 </div>
                             </div>
 
@@ -505,7 +510,7 @@
                                 <div class="col-sm-4 footer-block">
                                     <div class="footer-widget widget_text">
                                         <div class="footer-logo">
-                                            <a href="#"><img src="img/logo.png" alt="" height="40" width="222"></a>
+                                            <a href="#"><img src="img/logo__.png" alt="" height="40" width="222"></a>
                                         </div>
                                         <p>Apoyo, To support businesses in all non-core areas ensuring entrepreneurs focus on the core area of expertise and thus fulfill their dream</p>
 
@@ -548,18 +553,22 @@
                     <!-- /.Footer Widget Section -->
 
                     <div class="copyright-section">
-                        <div class="container clearfix">
-                            <span class="copytext">Copyright &copy; 2020 | <a href="https://uicookies.com/downloads/x-corporation-free-bootstrap-html-template/">APOYO</a> 
-            <ul class="list-inline pull-right">
-                <li class="active"><a href="#">Home</a></li>
-                <li><a href="about.html">About Us</a></li>
-                <li><a href="services.html">Services</a></li>
-                <li><a href="#">Portfolio</a></li>
-                <li><a href="#">Blog</a></li>
-                <li><a href="contact.html">Contact</a></li>
-            </ul>
-        </div><!-- .container -->
-    </div><!-- .copyright-section -->
+                            <div class="container clearfix">
+                                <span class="copytext"><span class="m-r-10">Copyright &copy; 2020</span> | 
+                                    <a href="#">
+                                        <img src="img/logo.png" alt="" height="40" width="40">
+                                    </a>
+                                    <ul class="list-inline pull-right">
+                                        <li class="active"><a href="#">Home</a></li>
+                                        <li><a href="about.html">About Us</a></li>
+                                        <li><a href="services.html">Services</a></li>
+                                        <li><a href="#">Portfolio</a></li>
+                                        <li><a href="#">Blog</a></li>
+                                        <li><a href="contact.html">Contact</a></li>
+                                    </ul>
+                                </span>
+                            </div><!-- .container -->
+                    </div><!-- .copyright-section -->
 </footer>
 <!-- .footer -->
 
@@ -568,20 +577,6 @@
 </div>
 <!-- .offcanvas-pusher -->
 
-<div class="uc-mobile-menu uc-mobile-menu-effect">
-    <button type="button" class="close" aria-hidden="true" data-toggle="offcanvas"
-            id="uc-mobile-menu-close-btn">&times;</button>
-    <div>
-        <div>
-            <ul id="menu">
-                <li><a href="index.html">Home</a></li>
-                <li><a href="about.html">About</a></li>
-                <li><a href="services.html">Services</a></li>
-                <li><a href="contact.html">Contact</a></li>
-            </ul>
-        </div>
-    </div>
-</div>
 <!-- .uc-mobile-menu -->
 
 

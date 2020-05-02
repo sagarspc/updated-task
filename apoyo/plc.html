@@ -10,8 +10,9 @@
     <link rel="icon" href="img/favicon.png" type="image/png" sizes="20x20">
     <title>Apoyo-Accounting</title>
     <!-- web-fonts -->
-    <link href='https://fonts.googleapis.com/css?family=Roboto:400,700,500' rel='stylesheet' type='text/css'>
-    <link href='http://fonts.googleapis.com/css?family=Montserrat:400,700' rel='stylesheet' type='text/css'>
+    <!-- <link href='https://fonts.googleapis.com/css?family=Roboto:400,700,500' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=Montserrat:400,700' rel='stylesheet' type='text/css'> -->
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;500&display=swap" rel="stylesheet">
     <!-- off-canvas -->
     <link href="css/mobile-menu.css" rel="stylesheet">
     <!-- font-awesome -->
@@ -45,29 +46,28 @@
         <div class="uc-mobile-menu-pusher">
 
             <div class="content-wrapper">
-                <nav class="navbar m-menu navbar-default navbar-fixed-top btco-hover-menu">
+                <nav class="navbar m-menu navbar-default navbar-fixed-top">
                     <div class="container">
                         <!-- Brand and toggle get grouped for better mobile display -->
                         <div class="navbar-header">
-                            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar-collapse-1">
-                 <span class="sr-only">Toggle navigation</span>
-                    <span class="icon-bar"></span>
-                         <span class="icon-bar"></span>
-                     <span class="icon-bar"></span>
-                 </button>
-                            <a class="navbar-brand" href="index.html"><img src="img/logo--.png" alt="" height="40" width="222"></a>
+                            <button class="navbar-toggle" type="button" data-toggle="collapse" data-target=".js-navbar-collapse">
+                            <span class="sr-only">Toggle navigation</span>
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                            </button>
+                        <a class="navbar-brand" href="index.html"><img src="img/logo--.png" alt="" height="40" width="222"></a>
                         </div>
 
-
-                        <div class="collapse navbar-collapse" id="#navbar-collapse-1">
+                        <div class="collapse navbar-collapse js-navbar-collapse">
 
                             <ul class="nav navbar-nav navbar-right main-nav BACK">
                                 <li><a href="index.html" class="effect-underline">Home</a></li>
                                 <li><a href="about.html" class="effect-underline">About Us</a></li>
                                 <li class="dropdown m-menu-fw">
-                                    <a href="services.html" class="effect-underline" data-toggle="dropdown" class="dropdown-toggle">
+                                    <a href="services.html" class="active effect-underline" data-toggle="dropdown" class="dropdown-toggle">
                                  Services
-                             <span><i class="fa fa-angle-down"></i></span>
+                             <span class="pull-right"><i class="fa fa-angle-down"></i></span>
                          </a>
                                     <ul class="dropdown-menu">
                                         <li>
@@ -148,11 +148,12 @@
 
                 <section id="pg-header" class="container">
                     <div class="row">
-                        <div class="col-lg-6 text-center ">
-                            <h2 style="color : #fff; font-size: 60px;">Private Limited Company</h2>
+                        <div class="col-lg-12 text-center ">
+                            <h2 style="color : #fff; font-size: 60px;">Pvt Ltd Company
+                                </h2>
                             <br>
 
-                            <div id='hd_panel' class="panel panel-default">
+                            <div id='hd_panel' class="col-lg-6 panel panel-default">
                                 <div class="panel-body">
                                     <form>
                                         <div class="form-row">
@@ -191,15 +192,25 @@
                 <!-- .Page-Trademark-Process -->
                 <section class="ptb-90 container text-center">
                     <br>
-                    <h2>Private Limited Company</h2>
-                    <p>
+                    <div class="section-title">
+                        <div class="container text-center">
+                            <h2 style=color:darkblue>Private Limited Company</h2>
+                            <span class="bordered-icon m-b-25"><i class="fa fa-circle-thin"></i></span>
+                        </div>
+                    </div>
+                    <p class="p2">
                         The growth of trade and business led to many problems that traditional forms of business did not solve. For example, the unlimited liability feature of a sole proprietorship form of business resulted in people forming partnerships, but even that proved
                         to be too inadequate and risky. This is when the concept of companies emerged, and private companies form of business is the oldest example of it.
                     </p>
                     <br>
                     <br>
-                    <h2>FORMATION OF PRIVATE COMPANIES</h2>
-                    <p>
+                    <div class="section-title">
+                        <div class="container text-center">
+                            <h2 style=color:darkblue>FORMATION OF PRIVATE COMPANIES</h2>
+                            <span class="bordered-icon m-b-25"><i class="fa fa-circle-thin"></i></span>
+                        </div>
+                    </div>
+                    <p class="p2">
                         Minimum 2 and maximum of 200 members can come together to form a private company by submitting an application to that effect to the Registrar of Companies along with a subscribed copy of their Memorandum of Association and other required documents after
                         payment of prescribed fees.
                         <br>The Memorandum must state the name of the company (which should include the words “Private Limited”), the address of its registered office, its objects and purposes, and extent of liability of its members. It must also mention
@@ -210,27 +221,27 @@
                 </section>
 
                 <!-- ----------------------add tab----------------------- -->
-                <nav class="navbar navbar-default" style="background-color: #6c6055; border-bottom: solid 3px #f78829">
+                <nav class="navbar navbar-default global-tab-panel container">
                     <div class="container">
 
 
                         <div class="collapse navbar-collapse1 in" id="nav-acumen" aria-expanded="true">
                             <ul class="nav navbar-nav text-center" id="navpadding" style="padding-top: 7px">
                                 <li class="myli myactive" id="link-1">
-                                    <a href="javascript:void(0)" class="mytext">ADVANTAGES:</a>
+                                    <a href="javascript:void(0)" class="mytext">ADVANTAGES</a>
                                 </li>
                                 <!-- <li class="myli" id="link-2"><a href="javascript:void(0)" class="mytext">Process of Apoyo:</a></li> -->
 
                                 <li class="myli" id="link-2">
-                                    <a href="javascript:void(0)" class="mytext">BASIC REQUIREMENTS:
+                                    <a href="javascript:void(0)" class="mytext">BASIC REQUIREMENTS
                                     </a>
                                 </li>
                                 <li class="myli" id="link-3">
-                                    <a href="javascript:void(0)" class="mytext">DOCUMENTS REQUIRED:
+                                    <a href="javascript:void(0)" class="mytext">DOCUMENTS REQUIRED
                                     </a>
                                 </li>
                                 <li class="myli" id="link-4">
-                                    <a href="javascript:void(0)" class="mytext">BASIC REQUIREMENTS:
+                                    <a href="javascript:void(0)" class="mytext">BASIC REQUIREMENTS
                                     </a>
                                 </li>
 
@@ -249,30 +260,25 @@
                     <div class="container">
                         <div class="row">
 
-                            <div class="col-lg-12 col-xs-12 col-md-12">
+                            <div class="col-lg-12 col-xs-12 col-md-12 tab-section-info">
 
 
                                 <div id="nav-1" style="">
-                                    <section class="ptb-50">
+                                        <br>
                                         <p>
-                                            • No need to prepare a report for annual general meetings.
-                                            <br>
-                                            <br>• Only 2 minimum directors required.<br>
-
-                                            <br>• No need to appoint independent directors.<br>
-                                            <br>• They can adopt additional grounds for the disqualification of directors and vacation of their office.<br>
-                                            <br>• They can pay greater remuneration to their directors than compared to some other types of companies<br>
-
-
+                                            No need to prepare a report for annual general meetings.
                                         </p>
-                                    </section>
-
+                                        <p>Only 2 minimum directors required</p>
+                                        <p>They can adopt additional grounds for the disqualification of directors and vacation of their office.</p>
+                                        <p>They can pay greater remuneration to their directors than compared to some other types of companies</p>
+                                    
                                 </div>
 
 
 
                                 <div id="nav-2" style="display: none">
-                                    <section class="ptb-50">
+                                    <section class="">
+                                        <br>
                                         <p>1. Minimum 2 shareholders and directors (can be the same person)<br>
                                             <br>2. Out of 2 directors atleast one should be resident in India<br>
                                             <br>3. Minimum share capital of atleast 1,00,000<br>
@@ -323,7 +329,43 @@
 
                                     </div>
 
-
+                                    <div id="nav-4" style="display: none">
+                                        <br>
+                                            <section class="container ">
+                                                    <section class="col-md-6">
+                                                        <h2>PRE INCORPORATION COMPLIANCES: </h2>
+                                                        <p>
+                                                            1. DSC (Digital Signature Certificate) of all the directors and subscribers.
+                                                            <br>2. DIN (Director Identification Number) of all the directors
+                                                            <br>3. Incorporation Certificate
+                                                            <br>4. PAN and TAN
+                                                            <br>5. MOA
+                                                            <br>6. AOA
+                                                            <br>7. GST Certificate (if applied for)
+                                
+                                                        </p>
+                                
+                                                    </section>
+                                
+                                                    <section class="col-md-6">
+                                                        <h2>POST INCORPORATION COMPLIANCES:</h2>
+                                                        <p>
+                                                            1. E-Form INC-20A
+                                                            <br>2. Holding of Board Meetings
+                                                            <br>3. Appointment of Auditor
+                                                            <br>4. Statutory Audit of Accounts
+                                                            <br>5. Maintenance of Statutory Registers
+                                                            <br>6. Filing of ROC Returns (Form AOC-4 and Form MGT-7)
+                                                            <br>7. Holding AGM (Annual General Meeting)
+                                                            <br>8. Preparation of director report
+                                                            <br>9. DIR-3 KYC (of all the directors)
+                                
+                                                        </p>
+                                
+                                                    </section>
+                                
+                                                </section>
+                                    </div>
                                 </div>
 
 
@@ -333,49 +375,19 @@
                 </section>
 
                 <!-- --------------------end of the tab-------------------------------- -->
-                <hr>
-                <section class="container ">
-                    <section class="col-md-6">
-                        <h2>PRE INCORPORATION COMPLIANCES: </h2>
-                        <p>
-                            1. DSC (Digital Signature Certificate) of all the directors and subscribers.
-                            <br>2. DIN (Director Identification Number) of all the directors
-                            <br>3. Incorporation Certificate
-                            <br>4. PAN and TAN
-                            <br>5. MOA
-                            <br>6. AOA
-                            <br>7. GST Certificate (if applied for)
-
-                        </p>
-
-                    </section>
-
-                    <section class="col-md-6">
-                        <h2>POST INCORPORATION COMPLIANCES:</h2>
-                        <p>
-                            1. E-Form INC-20A
-                            <br>2. Holding of Board Meetings
-                            <br>3. Appointment of Auditor
-                            <br>4. Statutory Audit of Accounts
-                            <br>5. Maintenance of Statutory Registers
-                            <br>6. Filing of ROC Returns (Form AOC-4 and Form MGT-7)
-                            <br>7. Holding AGM (Annual General Meeting)
-                            <br>8. Preparation of director report
-                            <br>9. DIR-3 KYC (of all the directors)
-
-                        </p>
-
-                    </section>
-
-                </section>
-                <hr>
+                
+               
                 <!-- =======  Section ======= -->
-                <section id="faq" class="faq section-bg">
+                <section id="faq" class="faq section-bg m-b-30">
                     <div class="container">
                         <br>
                         <div class="section-title text-center" data-aos="fade-up">
-                            <h2>FAQ</h2>
-
+                            <div class="section-title">
+                                <div class="container text-center">
+                                    <h2 style=color:darkblue>F.A.Q</h2>
+                                    <span class="bordered-icon m-b-25"><i class="fa fa-circle-thin"></i></span>
+                                </div>
+                            </div>
                         </div>
 
                         <ul class="faq-list">
@@ -536,7 +548,7 @@
                                 <div class="col-sm-4 footer-block">
                                     <div class="footer-widget widget_text">
                                         <div class="footer-logo">
-                                            <a href="#"><img src="img/logo.png" alt="" height="40" width="222"></a>
+                                            <a href="#"><img src="img/logo__.png" alt="" height="40" width="222"></a>
                                         </div>
                                         <p>Apoyo, To support businesses in all non-core areas ensuring entrepreneurs focus on the core area of expertise and thus fulfill their dream</p>
 
@@ -579,18 +591,22 @@
                     <!-- /.Footer Widget Section -->
 
                     <div class="copyright-section">
-                        <div class="container clearfix">
-                            <span class="copytext">Copyright &copy; 2020 | <a href="https://uicookies.com/downloads/x-corporation-free-bootstrap-html-template/">APOYO</a> 
-            <ul class="list-inline pull-right">
-                <li class="active"><a href="#">Home</a></li>
-                <li><a href="about.html">About Us</a></li>
-                <li><a href="services.html">Services</a></li>
-                <li><a href="#">Portfolio</a></li>
-                <li><a href="#">Blog</a></li>
-                <li><a href="contact.html">Contact</a></li>
-            </ul>
-        </div><!-- .container -->
-    </div><!-- .copyright-section -->
+                            <div class="container clearfix">
+                                <span class="copytext"><span class="m-r-10">Copyright &copy; 2020</span> | 
+                                    <a href="#">
+                                        <img src="img/logo.png" alt="" height="40" width="40">
+                                    </a>
+                                    <ul class="list-inline pull-right">
+                                        <li class="active"><a href="#">Home</a></li>
+                                        <li><a href="about.html">About Us</a></li>
+                                        <li><a href="services.html">Services</a></li>
+                                        <li><a href="#">Portfolio</a></li>
+                                        <li><a href="#">Blog</a></li>
+                                        <li><a href="contact.html">Contact</a></li>
+                                    </ul>
+                                </span>
+                            </div><!-- .container -->
+                    </div><!-- .copyright-section -->
 </footer>
 <!-- .footer -->
 
@@ -599,20 +615,6 @@
 </div>
 <!-- .offcanvas-pusher -->
 
-<div class="uc-mobile-menu uc-mobile-menu-effect">
-    <button type="button" class="close" aria-hidden="true" data-toggle="offcanvas"
-            id="uc-mobile-menu-close-btn">&times;</button>
-    <div>
-        <div>
-            <ul id="menu">
-                <li><a href="index.html">Home</a></li>
-                <li><a href="about.html">About</a></li>
-                <li><a href="services.html">Services</a></li>
-                <li><a href="contact.html">Contact</a></li>
-            </ul>
-        </div>
-    </div>
-</div>
 <!-- .uc-mobile-menu -->
 
 

@@ -951,7 +951,7 @@ body {
   }
   
   .section-title span.bordered-icon {
-    color: #dadada;
+    color: #ff6600;
     padding: 0 10px;
     font-size: 12px;
     line-height: 18px;
@@ -962,9 +962,9 @@ body {
   .section-title span.bordered-icon:before,
   .section-title span.bordered-icon:after {
     content: "";
-    background: #dadada;
+    background: #ff6600;
     width: 50px;
-    height: 1px;
+    height: 2px;
     top: 8px;
     position: absolute;
   }
@@ -2729,6 +2729,47 @@ body {
   /*--------------------------------------------------------------
   # F.A.Q
   --------------------------------------------------------------*/
+  .faq-list li{
+    padding: 10px;
+    background-color: #efeeee;
+    margin-bottom:10px; 
+  }
+  .faq-list li a{
+    color:#000;
+  }
+  .faq-list li div{
+padding: 6px 20px;
+  }
+  .faq-list li div p{
+    font-size: 14px;
+      }
+  
+  .faq-list li a::before {
+    content: '\e259';
+    display: block;
+    position: relative;
+    right: 12px;
+    font-family: 'Glyphicons Halflings';
+    font-size: 0.6em;
+    color: #000 !important;
+    float: right;
+  }
+  .faq-list li a[aria-expanded="false"]::before,
+  .faq-list li a[aria-expanded="true"]::before {
+    content: '\e259';
+    display: block;
+    position: relative;
+    right: 12px;
+    font-family: 'Glyphicons Halflings';
+    font-size: 0.6em;
+    color: #000 !important;
+    float: right;
+  }
+  .faq-list li a[aria-expanded="true"]::before {
+      content: '\e260';
+      color:#000 !important;
+  }
+
   #accordion .panel,
 #accordion .panel-heading,
 #accordion panel-title,

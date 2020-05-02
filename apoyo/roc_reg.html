@@ -10,8 +10,9 @@
     <link rel="icon" href="img/favicon.png" type="image/png" sizes="20x20">
     <title>Apoyo-Accounting</title>
     <!-- web-fonts -->
-    <link href='https://fonts.googleapis.com/css?family=Roboto:400,700,500' rel='stylesheet' type='text/css'>
-    <link href='http://fonts.googleapis.com/css?family=Montserrat:400,700' rel='stylesheet' type='text/css'>
+    <!-- <link href='https://fonts.googleapis.com/css?family=Roboto:400,700,500' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=Montserrat:400,700' rel='stylesheet' type='text/css'> -->
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;500&display=swap" rel="stylesheet">
     <!-- off-canvas -->
     <link href="css/mobile-menu.css" rel="stylesheet">
     <!-- font-awesome -->
@@ -45,29 +46,29 @@
         <div class="uc-mobile-menu-pusher">
 
             <div class="content-wrapper">
-                <nav class="navbar m-menu navbar-default navbar-fixed-top btco-hover-menu">
+                <nav class="navbar navbar-default navbar-fixed-top m-menu">
                     <div class="container">
                         <!-- Brand and toggle get grouped for better mobile display -->
                         <div class="navbar-header">
-                            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar-collapse-1">
-                 <span class="sr-only">Toggle navigation</span>
-                    <span class="icon-bar"></span>
-                         <span class="icon-bar"></span>
-                     <span class="icon-bar"></span>
-                 </button>
-                            <a class="navbar-brand" href="index.html"><img src="img/logo--.png" alt="" height="40" width="222"></a>
+                            <button class="navbar-toggle" type="button" data-toggle="collapse" data-target=".js-navbar-collapse">
+                            <span class="sr-only">Toggle navigation</span>
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                            </button>
+                        <a class="navbar-brand" href="index.html"><img src="img/logo--.png" alt="" height="40" width="222"></a>
                         </div>
 
 
-                        <div class="collapse navbar-collapse" id="#navbar-collapse-1">
+                        <div class="collapse navbar-collapse js-navbar-collapse">
 
                             <ul class="nav navbar-nav navbar-right main-nav BACK">
                                 <li><a href="index.html" class="effect-underline">Home</a></li>
                                 <li><a href="about.html" class="effect-underline">About Us</a></li>
                                 <li class="dropdown m-menu-fw">
-                                    <a href="services.html" class="effect-underline" data-toggle="dropdown" class="dropdown-toggle">
+                                    <a href="services.html" class="active effect-underline" data-toggle="dropdown" class="dropdown-toggle">
                                  Services
-                             <span><i class="fa fa-angle-down"></i></span>
+                             <span class="pull-right"><i class="fa fa-angle-down"></i></span>
                          </a>
                                     <ul class="dropdown-menu">
                                         <li>
@@ -148,12 +149,12 @@
 
                 <section id="pg-header" class="container">
                     <div class="row">
-                        <div class="col-lg-6 text-center">
-                            <h2 style="color : #fff; font-size: 45px;">Change of registered office:</h2>
+                        <div class="col-lg-12 text-center">
+                            <h2 style="color : #fff; font-size: 60px;">Change of Registered Office</h2>
                             <br>
 
 
-                            <div id='hd_panel' class="panel panel-default">
+                            <div id='hd_panel' class="col-lg-6 panel panel-default">
                                 <div class="panel-body">
                                     <form>
                                         <div class="form-row">
@@ -190,31 +191,32 @@
                 <!-- .page-banner -->
 
                 <!-- .Page-Trademark-Process -->
-                <!-- <section class="ptb-90 container text-center">
+                <section class="container text-center">
                     <br>
-                    <h2>Change of registered office:</h2>
-                    <p> A trademark is a special symbol for distinguishing the goods offered for sale or otherwise put on the market by one trader from those of another.</p>
-
-                    <p> The selected mark should be capable of being represented graphically (that is in the paper form). </p>
-
-                    <p>It should be used or proposed to be used mark in relation to goods or services for the purpose of indicating or so as to indicate a connection in the course of trade between the goods or services and some person have the right to use
-                        the mark with or without identity of that person.</p>
-                </section> -->
+                    <div class="section-title">
+                        <div class="container text-center">
+                            <h2 style=color:darkblue>Change of Registered Office</h2>
+                            <span class="bordered-icon m-b-25"><i class="fa fa-circle-thin"></i></span>
+                        </div>
+                    </div>
+                   
+                </section>
 
                 <!-- ----------------------add tab----------------------- -->
-                <nav class="navbar navbar-default" style="background-color: #6c6055; border-bottom: solid 3px #f78829">
+                <nav class="navbar navbar-default global-tab-panel container">
                     <div class="container">
 
 
                         <div class="collapse navbar-collapse1 in" id="nav-acumen" aria-expanded="true">
                             <ul class="nav navbar-nav text-center" id="navpadding" style="padding-top: 7px">
                                 <li class="myli myactive" id="link-1">
-                                    <a href="javascript:void(0)" class="mytext">Change of registered office:</a>
+                                    <a href="javascript:void(0)" class="mytext">Change of registered office</a>
                                 </li>
 
 
                                 <li class="myli" id="link-3">
-                                    <a href="javascript:void(0)" class="mytext">One ROC to another within the same state:</a>
+                                    <a href="javascript:void(0)" class="mytext">One ROC to another within the same state
+                                        </a>
                                 </li>
 
 
@@ -232,7 +234,7 @@
                     <div class="container">
                         <div class="row">
 
-                            <div class="col-lg-12 col-xs-12 col-md-12">
+                            <div class="col-lg-12 col-xs-12 col-md-12 tab-section-info">
 
 
                                 <div id="nav-1" style="">
@@ -240,22 +242,23 @@
                                     <div>
                                         <!-- <h3 style="color: orange;"><b>Procedure for registration of trademark:</b></h3> -->
                                         <br>
-                                        <p><b class="fa fa-arrow-right"></b> <b>Within local limits of city, town or village:</b></b>
-                                        </p>
-                                        <P>Prepare the following documents:</P>
-                                        <P>a. Prepare Board Resolution</P>
-                                        <P>b. Prepare NOC</P>
-                                        <P>Prepare Form INC-22 within 30 days of change of name.</P>
-                                        <br>
-                                        <p><b class="fa fa-arrow-right"></b><b> Outside local limits of city, town or village within the same ROC and same state:</b></b>
-                                        </p>
-                                        <P>Prepare the following documents:</P>
-                                        <P>a. Prepare Board Resolution</P>
-                                        <P>b. Prepare Special Resolution</P>
-                                        <P>Prepare the following forms:</P>
-                                        <P>a. Form MGT-14 </P>
-                                        <P>b. Form INC-22</P>
-                                        <br>
+                                        <p>
+                                                <b>Within local limits of city, town or village:</b>
+                                             </p>
+                                             <P>Prepare the following documents:</P>
+                                             <P>a. Prepare Board Resolution</P>
+                                             <P>b. Prepare NOC</P>
+                                             <P>Prepare Form INC-22 within 30 days of change of name.</P>
+                                             <br>
+                                             <p>
+                                             <b> Outside local limits of city, town or village within the same ROC and same state:</b>
+                                             </p>
+                                             <P>Prepare the following documents:</P>
+                                             <P>a. Prepare Board Resolution</P>
+                                             <P>b. Prepare Special Resolution</P>
+                                             <P>Prepare the following forms:</P>
+                                             <P>a. Form MGT-14 </P>
+                                             <P>b. Form INC-22</P>
 
                                     </div>
 
@@ -269,38 +272,43 @@
 
 
                                 <div id="nav-3" style="display: none">
-                                    <br>
-
-                                    <div>
-                                        <p><b class="fa fa-arrow-right"></b><b>One ROC to another within the same state:</b></b>
-                                        </p>
-                                        <P>Prepare the following documents:</P>
-                                        <P>a. Prepare Board Resolution</P>
-                                        <P>b. Prepare Special Resolution</P>
-                                        <P>c. Approval of Regional Director</P>
-                                        <P>Prepare the following forms:</P>
-                                        <P>a. Form MGT-14 </P>
-                                        <P>b. Form INC-23</P>
-                                        <P>c. Form INC- 28</P>
-                                        <P>d. Form INC-22</P>
                                         <br>
-                                        <p><b class="fa fa-arrow-right"></b><b>From one state to another, outside the jurisdiction of existing ROC:</b></b>
-                                        </p>
-                                        <P>Prepare the following documents:</P>
-                                        <P>a. Prepare Board Resolution</P>
-                                        <P>b. Prepare Special Resolution</P>
-                                        <P>c. Approval of Regional Director</P>
-                                        <P>Prepare the following forms:</P>
-                                        <P>a. Form MGT-14 </P>
-                                        <P>b. Form INC-23</P>
-                                        <P>c. Form INC- 28</P>
-                                        <P>d. Form INC-22</P>
-                                    </div>
+                                        <div class="">
+                                                <p>
+                                                <b>One ROC to another within the same state:</b>
+                                                </p>
+                                                <P>Prepare the following documents:</P>
+                                                <P>a. Prepare Board Resolution</P>
+                                                <P>b. Prepare Special Resolution</P>
+                                                <P>c. Approval of Regional Director</P>
+                                                <P>Prepare the following forms:</P>
+                                                <P>a. Form MGT-14 </P>
+                                                <P>b. Form INC-23</P>
+                                                <P>c. Form INC- 28</P>
+                                                <P>d. Form INC-22</P>
+                                                <br>
+                                                <p>
+                                                <b>From one state to another, outside the jurisdiction of existing ROC:</b>
+                                                </p>
+                                                <P>Prepare the following documents:</P>
+                                                <P>a. Prepare Board Resolution</P>
+                                                <P>b. Prepare Special Resolution</P>
+                                                <P>c. Approval of Regional Director</P>
+                                                <P>Prepare the following forms:</P>
+                                                <P>a. Form MGT-14 </P>
+                                                <P>b. Form INC-23</P>
+                                                <P>c. Form INC- 28</P>
+                                                <P>d. Form INC-22</P>
+                                            </div>
 
                                 </div>
                             </div>
 
+                            <div id="nav-4" style="">
 
+
+
+                            </div>
                         </div>
 
                     </div>
@@ -335,9 +343,7 @@
 
                 <!--End of Advantage -->
 
-                <!-- ======= F.A.Q Section ======= -->
-
-                <!-- End of F.A.Q Section -->
+              
 
 
 
@@ -350,7 +356,7 @@
                                 <div class="col-sm-4 footer-block">
                                     <div class="footer-widget widget_text">
                                         <div class="footer-logo">
-                                            <a href="#"><img src="img/logo.png" alt="" height="40" width="222"></a>
+                                            <a href="#"><img src="img/logo__.png" alt="" height="40" width="222"></a>
                                         </div>
                                         <p>Apoyo, To support businesses in all non-core areas ensuring entrepreneurs focus on the core area of expertise and thus fulfill their dream</p>
 
@@ -391,20 +397,23 @@
                         </div>
                     </div>
                     <!-- /.Footer Widget Section -->
-
                     <div class="copyright-section">
                         <div class="container clearfix">
-                            <span class="copytext">Copyright &copy; 2020 | <a href="https://uicookies.com/downloads/x-corporation-free-bootstrap-html-template/">APOYO</a> 
-            <ul class="list-inline pull-right">
-                <li class="active"><a href="#">Home</a></li>
-                <li><a href="about.html">About Us</a></li>
-                <li><a href="services.html">Services</a></li>
-                <li><a href="#">Portfolio</a></li>
-                <li><a href="#">Blog</a></li>
-                <li><a href="contact.html">Contact</a></li>
-            </ul>
-        </div><!-- .container -->
-    </div><!-- .copyright-section -->
+                            <span class="copytext"><span class="m-r-10">Copyright &copy; 2020</span> | 
+                                <a href="#">
+                                    <img src="img/logo.png" alt="" height="40" width="40">
+                                </a>
+                                <ul class="list-inline pull-right">
+                                    <li class="active"><a href="#">Home</a></li>
+                                    <li><a href="about.html">About Us</a></li>
+                                    <li><a href="services.html">Services</a></li>
+                                    <li><a href="#">Portfolio</a></li>
+                                    <li><a href="#">Blog</a></li>
+                                    <li><a href="contact.html">Contact</a></li>
+                                </ul>
+                            </span>
+                        </div><!-- .container -->
+                </div><!-- .copyright-section -->
 </footer>
 <!-- .footer -->
 
@@ -413,20 +422,7 @@
 </div>
 <!-- .offcanvas-pusher -->
 
-<div class="uc-mobile-menu uc-mobile-menu-effect">
-    <button type="button" class="close" aria-hidden="true" data-toggle="offcanvas"
-            id="uc-mobile-menu-close-btn">&times;</button>
-    <div>
-        <div>
-            <ul id="menu">
-                <li><a href="index.html">Home</a></li>
-                <li><a href="about.html">About</a></li>
-                <li><a href="services.html">Services</a></li>
-                <li><a href="contact.html">Contact</a></li>
-            </ul>
-        </div>
-    </div>
-</div>
+
 <!-- .uc-mobile-menu -->
 
 
@@ -439,7 +435,6 @@
         integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS"
         crossorigin="anonymous"></script>
 <script src="js/smoothscroll.js"></script>
-<script src="js/mobile-menu.js"></script>
 <script src="js/flexSlider/jquery.flexslider-min.js"></script>
 <script src="js/scripts.js"></script>
 </body>
