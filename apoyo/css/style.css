@@ -4925,6 +4925,9 @@ padding: 6px 20px;
     #accordion .panel .panel-heading .panel-title a span{
         display: none;
     }
+    .custom-cards br{
+      display: none !important;
+    }
   }
   
   
