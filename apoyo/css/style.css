@@ -887,12 +887,17 @@ body {
     }
   
     .m-menu .dropdown.m-menu-fw .dropdown-menu {
-      display: none !important;
+      /* display: none !important; */
+      max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.5s;
     }
   
     .m-menu .dropdown.m-menu-fw.open .dropdown-menu {
-      display: block !important;
-      
+      /* display: block !important; */
+      max-height: 15em;
+    overflow: auto;
+    transition: max-height 0.5s;
     }
 
     
