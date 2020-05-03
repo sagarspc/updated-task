@@ -892,7 +892,10 @@ body {
   
     .m-menu .dropdown.m-menu-fw.open .dropdown-menu {
       display: block !important;
+      
     }
+
+    
   
     .dropdown-header {
       font-size: 15px;
