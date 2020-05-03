@@ -10,8 +10,9 @@
     <link rel="icon" href="img/favicon.png" type="image/png" sizes="20x20">
     <title>Apoyo-Accounting</title>
     <!-- web-fonts -->
-    <link href='https://fonts.googleapis.com/css?family=Roboto:400,700,500' rel='stylesheet' type='text/css'>
-    <link href='http://fonts.googleapis.com/css?family=Montserrat:400,700' rel='stylesheet' type='text/css'>
+    <!-- <link href='https://fonts.googleapis.com/css?family=Roboto:400,700,500' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=Montserrat:400,700' rel='stylesheet' type='text/css'> -->
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;500&display=swap" rel="stylesheet">
     <!-- off-canvas -->
     <link href="css/mobile-menu.css" rel="stylesheet">
     <!-- font-awesome -->
@@ -45,29 +46,29 @@
         <div class="uc-mobile-menu-pusher">
 
             <div class="content-wrapper">
-                <nav class="navbar m-menu navbar-default navbar-fixed-top btco-hover-menu">
+                <nav class="navbar navbar-default navbar-fixed-top m-menu">
                     <div class="container">
                         <!-- Brand and toggle get grouped for better mobile display -->
                         <div class="navbar-header">
-                            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar-collapse-1">
-                 <span class="sr-only">Toggle navigation</span>
-                    <span class="icon-bar"></span>
-                         <span class="icon-bar"></span>
-                     <span class="icon-bar"></span>
-                 </button>
-                            <a class="navbar-brand" href="index.html"><img src="img/logo--.png" alt="" height="40" width="222"></a>
+                            <button class="navbar-toggle" type="button" data-toggle="collapse" data-target=".js-navbar-collapse">
+                            <span class="sr-only">Toggle navigation</span>
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                            </button>
+                        <a class="navbar-brand" href="index.html"><img src="img/logo--.png" alt="" height="40" width="222"></a>
                         </div>
 
 
-                        <div class="collapse navbar-collapse" id="#navbar-collapse-1">
+                        <div class="collapse navbar-collapse js-navbar-collapse">
 
                             <ul class="nav navbar-nav navbar-right main-nav BACK">
                                 <li><a href="index.html" class="effect-underline">Home</a></li>
                                 <li><a href="about.html" class="effect-underline">About Us</a></li>
                                 <li class="dropdown m-menu-fw">
-                                    <a href="services.html" class="effect-underline" data-toggle="dropdown" class="dropdown-toggle">
+                                    <a href="services.html" class="active effect-underline" data-toggle="dropdown" class="dropdown-toggle">
                                  Services
-                             <span><i class="fa fa-angle-down"></i></span>
+                             <span class="pull-right"><i class="fa fa-angle-down"></i></span>
                          </a>
                                     <ul class="dropdown-menu">
                                         <li>
@@ -146,14 +147,15 @@
 
                 <!-- .page-banner -->
 
-                <section id="pg-header" class="container">
+                <section id="pg-header" class="container center">
                     <div class="row">
-                        <div class="col-lg-6 text-center">
-                            <h2 style="color : #fff; font-size: 60px;">Agreements</h2>
+                        <div class="col-lg-12 text-center">
+                            <h2 class="m-t-30" style="color : #fff; font-size: 60px;">Drafting of Agreements & Contracts</h2>
+
                             <br>
 
 
-                            <div id='hd_panel' class="panel panel-default">
+                            <div id='hd_panel' class="col-lg-6 panel panel-default">
                                 <div class="panel-body">
                                     <form>
                                         <div class="form-row">
@@ -190,27 +192,36 @@
                 <!-- .page-banner -->
 
                 <!-- .Page-Trademark-Process -->
-                <section class="ptb-90 container text-center">
+                <section class="container text-left">
                     <br>
-                    <h2>Share Purchase Agreement:</h2>
-                    <p>A share purchase agreement is a legal contract between a buyer and a seller, sometimes stated in the contract as a “purchaser” and “vendor” -- in which the seller sells a stated number of shares at a stated price. The agreement is
-                        proof that the sale and its terms were mutually agreed upon.</p>
-
-                    <p><b>Shareholders Agreement:</b></p>
-
-                    <p>A shareholders’ agreement is, as you might expect, an agreement between the shareholders of a company. It can be between all or, in some cases, only some of the shareholders (like, for instance, the holders of a particular class of
-                        share). Its purpose is to protect the shareholders’ investment in the company, to establish a fair relationship between the shareholders and govern how the company is run.</p>
-                    <p><b>The agreement will:</b></p>
-                    <P>• Set out the shareholders’ rights and obligations;</P>
-                    <P>• regulate the sale of shares in the company;</P>
-                    <P>• describe how the company is going to be run;</P>
-                    <P>• provide an element of protection for minority shareholders and the company; and</P>
-                    <P>• define how important decisions are to be made.</P>
-
+                    <div class="section-title">
+                        <div class="container text-center">
+                            <h2 style=color:darkblue>Share Purchase Agreement</h2>
+                            <span class="bordered-icon m-b-25"><i class="fa fa-circle-thin"></i></span>
+                        </div>
+                    </div>
+                    <p>
+                            A share purchase agreement is a legal contract between a buyer and a seller, sometimes stated in the contract as a “purchaser” and “vendor” -- in which the seller sells a stated number of shares at a stated price. The agreement is
+                            proof that the sale and its terms were mutually agreed upon.
+                        </p>
+                    
+                        <p><b>Shareholders Agreement:</b></p>
+                    
+                        <p>
+                            A shareholders’ agreement is, as you might expect, an agreement between the shareholders of a company. It can be between all or, in some cases, only some of the shareholders (like, for instance, the holders of a particular class of
+                            share). Its purpose is to protect the shareholders’ investment in the company, to establish a fair relationship between the shareholders and govern how the company is run.
+                        </p>
+                        <p><b>The agreement will:</b></p>
+                        <P>• Set out the shareholders’ rights and obligations;</P>
+                        <P>• regulate the sale of shares in the company;</P>
+                        <P>• describe how the company is going to be run;</P>
+                        <P>• provide an element of protection for minority shareholders and the company; and</P>
+                        <P>• define how important decisions are to be made.</P>
+                        <br>
                 </section>
 
                 <!-- ----------------------add tab----------------------- -->
-                <nav class="navbar navbar-default" style="background-color: #6c6055; border-bottom: solid 3px #f78829">
+                <nav class="navbar navbar-default global-tab-panel container tab-section-info">
                     <div class="container">
 
 
@@ -222,11 +233,11 @@
 
 
                                 <li class="myli" id="link-3">
-                                    <a href="javascript:void(0)" class="mytext">Memorandum of Understanding (MOU):
-                                        :</a>
+                                    <a href="javascript:void(0)" class="mytext">Memorandum of Understanding (MOU)
+                                        </a>
                                 </li>
                                 <li class="myli" id="link-4">
-                                    <a href="javascript:void(0)" class="mytext">Special Power of Attorney:
+                                    <a href="javascript:void(0)" class="mytext">Special Power of Attorney
                                     </a>
                                 </li>
 
@@ -240,218 +251,287 @@
 
                     </div>
                 </nav>
+             
                 <section>
-                    <div class="container">
-                        <div class="row">
-
-                            <div class="col-lg-12 col-xs-12 col-md-12">
-
-
-                                <div id="nav-1" style="">
-
-                                    <div>
-                                        <br>
-                                        <P><b>Founders Agreement:</b></P>
-                                        <P>A founders’ agreement is a document, involving a company with two or more founders, specifying the details of the development of the company, such as the share of ownership and guaranteed obligations of the different
-                                            founders. It also includes the responsibilities and roles of the founding members, their invested equity, their various undertakings, and their projections and goals. A founders’ agreement is drafted during
-                                            the initial incorporation of the business.</P>
-                                        <p>
-                                            The purpose of a founders' agreement is to avoid any ambiguity that might develop in the future in regards to the company's management and business relations between founders. The agreement identifies potential complications and risks and provides provisions
-                                            to deal with them should they arise. As a legally binding document, it must be detailed and lack any loopholes that may be exploited later. It is always a good idea to draft a written agreement after seeking
-                                            an expert's counsel regarding the business's requirements and intentions.
-                                        </p>
-                                        <br>
-                                        <P><b>Vendor  Agreement:</b></P>
-                                        <P>A vendor agreement is a legal agreement that clearly states the provisions and conditions of the work to be performed by a contractor. The key points to be included in a vendor agreement include date, time and location
-                                            where the services must be provided.</P>
-                                        <br>
-                                        <P><b>Service Level  Agreement:</b></P>
-                                        <P>A service-level agreement (SLA) is a contract that establishes a set of deliverables that one party has agreed to provide another. This agreement can exist between a business and its customers, or one department
-                                            that delivers a recurring service to another department within that business. The most common component of an SLA is that the services should be provided to the customer as agreed upon in the contract.</P>
-                                        <br>
-                                        <P><b>Consultancy  Agreement:</b></P>
-                                        <P>A consultancy agreement also known as a consulting contract, or consulting services agreement establishes the rights and obligations between you and the consultant. It will outline the obligations and expectations
-                                            of both parties. Moreover, this acts to minimise the potential and risk of disputes in the future.</P>
-                                        <br>
-                                        <P><b>Freelancer  Agreement:</b></P>
-                                        <P>A freelancer contract is an agreement between the freelancer and a company. It outlines the various terms and conditions regarding the work undertaken by the freelancer. This agreement is essential as it helps to
-                                            build a strong and fair relationship between the company and freelancer.</P>
-                                        <br>
-                                        <P><b>Joint-Venture  Agreement:</b></P>
-                                        <p>A Joint Venture Agreement is an agreement between you and your partners that sets out the duties and obligations of the partners to each other and to the joint venture.</p>
-                                        <br>
-                                        <P><b>Franchise Agreement:</b></P>
-                                        <P>A franchise agreement is a legally binding document that outlines a franchisor's terms and conditions for a franchisee. Every franchise is governed by these terms, which are generally outlined in a written agreement
-                                            between both parties. The franchise agreement is signed at the time an individual makes the decision to enter the franchise system.</P>
-                                        <br>
-                                        <P><b>Leave & License   Agreement:</b></P>
-                                        <P>A leave and license agreement is an agreement wherein the licensor temporarily allows the licensee to use and occupy licensor's immovable property full or a portion of it, for the purpose of carrying business activity
-                                            or residential use. For this, the licensor shall be paid by the licensee a fixed amount also known as the rent. The leave and license are usually granted to the licensee for a period of 11 months. The agreement
-                                            must be registered before the sub-registrar at the place of jurisdiction (the place where the immovable property is located).</P>
-                                        <br>
-                                        <P><b>Business Transfer  Agreement:</b></P>
-                                        <p>A Business Transfer Agreement (“BTA”) is structured to give effect to a comprehensive sale of assets and liabilities of one entity to another entity. It is in a form of a purchase and transfer of ownership agreement
-                                            wherein details regarding the sale of the business and its assets are captured.</p>
-                                        <br>
-                                        <P><b>Partnership Deed:</b></P>
-                                        <p>Partnership deed is an agreement between the partners of a firm that outlines the terms and conditions of partnership among the partners. ... The partnership deed serves this purpose. It specifies the various terms
-                                            such as profit/loss sharing, salary, interest on capital, drawings, admission of a new partner, etc.</p>
-                                        <br>
-                                        <P><b>Dissolution of Partnership Deed:</b></P>
-                                        <p>Dissolving a partnership firm means discontinuing the business under the name of said partnership firm. In this case, all liabilities are finally settled by selling off assets or transferring them to a particular
-                                            partner, settling all accounts existed with the partnership firm.</p>
-                                        <br>
-                                        <P><b>Deed of Retirement:</b></P>
-                                        <p>A partner may retire from a firm with the consent of all other partners. If the terms of the agreement so provide, a partner may retire by notice to the other partners. In a partnership at will also a partner can
-                                            retire by giving notice in writing to all the other partners of his intention to retire. A partner can be expelled from a firm by a majority of the partners where such a power is conferred by the agreement between
-                                            the partners and the power is exercised in good faith.</p>
-                                        <br>
-                                        <P><b>Consulting Service Agreement:</b></P>
-
-                                        <p>The consultancy agreement is made between the company and consultant. It outlines the scope of work to be performed by them and other terms and conditions related to their appointment in the company. It is a kind
-                                            of service agreement only.</p>
-                                        <br>
-                                        <P><b>Business Associate Agreement:</b></P>
-                                        <P>A Business Associate Agreement or BAA is a legal document between a healthcare provider and a contractor. A provider enters into a BAA with a contractor or other vendor when that vendor might receive access to Protected
-                                            Health Information (PHI).</P>
-                                        <br>
-                                        <P><b>Tripartite Agreement:</b></P>
-                                        <p>A tripartite agreement is a legal document that clearly states the obligations and responsibilities of all parties involved in the deal. It also elaborated the various terms and conditions that must be followed
-                                            while carrying out the deal.</p>
-                                        <br>
-                                        <P><b>Referral Agreement/ Fee Sharing Agreement:</b></P>
-                                        <p>A referral agreement/ fee sharing agreement is a formal contract between two businesses where one party refers customers or clients to the other party for a reward. Many businesses enter into referral agreements
-                                            because good referrals can be a valuable and reliable source of revenue. </p>
-                                        <P>If you wish to enter into a referral agreement/ fee sharing agreement with another business, you should have a contract that protects your interests. Otherwise, you risk damaging the reputation of your business
-                                            through poor referrals or unhappy customers.</P>
-                                        <br>
-                                        <P><b>Employee Contract Agreement:</b></P>
-                                        <P>An employment contract or employee contract agreement is a signed agreement between an individual employee and an employer or a labour union. It establishes both the rights and responsibilities of the two parties:
-                                            the worker and the company. An employment contract or employee contract agreement must be signed by both the parties. It serves as an important document to settle disputes that may arise between the employer
-                                            and the employee.</P>
-                                        <br>
-                                        <P><b>Management Contract:</b></P>
-                                        <p>A management contract is an arrangement under which operational control of an enterprise is vested by contract in a separate enterprise that performs the necessary managerial functions in return for a fee. Management
-                                            contracts involve not just selling a method of doing things (as with franchising or licensing) but involve actually doing them. A management contract can involve a wide range of functions, such as technical
-                                            operation and of a production facility, management of personnel, accounting, marketing services and training.</p>
-                                        <br>
-                                        <P><b>Master Service Agreement:</b></P>
-                                        <P>A Master Servicers Agreement (“MSA”) is contract between two parties with an ongoing project or business relationship that offers a flexible system for completing a project over time when there will be decisions
-                                            to be made along the way. The purpose of an MSA is to set the bounds of the contractual relationship, establish a system for accomplishing the work that needs to be done, and to provide an efficient way to keep
-                                            the work on track and resolve any disputes which may arise during the course of the project. This white paper discusses the fundamental aspects of drafting and negotiating MSAs, best practices for managers working
-                                            under an MSA, and the common disputes which arise under this regime and how to effectively resolve those disputes.</P>
-                                        <br>
-                                        <P><b>Loan Agreement:</b></P>
-                                        <P>A loan agreement is a contract between a borrower and a lender which regulates the mutual promises made by each party.</P>
+                        <div class="container">
+                            <div class="row">
+                    
+                                <div class="col-lg-12 col-xs-12 col-md-12 m-b-30">
+                    
+                    
+                                    <div id="nav-1" style="">
+                    
+                                        <div>
+                                            <br>
+                                            <P><b>Founders Agreement:</b></P>
+                                            <P>
+                                                A founders’ agreement is a document, involving a company with two or more founders, specifying the details of the development of the company, such as the share of ownership and guaranteed obligations of the different
+                                                founders. It also includes the responsibilities and roles of the founding members, their invested equity, their various undertakings, and their projections and goals. A founders’ agreement is drafted during
+                                                the initial incorporation of the business.
+                                            </P>
+                                            <p>
+                                                The purpose of a founders' agreement is to avoid any ambiguity that might develop in the future in regards to the company's management and business relations between founders. The agreement identifies potential complications and risks and provides provisions
+                                                to deal with them should they arise. As a legally binding document, it must be detailed and lack any loopholes that may be exploited later. It is always a good idea to draft a written agreement after seeking
+                                                an expert's counsel regarding the business's requirements and intentions.
+                                            </p>
+                                            <br>
+                                            <P><b>Vendor  Agreement:</b></P>
+                                            <P>
+                                                A vendor agreement is a legal agreement that clearly states the provisions and conditions of the work to be performed by a contractor. The key points to be included in a vendor agreement include date, time and location
+                                                where the services must be provided.
+                                            </P>
+                                            <br>
+                                            <P><b>Service Level  Agreement:</b></P>
+                                            <P>
+                                                A service-level agreement (SLA) is a contract that establishes a set of deliverables that one party has agreed to provide another. This agreement can exist between a business and its customers, or one department
+                                                that delivers a recurring service to another department within that business. The most common component of an SLA is that the services should be provided to the customer as agreed upon in the contract.
+                                            </P>
+                                            <br>
+                                            <P><b>Consultancy  Agreement:</b></P>
+                                            <P>
+                                                A consultancy agreement also known as a consulting contract, or consulting services agreement establishes the rights and obligations between you and the consultant. It will outline the obligations and expectations
+                                                of both parties. Moreover, this acts to minimise the potential and risk of disputes in the future.
+                                            </P>
+                                            <br>
+                                            <P><b>Freelancer  Agreement:</b></P>
+                                            <P>
+                                                A freelancer contract is an agreement between the freelancer and a company. It outlines the various terms and conditions regarding the work undertaken by the freelancer. This agreement is essential as it helps to
+                                                build a strong and fair relationship between the company and freelancer.
+                                            </P>
+                                            <br>
+                                            <P><b>Joint-Venture  Agreement:</b></P>
+                                            <p>A Joint Venture Agreement is an agreement between you and your partners that sets out the duties and obligations of the partners to each other and to the joint venture.</p>
+                                            <br>
+                                            <P><b>Franchise Agreement:</b></P>
+                                            <P>
+                                                A franchise agreement is a legally binding document that outlines a franchisor's terms and conditions for a franchisee. Every franchise is governed by these terms, which are generally outlined in a written agreement
+                                                between both parties. The franchise agreement is signed at the time an individual makes the decision to enter the franchise system.
+                                            </P>
+                                            <br>
+                                            <P><b>Leave & License   Agreement:</b></P>
+                                            <P>
+                                                A leave and license agreement is an agreement wherein the licensor temporarily allows the licensee to use and occupy licensor's immovable property full or a portion of it, for the purpose of carrying business activity
+                                                or residential use. For this, the licensor shall be paid by the licensee a fixed amount also known as the rent. The leave and license are usually granted to the licensee for a period of 11 months. The agreement
+                                                must be registered before the sub-registrar at the place of jurisdiction (the place where the immovable property is located).
+                                            </P>
+                                            <br>
+                                            <P><b>Business Transfer  Agreement:</b></P>
+                                            <p>
+                                                A Business Transfer Agreement (“BTA”) is structured to give effect to a comprehensive sale of assets and liabilities of one entity to another entity. It is in a form of a purchase and transfer of ownership agreement
+                                                wherein details regarding the sale of the business and its assets are captured.
+                                            </p>
+                                            <br>
+                                            <P><b>Partnership Deed:</b></P>
+                                            <p>
+                                                Partnership deed is an agreement between the partners of a firm that outlines the terms and conditions of partnership among the partners. ... The partnership deed serves this purpose. It specifies the various terms
+                                                such as profit/loss sharing, salary, interest on capital, drawings, admission of a new partner, etc.
+                                            </p>
+                                            <br>
+                                            <P><b>Dissolution of Partnership Deed:</b></P>
+                                            <p>
+                                                Dissolving a partnership firm means discontinuing the business under the name of said partnership firm. In this case, all liabilities are finally settled by selling off assets or transferring them to a particular
+                                                partner, settling all accounts existed with the partnership firm.
+                                            </p>
+                                            <br>
+                                            <P><b>Deed of Retirement:</b></P>
+                                            <p>
+                                                A partner may retire from a firm with the consent of all other partners. If the terms of the agreement so provide, a partner may retire by notice to the other partners. In a partnership at will also a partner can
+                                                retire by giving notice in writing to all the other partners of his intention to retire. A partner can be expelled from a firm by a majority of the partners where such a power is conferred by the agreement between
+                                                the partners and the power is exercised in good faith.
+                                            </p>
+                                            <br>
+                                            <P><b>Consulting Service Agreement:</b></P>
+                    
+                                            <p>
+                                                The consultancy agreement is made between the company and consultant. It outlines the scope of work to be performed by them and other terms and conditions related to their appointment in the company. It is a kind
+                                                of service agreement only.
+                                            </p>
+                                            <br>
+                                            <P><b>Business Associate Agreement:</b></P>
+                                            <P>
+                                                A Business Associate Agreement or BAA is a legal document between a healthcare provider and a contractor. A provider enters into a BAA with a contractor or other vendor when that vendor might receive access to Protected
+                                                Health Information (PHI).
+                                            </P>
+                                            <br>
+                                            <P><b>Tripartite Agreement:</b></P>
+                                            <p>
+                                                A tripartite agreement is a legal document that clearly states the obligations and responsibilities of all parties involved in the deal. It also elaborated the various terms and conditions that must be followed
+                                                while carrying out the deal.
+                                            </p>
+                                            <br>
+                                            <P><b>Referral Agreement/ Fee Sharing Agreement:</b></P>
+                                            <p>
+                                                A referral agreement/ fee sharing agreement is a formal contract between two businesses where one party refers customers or clients to the other party for a reward. Many businesses enter into referral agreements
+                                                because good referrals can be a valuable and reliable source of revenue.
+                                            </p>
+                                            <P>
+                                                If you wish to enter into a referral agreement/ fee sharing agreement with another business, you should have a contract that protects your interests. Otherwise, you risk damaging the reputation of your business
+                                                through poor referrals or unhappy customers.
+                                            </P>
+                                            <br>
+                                            <P><b>Employee Contract Agreement:</b></P>
+                                            <P>
+                                                An employment contract or employee contract agreement is a signed agreement between an individual employee and an employer or a labour union. It establishes both the rights and responsibilities of the two parties:
+                                                the worker and the company. An employment contract or employee contract agreement must be signed by both the parties. It serves as an important document to settle disputes that may arise between the employer
+                                                and the employee.
+                                            </P>
+                                            <br>
+                                            <P><b>Management Contract:</b></P>
+                                            <p>
+                                                A management contract is an arrangement under which operational control of an enterprise is vested by contract in a separate enterprise that performs the necessary managerial functions in return for a fee. Management
+                                                contracts involve not just selling a method of doing things (as with franchising or licensing) but involve actually doing them. A management contract can involve a wide range of functions, such as technical
+                                                operation and of a production facility, management of personnel, accounting, marketing services and training.
+                                            </p>
+                                            <br>
+                                            <P><b>Master Service Agreement:</b></P>
+                                            <P>
+                                                A Master Servicers Agreement (“MSA”) is contract between two parties with an ongoing project or business relationship that offers a flexible system for completing a project over time when there will be decisions
+                                                to be made along the way. The purpose of an MSA is to set the bounds of the contractual relationship, establish a system for accomplishing the work that needs to be done, and to provide an efficient way to keep
+                                                the work on track and resolve any disputes which may arise during the course of the project. This white paper discusses the fundamental aspects of drafting and negotiating MSAs, best practices for managers working
+                                                under an MSA, and the common disputes which arise under this regime and how to effectively resolve those disputes.
+                                            </P>
+                                            <br>
+                                            <P><b>Loan Agreement:</b></P>
+                                            <P>A loan agreement is a contract between a borrower and a lender which regulates the mutual promises made by each party.</P>
+                                        
+                                        </div>
+                    
                                     </div>
-
+                    
+                                    <div id="nav-3" style="display: none">
+                                        <br>
+                    
+                                        <P>
+                                            A Memorandum of Understanding or MOU Agreement is entered into when parties have agreed to enter into a contract, but the formalities (such as terms and conditions) of the contract are yet to be negotiated. It is made
+                                            when two or more parties outlining the rights and obligations of the parties to the agreement are into initial discussions. It is used to gauge the intention of the transacting parties before a deal is officially
+                                            signed between them and doesn't grant either of them any rights. MOU’s can be kept confidential by the parties, if desired.
+                                        </P>
+                    
+                                        <P>It does not constitute a legally enforceable obligation but, this non-legally binding MOU may be useful to serve as an agreement between two or more departments within a single public entity.</P>
+                    
+                                        <P><b>Agency Agreement:</b></P>
+                                        <P>
+                                            An agency agreement is a legal contract creating a fiduciary relationship whereby the first party ("the principal") agrees that the actions of a second party ("the agent") binds the principal to later agreements made
+                                            by the agent as if the principal had himself personally made the later agreements.
+                                        </P>
+                                        <br>
+                                        <P><b>Sale Deed:</b></P>
+                                        <P>
+                                            A sale deed, also known as the final deed or conveyance deed, is an instrument in writing which legally transfers the ownership rights of a property from one person to another in exchange of a price paid/consideration.
+                                            It is made for the sale or purchase of land or any construction made on it. The person who is transferring the property is known as the transferor or seller while the person paying an amount to get the property
+                                            is called the transferee or buyer.
+                                        </P>
+                                        <P>
+                                            The document lays down the details of the parties, the final deal price of the property, the accepted mode of payment and the time for handing over the possession of the property along with the original documents. It
+                                            also acts as a proof that the buyer is the outright owner of the said property.
+                                        </P>
+                    
+                                        <P><b>Gift Deed:</b></P>
+                    
+                                        <P>
+                                            A gift deed is a document that records the act of giving a gift and is executed between the donor (the person giving the gift) and the donee (person receiving the gift).
+                    
+                                        </P>
+                                        <P>Though it is not compulsory to execute a gift deed while gifting any asset, it does create a valid documentary record. A gift can be movable or immovable property that is transferable and tangible.</P>
+                    
+                                        <P><b>Lease Deed:</b></P>
+                                        <P>
+                                            A lease deed is a written contract between a landlord (lessor) and tenant (lessee), which states that the landlord would receive a periodic payment in exchange of allowing the tenant to use and occupy the property.
+                                            The lease deed also defines the terms and conditions that govern the relationship between a landlord and a tenant during the period of lease.
+                                        </P>
+                                        <P>
+                                            A lease deed is generally required when the property is leased for a long period of time, ranging between 1-5 years or even longer. In such cases, a lease deed plays an important role to govern the relationship between
+                                            the landlord and tenant and lays down the provisions legally binding over them.
+                                        </P>
+                    
+                    
+                                        <P><b>Lease Deed:</b></P>
+                                        <P>
+                                            A Deed of Trust is essentially an agreement between a lender and a borrower to give the property to a neutral third party who will serve as a trustee. The trustee holds the property until the borrower pays off the debt.
+                                            During the period of repayment, the borrower keeps the actual or equitable title to the property and maintains full responsibility for the premises, unless expressly stated otherwise in the Deed of Trust. The trustee,
+                                            however, holds the legal title to the property.
+                                        </P>
+                    
+                    
+                    
+                                        <P><b>Deed of Indemnity:</b></P>
+                                        <P>
+                                            A deed of indemnity is an agreement between two or more parties, the purpose of which is to specify the actions and consequences which will result should a particular event or events occur. The agreement essentially
+                                            attempts to negate or limit the risk which one of the parties is exposed to.
+                                        </P>
+                    
+                                        <P><b>Deed of Family Arrangement:</b></P>
+                                        <P>
+                                            A family arrangement is an agreement between members of the same family, intended to be generally and reasonably for the benefit of the family either by compromising doubtful or disputed rights or by preserving the
+                                            family property or the peace and security of the family by avoiding litigation or by saving its honour.
+                                        </P>
+                    
+                                        <P><b>Deed of Partition:</b></P>
+                                        <P>
+                                            A partition deed for a property is executed to divide the property among different people - usually among the family members. A partition is a division of a property held jointly by several persons, so that each person
+                                            gets a share and becomes the owner of the share allotted to him.
+                                        </P>
+                    
+                                        <P><b>Will:</b></P>
+                                        <P>A will is a legal document that expresses a person's wishes as to how their property is to be distributed after their death and as to which person is to manage the property until its final distribution.</P>
+                                        <P><b>General Power of Attorney:</b></P>
+                                        <P>
+                                            A General power of attorney (GPoA) is a legal document authorising one person (called an agent) to act on behalf of another (the principal). ... You would use a PoA when you are unable to make decisions yourself. This
+                                            could be for health reasons or because you cannot, but need to, be physically present to make them.
+                                        </P>
+                    
+                                    </div>
+                                    <div id="nav-4" style="display: none">
+                                            <br>
+                            
+                                            <P>
+                                                A Special Power of Attorney (SPoA) is a legal document authorising one person (called an agent) to act on behalf of another (the principal). The principal grants the agent this authority because he is unable to make the
+                                                decisions his/herself. This SPoA is specific to property. It is irrevocable and the principal must agree to ratify what is done by the SPoA.
+                                            </P>
+                            
+                                            <P><b>Escrow Agreement:</b></P>
+                                            <P>
+                                                An escrow agreement is a contract that defines an arrangement between parties where one party deposits an asset with a third party. This third party then delivers the asset to the second party when the contract conditions
+                                                are met.
+                                            </P>
+                                            <br>
+                                            <p><b>Limited Liability Partnership Agreement (LLP):</b></p>
+                                            <P>A limited liability partnership agreement is a contract made between the members of an LLP to establish a fair relationship between them and to protect their investment. The LLP itself is typically also a party to the agreement.</P>
+                                            <br>
+                                            <p><b>Non-Disclosure Agreement:</b></p>
+                                            <P>
+                                                A Non-Disclosure Agreement (NDA) is a written contract in which two parties, the Disclosing Party and the Receiving Party, agree not to disclose certain proprietary or confidential information explicitly outlined in the
+                                                agreement. The Disclosing and Receiving Parties can be individuals, companies, or entities.
+                                            </P>
+                                            <P>By agreeing that such information is sensitive, technical, or valuable for commercial or other purposes, both parties can safely explore starting a business relationship without fear of having sensitive information leak.</P>
+                                            <br>
+                                            <P><b>Agency Agreement:</b></P>
+                                            <P>
+                                                An agency agreement is a legal contract creating a fiduciary relationship whereby the first party ("the principal") agrees that the actions of a second party ("the agent") binds the principal to later agreements made by
+                                                the agent as if the principal had himself personally made the later agreements.
+                                            </P>
+                                            <br>
+                                            <P><b>Assignment Agreement:</b></P>
+                                            <P>
+                                                An assignment agreement transfers and assigns one party's property rights to another. In real estate, an assignment agreement will be used by a lessee to assign the remaining term of a lease to a subtenant. Assignment agreements
+                                                are also frequently found in employment agreements when companies require employees to assign all inventions conceived and developed in the course of their employment to the employer.
+                                            </P>
+                                            <br>
+                                            <p><b>Trademark License Agreement:</b></p>
+                                            <P>
+                                                In a Trademark licence agreement the proprietor (Licensor) of a registered trademark gives authorization to another company (Licensee) to manufacture and distribute products under this trademark. The license is given for
+                                                a specific range of products (typically consumer and fashion products) for which the licensee obtains exclusivity in a distinct territory (typically a country). In exchange for the rights granted, the Licensee shall
+                                                pay to the Licensor a certain amount of money and a percentage (royalties) based on the sales value of the products sold under the license.
+                                            </P>
+                            
+                                    </div>
                                 </div>
-
-                                <!-- --------------our leadership------------------ -->
-
-
-                                <!-- --------------our leadership------------------ -->
-
-
-
-                                <div id="nav-3" style="display: none">
-                                    <br>
-
-                                    <P>A Memorandum of Understanding or MOU Agreement is entered into when parties have agreed to enter into a contract, but the formalities (such as terms and conditions) of the contract are yet to be negotiated. It is made
-                                        when two or more parties outlining the rights and obligations of the parties to the agreement are into initial discussions. It is used to gauge the intention of the transacting parties before a deal is officially
-                                        signed between them and doesn't grant either of them any rights. MOU’s can be kept confidential by the parties, if desired.</P>
-
-                                    <P>It does not constitute a legally enforceable obligation but, this non-legally binding MOU may be useful to serve as an agreement between two or more departments within a single public entity.</P>
-
-                                    <P><b>Agency Agreement:</b></P>
-                                    <P>An agency agreement is a legal contract creating a fiduciary relationship whereby the first party ("the principal") agrees that the actions of a second party ("the agent") binds the principal to later agreements made
-                                        by the agent as if the principal had himself personally made the later agreements.</P>
-                                    <br>
-                                    <P><b>Sale Deed:</b></P>
-                                    <P>A sale deed, also known as the final deed or conveyance deed, is an instrument in writing which legally transfers the ownership rights of a property from one person to another in exchange of a price paid/consideration.
-                                        It is made for the sale or purchase of land or any construction made on it. The person who is transferring the property is known as the transferor or seller while the person paying an amount to get the property
-                                        is called the transferee or buyer.</P>
-                                    <P>The document lays down the details of the parties, the final deal price of the property, the accepted mode of payment and the time for handing over the possession of the property along with the original documents. It
-                                        also acts as a proof that the buyer is the outright owner of the said property.</P>
-
-                                    <P><b>Gift Deed:</b></P>
-
-                                    <P>A gift deed is a document that records the act of giving a gift and is executed between the donor (the person giving the gift) and the donee (person receiving the gift).
-
-                                    </P>
-                                    <P>Though it is not compulsory to execute a gift deed while gifting any asset, it does create a valid documentary record. A gift can be movable or immovable property that is transferable and tangible.</P>
-
-                                    <P><b>Lease Deed:</b></P>
-                                    <P>A lease deed is a written contract between a landlord (lessor) and tenant (lessee), which states that the landlord would receive a periodic payment in exchange of allowing the tenant to use and occupy the property.
-                                        The lease deed also defines the terms and conditions that govern the relationship between a landlord and a tenant during the period of lease.</P>
-                                    <P>A lease deed is generally required when the property is leased for a long period of time, ranging between 1-5 years or even longer. In such cases, a lease deed plays an important role to govern the relationship between
-                                        the landlord and tenant and lays down the provisions legally binding over them.</P>
-
-
-                                    <P><b>Lease Deed:</b></P>
-                                    <P>A Deed of Trust is essentially an agreement between a lender and a borrower to give the property to a neutral third party who will serve as a trustee. The trustee holds the property until the borrower pays off the debt.
-                                        During the period of repayment, the borrower keeps the actual or equitable title to the property and maintains full responsibility for the premises, unless expressly stated otherwise in the Deed of Trust. The trustee,
-                                        however, holds the legal title to the property.</P>
-
-
-
-                                    <P><b>Deed of Indemnity:</b></P>
-                                    <P>A deed of indemnity is an agreement between two or more parties, the purpose of which is to specify the actions and consequences which will result should a particular event or events occur. The agreement essentially
-                                        attempts to negate or limit the risk which one of the parties is exposed to.</P>
-
-                                    <P><b>Deed of Family Arrangement:</b></P>
-                                    <P>A family arrangement is an agreement between members of the same family, intended to be generally and reasonably for the benefit of the family either by compromising doubtful or disputed rights or by preserving the
-                                        family property or the peace and security of the family by avoiding litigation or by saving its honour.</P>
-
-                                    <P><b>Deed of Partition:</b></P>
-                                    <P>A partition deed for a property is executed to divide the property among different people - usually among the family members. A partition is a division of a property held jointly by several persons, so that each person
-                                        gets a share and becomes the owner of the share allotted to him.</P>
-
-                                    <P><b>Will:</b></P>
-                                    <P>A will is a legal document that expresses a person's wishes as to how their property is to be distributed after their death and as to which person is to manage the property until its final distribution.</P>
-                                    <P><b>General Power of Attorney:</b></P>
-                                    <P>A General power of attorney (GPoA) is a legal document authorising one person (called an agent) to act on behalf of another (the principal). ... You would use a PoA when you are unable to make decisions yourself. This
-                                        could be for health reasons or because you cannot, but need to, be physically present to make them.</P>
-
-                                </div>
+                    
+                               
                             </div>
-
-                            <div id="nav-4" style="display: none">
-                                <br>
-
-                                <P>A Special Power of Attorney (SPoA) is a legal document authorising one person (called an agent) to act on behalf of another (the principal). The principal grants the agent this authority because he is unable to make the
-                                    decisions his/herself. This SPoA is specific to property. It is irrevocable and the principal must agree to ratify what is done by the SPoA.</P>
-
-                                <P><b>Escrow Agreement:</b></P>
-                                <P>An escrow agreement is a contract that defines an arrangement between parties where one party deposits an asset with a third party. This third party then delivers the asset to the second party when the contract conditions
-                                    are met.</P>
-                                <br>
-                                <p><b>Limited Liability Partnership Agreement (LLP):</b></p>
-                                <P>A limited liability partnership agreement is a contract made between the members of an LLP to establish a fair relationship between them and to protect their investment. The LLP itself is typically also a party to the agreement.</P>
-                                <br>
-                                <p><b>Non-Disclosure Agreement:</b></p>
-                                <P>A Non-Disclosure Agreement (NDA) is a written contract in which two parties, the Disclosing Party and the Receiving Party, agree not to disclose certain proprietary or confidential information explicitly outlined in the
-                                    agreement. The Disclosing and Receiving Parties can be individuals, companies, or entities.</P>
-                                <P>By agreeing that such information is sensitive, technical, or valuable for commercial or other purposes, both parties can safely explore starting a business relationship without fear of having sensitive information leak.</P>
-                                <br>
-                                <P><b>Agency Agreement:</b></P>
-                                <P>An agency agreement is a legal contract creating a fiduciary relationship whereby the first party ("the principal") agrees that the actions of a second party ("the agent") binds the principal to later agreements made by
-                                    the agent as if the principal had himself personally made the later agreements.</P>
-                                <br>
-                                <P><b>Assignment Agreement:</b></P>
-                                <P>An assignment agreement transfers and assigns one party's property rights to another. In real estate, an assignment agreement will be used by a lessee to assign the remaining term of a lease to a subtenant. Assignment agreements
-                                    are also frequently found in employment agreements when companies require employees to assign all inventions conceived and developed in the course of their employment to the employer.</P>
-                                <br>
-                                <p><b>Trademark License Agreement:</b></p>
-                                <P>In a Trademark licence agreement the proprietor (Licensor) of a registered trademark gives authorization to another company (Licensee) to manufacture and distribute products under this trademark. The license is given for
-                                    a specific range of products (typically consumer and fashion products) for which the licensee obtains exclusivity in a distinct territory (typically a country). In exchange for the rights granted, the Licensee shall
-                                    pay to the Licensor a certain amount of money and a percentage (royalties) based on the sales value of the products sold under the license.</P>
-
-                            </div>
+                    
                         </div>
-
-                    </div>
-                </section>
+                    </section>
 
                 <!-- --------------------end of the tab-------------------------------- -->
 
@@ -476,15 +556,6 @@
                 <!-- ------------------End of Documents Required ---------------------------------- -->
 
 
-                <!-- Advantage -->
-
-
-
-                <!--End of Advantage -->
-
-                <!-- ======= F.A.Q Section ======= -->
-
-                <!-- End of F.A.Q Section -->
 
 
 
@@ -497,7 +568,7 @@
                                 <div class="col-sm-4 footer-block">
                                     <div class="footer-widget widget_text">
                                         <div class="footer-logo">
-                                            <a href="#"><img src="img/logo.png" alt="" height="40" width="222"></a>
+                                            <a href="#"><img src="img/logo__.png" alt="" height="40" width="222"></a>
                                         </div>
                                         <p>Apoyo, To support businesses in all non-core areas ensuring entrepreneurs focus on the core area of expertise and thus fulfill their dream</p>
 
@@ -541,17 +612,21 @@
 
                     <div class="copyright-section">
                         <div class="container clearfix">
-                            <span class="copytext">Copyright &copy; 2020 | <a href="https://uicookies.com/downloads/x-corporation-free-bootstrap-html-template/">APOYO</a> 
-            <ul class="list-inline pull-right">
-                <li class="active"><a href="#">Home</a></li>
-                <li><a href="about.html">About Us</a></li>
-                <li><a href="services.html">Services</a></li>
-                <li><a href="#">Portfolio</a></li>
-                <li><a href="#">Blog</a></li>
-                <li><a href="contact.html">Contact</a></li>
-            </ul>
-        </div><!-- .container -->
-    </div><!-- .copyright-section -->
+                            <span class="copytext"><span class="m-r-10">Copyright &copy; 2020</span> | 
+                                <a href="#">
+                                    <img src="img/logo.png" alt="" height="40" width="40">
+                                </a>
+                                <ul class="list-inline pull-right">
+                                    <li class="active"><a href="#">Home</a></li>
+                                    <li><a href="about.html">About Us</a></li>
+                                    <li><a href="services.html">Services</a></li>
+                                    <li><a href="#">Portfolio</a></li>
+                                    <li><a href="#">Blog</a></li>
+                                    <li><a href="contact.html">Contact</a></li>
+                                </ul>
+                            </span>
+                        </div><!-- .container -->
+                </div><!-- .copyright-section -->
 </footer>
 <!-- .footer -->
 
@@ -560,20 +635,6 @@
 </div>
 <!-- .offcanvas-pusher -->
 
-<div class="uc-mobile-menu uc-mobile-menu-effect">
-    <button type="button" class="close" aria-hidden="true" data-toggle="offcanvas"
-            id="uc-mobile-menu-close-btn">&times;</button>
-    <div>
-        <div>
-            <ul id="menu">
-                <li><a href="index.html">Home</a></li>
-                <li><a href="about.html">About</a></li>
-                <li><a href="services.html">Services</a></li>
-                <li><a href="contact.html">Contact</a></li>
-            </ul>
-        </div>
-    </div>
-</div>
 <!-- .uc-mobile-menu -->
 
 
@@ -586,7 +647,6 @@
         integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS"
         crossorigin="anonymous"></script>
 <script src="js/smoothscroll.js"></script>
-<script src="js/mobile-menu.js"></script>
 <script src="js/flexSlider/jquery.flexslider-min.js"></script>
 <script src="js/scripts.js"></script>
 </body>

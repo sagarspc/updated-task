@@ -10,8 +10,9 @@
     <link rel="icon" href="img/favicon.png" type="image/png" sizes="20x20">
     <title>Apoyo-Accounting</title>
     <!-- web-fonts -->
-    <link href='https://fonts.googleapis.com/css?family=Roboto:400,700,500' rel='stylesheet' type='text/css'>
-    <link href='http://fonts.googleapis.com/css?family=Montserrat:400,700' rel='stylesheet' type='text/css'>
+    <!-- <link href='https://fonts.googleapis.com/css?family=Roboto:400,700,500' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=Montserrat:400,700' rel='stylesheet' type='text/css'> -->
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;500&display=swap" rel="stylesheet">
     <!-- off-canvas -->
     <link href="css/mobile-menu.css" rel="stylesheet">
     <!-- font-awesome -->
@@ -45,29 +46,29 @@
         <div class="uc-mobile-menu-pusher">
 
             <div class="content-wrapper">
-                <nav class="navbar m-menu navbar-default navbar-fixed-top btco-hover-menu">
+                <nav class="navbar navbar-default navbar-fixed-top m-menu">
                     <div class="container">
                         <!-- Brand and toggle get grouped for better mobile display -->
                         <div class="navbar-header">
-                            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar-collapse-1">
-                 <span class="sr-only">Toggle navigation</span>
-                    <span class="icon-bar"></span>
-                         <span class="icon-bar"></span>
-                     <span class="icon-bar"></span>
-                 </button>
-                            <a class="navbar-brand" href="index.html"><img src="img/logo--.png" alt="" height="40" width="222"></a>
+                            <button class="navbar-toggle" type="button" data-toggle="collapse" data-target=".js-navbar-collapse">
+                            <span class="sr-only">Toggle navigation</span>
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                            </button>
+                        <a class="navbar-brand" href="index.html"><img src="img/logo--.png" alt="" height="40" width="222"></a>
                         </div>
 
 
-                        <div class="collapse navbar-collapse" id="#navbar-collapse-1">
+                        <div class="collapse navbar-collapse js-navbar-collapse">
 
                             <ul class="nav navbar-nav navbar-right main-nav BACK">
                                 <li><a href="index.html" class="effect-underline">Home</a></li>
                                 <li><a href="about.html" class="effect-underline">About Us</a></li>
                                 <li class="dropdown m-menu-fw">
-                                    <a href="services.html" class="effect-underline" data-toggle="dropdown" class="dropdown-toggle">
+                                    <a href="services.html" class="active effect-underline" data-toggle="dropdown" class="dropdown-toggle">
                                  Services
-                             <span><i class="fa fa-angle-down"></i></span>
+                             <span class="pull-right"><i class="fa fa-angle-down"></i></span>
                          </a>
                                     <ul class="dropdown-menu">
                                         <li>
@@ -146,14 +147,15 @@
 
                 <!-- .page-banner -->
 
-                <section id="pg-header" class="container">
+                <section id="pg-header" class="container center">
                     <div class="row">
-                        <div class="col-lg-6 text-center">
-                            <h2 style="color : #fff; font-size: 60px;">Interest Litigation </h2>
+                        <div class="col-lg-12 text-center">
+                            <h2 class="m-t-30" style="color : #fff; font-size: 60px;"> Interest Litigation</h2>
+
                             <br>
 
 
-                            <div id='hd_panel' class="panel panel-default">
+                            <div id='hd_panel' class="col-lg-6 panel panel-default">
                                 <div class="panel-body">
                                     <form>
                                         <div class="form-row">
@@ -190,19 +192,24 @@
                 <!-- .page-banner -->
 
                 <!-- .Page-Trademark-Process -->
-                <section class="ptb-90 container text-center">
+                <section class="container text-left">
                     <br>
-                    <h2>Public Interest Litigation (PIL):</h2>
-                    <p> A PIL is a petition that an individual or a non-government organisation or citizen groups, can file in the court seeking justice in an issue that has a larger public interest. It aims at giving common people an access to the judiciary
-                        to obtain legal redress for a greater cause.</p>
-
-                    <p>PIL is not defined in any statute. It is the outcome of judicial activism to take cognisance of a cause at the instance of any person even if it does not affect him personally, but affects the public at large.</p>
-
+                    <div class="section-title">
+                        <div class="container text-center">
+                            <h2 style=color:darkblue>Public Interest Litigation (PIL)</h2>
+                            <span class="bordered-icon m-b-25"><i class="fa fa-circle-thin"></i></span>
+                        </div>
+                    </div>
+                    <p class="p2"> A PIL is a petition that an individual or a non-government organisation or citizen groups, can file in the court seeking justice in an issue that has a larger public interest. It aims at giving common people an access to the judiciary
+                            to obtain legal redress for a greater cause.</p>
+    
+                        <p class="p2">PIL is not defined in any statute. It is the outcome of judicial activism to take cognisance of a cause at the instance of any person even if it does not affect him personally, but affects the public at large.</p>
+                    <br>
 
                 </section>
 
                 <!-- ----------------------add tab----------------------- -->
-                <nav class="navbar navbar-default" style="background-color: #6c6055; border-bottom: solid 3px #f78829">
+                <nav class="navbar navbar-default global-tab-panel container">
                     <div class="container">
 
 
@@ -214,9 +221,9 @@
 
 
                                 <li class="myli" id="link-3">
-                                    <a href="javascript:void(0)" class="mytext">Importance of PIL:</a>
+                                    <a href="javascript:void(0)" class="mytext">Importance of PIL
+                                        </a>
                                 </li>
-
 
 
                             </ul>
@@ -232,7 +239,7 @@
                     <div class="container">
                         <div class="row">
 
-                            <div class="col-lg-12 col-xs-12 col-md-12">
+                            <div class="col-lg-12 col-xs-12 col-md-12 tab-section-info m-b-30">
 
 
                                 <div id="nav-1" style="">
@@ -241,26 +248,23 @@
                                         <!-- <h3 style="color: orange;"><b>Procedure for registration of trademark:</b></h3> -->
                                         <br>
                                         <P>Any Indian citizen can file a PIL, the only condition being that it should not be filed with a private interest, but in larger public interest. At times, even the Court can take cognizance of a matter if it is one
-                                            <br> of utmost public importance, and appoint an advocate to handle the case.</P>
-                                        <P><b>Where can PILs be filed?</b></P>
-
-                                        <P>PILs can be filed either in the High Court or in the Supreme Court.</P>
-                                        <P><b>What is the cost incurred to file a PIL?</b></P>
-                                        <P>A PIL itself is cheap compared to other court cases. One has to pay a court fee of Rs 50 for each respondent and affix it with the petition. However, the expense for fighting the case depends on the advocate the
-                                            petitioner chooses to argue the case.</P>
-                                        <br>
-
-                                        <P><b>What are the issues that cannot be filed under PIL?</b></P>
-                                        <P>The Supreme Court has issued a set of PIL guidelines according to which the following matters will not be allowed as PILs:</P>
-                                        <P>• Landlord-tenant matters</P>
-                                        <P>• Service matters</P>
-                                        <P>• Matters pertaining to pension and gratuity</P>
-                                        <P>• Complaints against Central and State government departments and Local Bodies except those relating to items 1 to 10 mentioned in the list of guidelines</P>
-                                        <P>• Admission to medical and other educational institutions</P>
-                                        <P>• Petitions for early hearing of cases pending in High Court or subordinate courts</P>
-
-
-
+                                                <br> of utmost public importance, and appoint an advocate to handle the case.</P>
+                                            <P><b>Where can PILs be filed?</b></P>
+    
+                                            <P>PILs can be filed either in the High Court or in the Supreme Court.</P>
+                                            <P><b>What is the cost incurred to file a PIL?</b></P>
+                                            <P>A PIL itself is cheap compared to other court cases. One has to pay a court fee of Rs 50 for each respondent and affix it with the petition. However, the expense for fighting the case depends on the advocate the
+                                                petitioner chooses to argue the case.</P>
+                                            
+    
+                                            <P><b>What are the issues that cannot be filed under PIL?</b></P>
+                                            <P>The Supreme Court has issued a set of PIL guidelines according to which the following matters will not be allowed as PILs:</P>
+                                            <P>• Landlord-tenant matters</P>
+                                            <P>• Service matters</P>
+                                            <P>• Matters pertaining to pension and gratuity</P>
+                                            <P>• Complaints against Central and State government departments and Local Bodies except those relating to items 1 to 10 mentioned in the list of guidelines</P>
+                                            <P>• Admission to medical and other educational institutions</P>
+                                            <P>• Petitions for early hearing of cases pending in High Court or subordinate courts</P>
                                     </div>
 
                                 </div>
@@ -274,24 +278,21 @@
 
                                 <div id="nav-3" style="display: none">
                                     <br>
-
-                                    <div>
-                                        <P>• Petitions for early hearing of cases pending in High Court or subordinate courts</P>
+                                        <div>
+                                                <P>• Petitions for early hearing of cases pending in High Court or subordinate courts</P>
                                         <P>• It also functions as an effective instrument for changes in the society or social welfare.</P>
-                                        <br>
+                                        
                                         <P>• Through public interest litigation, any public or person can seek remedy on behalf of the oppressed class by introducing a PIL.</P>
                                         <P><b>Against whom PIL can be filed?</b></P>
                                         <P>A PIL may be filed against state government, central government, municipal authority not any private party. But, private person may be included in PIL as ‘Respondent’, after concerned of state authority. i.e. a
                                             private factory in Mumbai which is causing pollution then public interest litigation can be filed against government of Mumbai, state pollution central board including that private factory of Mumbai.</P>
-                                    </div>
+                                        </div>
 
+                                </div>
                                 </div>
                             </div>
 
-
                         </div>
-
-                    </div>
                 </section>
 
                 <!-- --------------------end of the tab-------------------------------- -->
@@ -321,11 +322,7 @@
 
 
 
-                <!--End of Advantage -->
-
-                <!-- ======= F.A.Q Section ======= -->
-
-                <!-- End of F.A.Q Section -->
+          
 
 
 
@@ -338,7 +335,7 @@
                                 <div class="col-sm-4 footer-block">
                                     <div class="footer-widget widget_text">
                                         <div class="footer-logo">
-                                            <a href="#"><img src="img/logo.png" alt="" height="40" width="222"></a>
+                                            <a href="#"><img src="img/logo__.png" alt="" height="40" width="222"></a>
                                         </div>
                                         <p>Apoyo, To support businesses in all non-core areas ensuring entrepreneurs focus on the core area of expertise and thus fulfill their dream</p>
 
@@ -382,17 +379,21 @@
 
                     <div class="copyright-section">
                         <div class="container clearfix">
-                            <span class="copytext">Copyright &copy; 2020 | <a href="https://uicookies.com/downloads/x-corporation-free-bootstrap-html-template/">APOYO</a> 
-            <ul class="list-inline pull-right">
-                <li class="active"><a href="#">Home</a></li>
-                <li><a href="about.html">About Us</a></li>
-                <li><a href="services.html">Services</a></li>
-                <li><a href="#">Portfolio</a></li>
-                <li><a href="#">Blog</a></li>
-                <li><a href="contact.html">Contact</a></li>
-            </ul>
-        </div><!-- .container -->
-    </div><!-- .copyright-section -->
+                            <span class="copytext"><span class="m-r-10">Copyright &copy; 2020</span> | 
+                                <a href="#">
+                                    <img src="img/logo.png" alt="" height="40" width="40">
+                                </a>
+                                <ul class="list-inline pull-right">
+                                    <li class="active"><a href="#">Home</a></li>
+                                    <li><a href="about.html">About Us</a></li>
+                                    <li><a href="services.html">Services</a></li>
+                                    <li><a href="#">Portfolio</a></li>
+                                    <li><a href="#">Blog</a></li>
+                                    <li><a href="contact.html">Contact</a></li>
+                                </ul>
+                            </span>
+                        </div><!-- .container -->
+                </div><!-- .copyright-section -->
 </footer>
 <!-- .footer -->
 
@@ -401,20 +402,6 @@
 </div>
 <!-- .offcanvas-pusher -->
 
-<div class="uc-mobile-menu uc-mobile-menu-effect">
-    <button type="button" class="close" aria-hidden="true" data-toggle="offcanvas"
-            id="uc-mobile-menu-close-btn">&times;</button>
-    <div>
-        <div>
-            <ul id="menu">
-                <li><a href="index.html">Home</a></li>
-                <li><a href="about.html">About</a></li>
-                <li><a href="services.html">Services</a></li>
-                <li><a href="contact.html">Contact</a></li>
-            </ul>
-        </div>
-    </div>
-</div>
 <!-- .uc-mobile-menu -->
 
 
@@ -427,7 +414,6 @@
         integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS"
         crossorigin="anonymous"></script>
 <script src="js/smoothscroll.js"></script>
-<script src="js/mobile-menu.js"></script>
 <script src="js/flexSlider/jquery.flexslider-min.js"></script>
 <script src="js/scripts.js"></script>
 </body>

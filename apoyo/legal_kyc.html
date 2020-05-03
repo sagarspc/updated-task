@@ -10,8 +10,9 @@
     <link rel="icon" href="img/favicon.png" type="image/png" sizes="20x20">
     <title>Apoyo-Accounting</title>
     <!-- web-fonts -->
-    <link href='https://fonts.googleapis.com/css?family=Roboto:400,700,500' rel='stylesheet' type='text/css'>
-    <link href='http://fonts.googleapis.com/css?family=Montserrat:400,700' rel='stylesheet' type='text/css'>
+    <!-- <link href='https://fonts.googleapis.com/css?family=Roboto:400,700,500' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=Montserrat:400,700' rel='stylesheet' type='text/css'> -->
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;500&display=swap" rel="stylesheet">
     <!-- off-canvas -->
     <link href="css/mobile-menu.css" rel="stylesheet">
     <!-- font-awesome -->
@@ -45,29 +46,29 @@
         <div class="uc-mobile-menu-pusher">
 
             <div class="content-wrapper">
-                <nav class="navbar m-menu navbar-default navbar-fixed-top btco-hover-menu">
+                <nav class="navbar navbar-default navbar-fixed-top m-menu">
                     <div class="container">
                         <!-- Brand and toggle get grouped for better mobile display -->
                         <div class="navbar-header">
-                            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar-collapse-1">
-                 <span class="sr-only">Toggle navigation</span>
-                    <span class="icon-bar"></span>
-                         <span class="icon-bar"></span>
-                     <span class="icon-bar"></span>
-                 </button>
-                            <a class="navbar-brand" href="index.html"><img src="img/logo--.png" alt="" height="40" width="222"></a>
+                            <button class="navbar-toggle" type="button" data-toggle="collapse" data-target=".js-navbar-collapse">
+                            <span class="sr-only">Toggle navigation</span>
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                            </button>
+                        <a class="navbar-brand" href="index.html"><img src="img/logo--.png" alt="" height="40" width="222"></a>
                         </div>
 
 
-                        <div class="collapse navbar-collapse" id="#navbar-collapse-1">
+                        <div class="collapse navbar-collapse js-navbar-collapse">
 
                             <ul class="nav navbar-nav navbar-right main-nav BACK">
                                 <li><a href="index.html" class="effect-underline">Home</a></li>
                                 <li><a href="about.html" class="effect-underline">About Us</a></li>
                                 <li class="dropdown m-menu-fw">
-                                    <a href="services.html" class="effect-underline" data-toggle="dropdown" class="dropdown-toggle">
+                                    <a href="services.html" class="active effect-underline" data-toggle="dropdown" class="dropdown-toggle">
                                  Services
-                             <span><i class="fa fa-angle-down"></i></span>
+                             <span class="pull-right"><i class="fa fa-angle-down"></i></span>
                          </a>
                                     <ul class="dropdown-menu">
                                         <li>
@@ -146,14 +147,15 @@
 
                 <!-- .page-banner -->
 
-                <section id="pg-header" class="container">
+                <section id="pg-header" class="container center">
                     <div class="row">
-                        <div class="col-lg-6 text-center">
-                            <h2 style="color : #fff; font-size: 60px;">Interest Litigation </h2>
+                        <div class="col-lg-12 text-center">
+                            <h2 class="m-t-30" style="color : #fff; font-size: 60px;">KYC & Due Diligence Services</h2>
+
                             <br>
 
 
-                            <div id='hd_panel' class="panel panel-default">
+                            <div id='hd_panel' class="col-lg-6 panel panel-default">
                                 <div class="panel-body">
                                     <form>
                                         <div class="form-row">
@@ -190,34 +192,43 @@
                 <!-- .page-banner -->
 
                 <!-- .Page-Trademark-Process -->
-                <section class="ptb-90 container text-center">
+                <section class="container text-left">
                     <br>
-                    <h2>What is due-diligence?</h2>
-                    <p> Due Diligence is the process by which confidential legal, financial and other material information is exchanged, reviewed and appraised by the parties to a business transaction, which is done prior to the transaction. It is basically
-                        a “background check” to make sure that the parties to the transaction have the required information they need, to proceed with the transaction..</p>
-
-                    <p>Due diligence is used to investigate and evaluate a business opportunity. The term due diligence describes a general duty to exercise care in any transaction. As such, it spans investigation into all relevant aspects of the past, present,
-                        and predictable future of the business of a target company.</p>
-
+                    <div class="section-title">
+                        <div class="container text-center">
+                            <h2 style=color:darkblue>What is due-diligence?</h2>
+                            <span class="bordered-icon m-b-25"><i class="fa fa-circle-thin"></i></span>
+                        </div>
+                    </div>
+                         <p class="p2">
+                            Due Diligence is the process by which confidential legal, financial and other material information is exchanged, reviewed and appraised by the parties to a business transaction, which is done prior to the transaction. It is basically
+                            a “background check” to make sure that the parties to the transaction have the required information they need, to proceed with the transaction..
+                        </p>
+                    
+                        <p class="p2">
+                            Due diligence is used to investigate and evaluate a business opportunity. The term due diligence describes a general duty to exercise care in any transaction. As such, it spans investigation into all relevant aspects of the past, present,
+                            and predictable future of the business of a target company.
+                        </p>
+                    <br>
 
                 </section>
 
                 <!-- ----------------------add tab----------------------- -->
-                <nav class="navbar navbar-default" style="background-color: #6c6055; border-bottom: solid 3px #f78829">
+                <nav class="navbar navbar-default global-tab-panel container">
                     <div class="container">
 
 
                         <div class="collapse navbar-collapse1 in" id="nav-acumen" aria-expanded="true">
                             <ul class="nav navbar-nav text-center" id="navpadding" style="padding-top: 7px">
                                 <li class="myli myactive" id="link-1">
-                                    <a href="javascript:void(0)" class="mytext">Objectives of due diligence:</a>
+                                    <a href="javascript:void(0)" class="mytext">Objectives of due diligence</a>
                                 </li>
 
 
                                 <li class="myli" id="link-3">
-                                    <a href="javascript:void(0)" class="mytext">Documents to be checked in due diligence process:</a>
+                                    <a href="javascript:void(0)" class="mytext">Documents to be checked in due diligence process
+                                        </a>
                                 </li>
-
 
 
                             </ul>
@@ -233,7 +244,7 @@
                     <div class="container">
                         <div class="row">
 
-                            <div class="col-lg-12 col-xs-12 col-md-12">
+                            <div class="col-lg-12 col-xs-12 col-md-12 tab-section-info m-b-30">
 
 
                                 <div id="nav-1" style="">
@@ -253,9 +264,9 @@
                                         <P>• Bridge the gap between the existing and expected.</P>
                                         <P>• To take smooth/accurate action/decision.</P>
                                         <P>• To enhance the confidence of stake holders.</P>
-                                        <br>
-                                        <P><b>Types of due diligence:</b></P>
-                                        <P>A. Business Due Diligence</P>
+                                        
+                                        <P>Types of due diligence:</P>
+                                        <P><b>A. Business Due Diligence</b></P>
                                         <P>• Operational due diligence</P>
                                         <P>• Strategic due diligence</P>
                                         <P>• Technical due diligence</P>
@@ -263,19 +274,15 @@
                                         <P>• Human Resource Due diligence</P>
                                         <P>• Information Security due diligence</P>
                                         <P>• Ethical Due Diligence</P>
-                                        <br>
                                         <P><b>B.	Legal Due Diligence</b></P>
                                         <br>
                                         <p><b>C.	Financial Due Diligence</b></p>
-
-                                        <P><b>Transactions that require due diligence:</b></P>
+                
+                                        <P>Transactions that require due diligence</P>
                                         <P>1. Mergers, Amalgamation and Acquisitions</P>
                                         <P>2. Joint Venture and collaborations</P>
                                         <P>3. Venture Capital Investment</P>
-                                        <P>4. Public Offer</P>
-
-
-
+                                        <P>4. Public Offer</P>   
                                     </div>
 
                                 </div>
@@ -289,30 +296,27 @@
 
                                 <div id="nav-3" style="display: none">
                                     <br>
+                                        <div>
+                                                <P><b>The following documents needs to be checked during the due diligence process:</b></P>
+                                                <P>• Basic information</P>
+                                                <P>• Financial Data</P>
+                                                <P>• Important business Agreements</P>
+                                                <P>• Litigation aspects</P>
+                                                <P>• IPR Details</P>
+                                                <P>• Marketing information</P>
+                                                <P>• Internal control system</P>
+                                                <P>• Taxation aspects</P>
+                                                <P>• Insurance coverage</P>
+                                                <P>• Human resources aspects</P>
+                                                <P>• Environmental impact</P>
+                                                <P>• Cultural aspects</P>
+                                            </div>
 
-                                    <div>
-                                        <P><b>The following documents needs to be checked during the due diligence process:</b></P>
-                                        <P>• Basic information</P>
-                                        <P>• Financial Data</P>
-                                        <P>• Important business Agreements</P>
-                                        <P>• Litigation aspects</P>
-                                        <P>• IPR Details</P>
-                                        <P>• Marketing information</P>
-                                        <P>• Internal control system</P>
-                                        <P>• Taxation aspects</P>
-                                        <P>• Insurance coverage</P>
-                                        <P>• Human resources aspects</P>
-                                        <P>• Environmental impact</P>
-                                        <P>• Cultural aspects</P>
-                                    </div>
-
+                                </div>
                                 </div>
                             </div>
 
-
                         </div>
-
-                    </div>
                 </section>
 
                 <!-- --------------------end of the tab-------------------------------- -->
@@ -342,11 +346,7 @@
 
 
 
-                <!--End of Advantage -->
-
-                <!-- ======= F.A.Q Section ======= -->
-
-                <!-- End of F.A.Q Section -->
+          
 
 
 
@@ -359,7 +359,7 @@
                                 <div class="col-sm-4 footer-block">
                                     <div class="footer-widget widget_text">
                                         <div class="footer-logo">
-                                            <a href="#"><img src="img/logo.png" alt="" height="40" width="222"></a>
+                                            <a href="#"><img src="img/logo__.png" alt="" height="40" width="222"></a>
                                         </div>
                                         <p>Apoyo, To support businesses in all non-core areas ensuring entrepreneurs focus on the core area of expertise and thus fulfill their dream</p>
 
@@ -403,17 +403,21 @@
 
                     <div class="copyright-section">
                         <div class="container clearfix">
-                            <span class="copytext">Copyright &copy; 2020 | <a href="https://uicookies.com/downloads/x-corporation-free-bootstrap-html-template/">APOYO</a> 
-            <ul class="list-inline pull-right">
-                <li class="active"><a href="#">Home</a></li>
-                <li><a href="about.html">About Us</a></li>
-                <li><a href="services.html">Services</a></li>
-                <li><a href="#">Portfolio</a></li>
-                <li><a href="#">Blog</a></li>
-                <li><a href="contact.html">Contact</a></li>
-            </ul>
-        </div><!-- .container -->
-    </div><!-- .copyright-section -->
+                            <span class="copytext"><span class="m-r-10">Copyright &copy; 2020</span> | 
+                                <a href="#">
+                                    <img src="img/logo.png" alt="" height="40" width="40">
+                                </a>
+                                <ul class="list-inline pull-right">
+                                    <li class="active"><a href="#">Home</a></li>
+                                    <li><a href="about.html">About Us</a></li>
+                                    <li><a href="services.html">Services</a></li>
+                                    <li><a href="#">Portfolio</a></li>
+                                    <li><a href="#">Blog</a></li>
+                                    <li><a href="contact.html">Contact</a></li>
+                                </ul>
+                            </span>
+                        </div><!-- .container -->
+                </div><!-- .copyright-section -->
 </footer>
 <!-- .footer -->
 
@@ -422,20 +426,6 @@
 </div>
 <!-- .offcanvas-pusher -->
 
-<div class="uc-mobile-menu uc-mobile-menu-effect">
-    <button type="button" class="close" aria-hidden="true" data-toggle="offcanvas"
-            id="uc-mobile-menu-close-btn">&times;</button>
-    <div>
-        <div>
-            <ul id="menu">
-                <li><a href="index.html">Home</a></li>
-                <li><a href="about.html">About</a></li>
-                <li><a href="services.html">Services</a></li>
-                <li><a href="contact.html">Contact</a></li>
-            </ul>
-        </div>
-    </div>
-</div>
 <!-- .uc-mobile-menu -->
 
 
@@ -448,7 +438,6 @@
         integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS"
         crossorigin="anonymous"></script>
 <script src="js/smoothscroll.js"></script>
-<script src="js/mobile-menu.js"></script>
 <script src="js/flexSlider/jquery.flexslider-min.js"></script>
 <script src="js/scripts.js"></script>
 </body>

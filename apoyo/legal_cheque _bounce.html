@@ -10,8 +10,9 @@
     <link rel="icon" href="img/favicon.png" type="image/png" sizes="20x20">
     <title>Apoyo-Accounting</title>
     <!-- web-fonts -->
-    <link href='https://fonts.googleapis.com/css?family=Roboto:400,700,500' rel='stylesheet' type='text/css'>
-    <link href='http://fonts.googleapis.com/css?family=Montserrat:400,700' rel='stylesheet' type='text/css'>
+    <!-- <link href='https://fonts.googleapis.com/css?family=Roboto:400,700,500' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=Montserrat:400,700' rel='stylesheet' type='text/css'> -->
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;500&display=swap" rel="stylesheet">
     <!-- off-canvas -->
     <link href="css/mobile-menu.css" rel="stylesheet">
     <!-- font-awesome -->
@@ -45,29 +46,29 @@
         <div class="uc-mobile-menu-pusher">
 
             <div class="content-wrapper">
-                <nav class="navbar m-menu navbar-default navbar-fixed-top btco-hover-menu">
+                <nav class="navbar navbar-default navbar-fixed-top m-menu">
                     <div class="container">
                         <!-- Brand and toggle get grouped for better mobile display -->
                         <div class="navbar-header">
-                            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar-collapse-1">
-                 <span class="sr-only">Toggle navigation</span>
-                    <span class="icon-bar"></span>
-                         <span class="icon-bar"></span>
-                     <span class="icon-bar"></span>
-                 </button>
-                            <a class="navbar-brand" href="index.html"><img src="img/logo--.png" alt="" height="40" width="222"></a>
+                            <button class="navbar-toggle" type="button" data-toggle="collapse" data-target=".js-navbar-collapse">
+                            <span class="sr-only">Toggle navigation</span>
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                            </button>
+                        <a class="navbar-brand" href="index.html"><img src="img/logo--.png" alt="" height="40" width="222"></a>
                         </div>
 
 
-                        <div class="collapse navbar-collapse" id="#navbar-collapse-1">
+                        <div class="collapse navbar-collapse js-navbar-collapse">
 
                             <ul class="nav navbar-nav navbar-right main-nav BACK">
                                 <li><a href="index.html" class="effect-underline">Home</a></li>
                                 <li><a href="about.html" class="effect-underline">About Us</a></li>
                                 <li class="dropdown m-menu-fw">
-                                    <a href="services.html" class="effect-underline" data-toggle="dropdown" class="dropdown-toggle">
+                                    <a href="services.html" class="active effect-underline" data-toggle="dropdown" class="dropdown-toggle">
                                  Services
-                             <span><i class="fa fa-angle-down"></i></span>
+                             <span class="pull-right"><i class="fa fa-angle-down"></i></span>
                          </a>
                                     <ul class="dropdown-menu">
                                         <li>
@@ -146,14 +147,15 @@
 
                 <!-- .page-banner -->
 
-                <section id="pg-header" class="container">
+                <section id="pg-header" class="container center">
                     <div class="row">
-                        <div class="col-lg-6 text-center">
-                            <h2 style="color : #fff; font-size: 60px;">Cheque Bounce</h2>
+                        <div class="col-lg-12 text-center">
+                            <h2 class="m-t-30" style="color : #fff; font-size: 60px;"> Cheque Bounce?</h2>
+
                             <br>
 
 
-                            <div id='hd_panel' class="panel panel-default">
+                            <div id='hd_panel' class="col-lg-6 panel panel-default">
                                 <div class="panel-body">
                                     <form>
                                         <div class="form-row">
@@ -190,33 +192,36 @@
                 <!-- .page-banner -->
 
                 <!-- .Page-Trademark-Process -->
-                <section class="ptb-90 container text-center">
+                <section class="container text-left">
                     <br>
-                    <h2>What do you mean by Cheque Bounce?</h2>
-                    <p>A cheque bounce is when an unpaid cheque is returned back by the bank, also known as dishonour of cheque. Cheque bounce can eventuate because of a lot of reasons, for instance, due to insufficiency of funds in the account of the ‘drawer’
-                        and many other reasons.</p>
-
+                    <div class="section-title">
+                        <div class="container text-center">
+                            <h2 style=color:darkblue>What do you mean by Cheque Bounce?</h2>
+                            <span class="bordered-icon m-b-25"><i class="fa fa-circle-thin"></i></span>
+                        </div>
+                    </div>
+                    <p class="p2"> 
+                            A cheque bounce is when an unpaid cheque is returned back by the bank, also known as dishonour of cheque. Cheque bounce can eventuate because of a lot of reasons, for instance, due to insufficiency of funds in the account of the ‘drawer’ and many other reasons.
+                    </p><br>
 
                 </section>
 
                 <!-- ----------------------add tab----------------------- -->
-                <nav class="navbar navbar-default" style="background-color: #6c6055; border-bottom: solid 3px #f78829">
+                <nav class="navbar navbar-default global-tab-panel container">
                     <div class="container">
 
 
                         <div class="collapse navbar-collapse1 in" id="nav-acumen" aria-expanded="true">
                             <ul class="nav navbar-nav text-center" id="navpadding" style="padding-top: 7px">
                                 <li class="myli myactive" id="link-1">
-                                    <a href="javascript:void(0)" class="mytext">Reasons for cheque bounce:</a>
+                                    <a href="javascript:void(0)" class="mytext">Reasons for cheque bounce</a>
                                 </li>
 
 
                                 <li class="myli" id="link-3">
-                                    <a href="javascript:void(0)" class="mytext">Procedure for Cheque Bounce Notice</a>
+                                    <a href="javascript:void(0)" class="mytext">Procedure for Cheque Bounce Notice
+                                        </a>
                                 </li>
-
-
-
 
 
                             </ul>
@@ -232,7 +237,7 @@
                     <div class="container">
                         <div class="row">
 
-                            <div class="col-lg-12 col-xs-12 col-md-12">
+                            <div class="col-lg-12 col-xs-12 col-md-12 tab-section-info m-b-30">
 
 
                                 <div id="nav-1" style="">
@@ -240,46 +245,46 @@
                                     <div>
                                         <!-- <h3 style="color: orange;"><b>Procedure for registration of trademark:</b></h3> -->
                                         <br>
-                                        <p> <b>The different reasons for cheque bounce are as follows:</b></b>
-                                        </p>
-                                        <P>• When the signatures on the cheque and the signatures on the official documents of the bank account like passbook etc. do not match.</P>
-                                        <P>• Where there is clear overwriting on the cheque</P>
-                                        <P>• When the cheque is presented after the expiry of 3 months (validity of a cheque), i.e. after the cheque has expired.</P>
-                                        <P>• In case the bank account has been closed by the account holder or by the bank itself.</P>
-                                        <P>• When there are insufficient funds in the bank account of the drawer.</P>
-                                        <P>• In case payment has been stopped by the account holder i.e. the drawer.</P>
-                                        <P>• When the opening balance in the bank account is insufficient.</P>
-                                        <P>• When there is clear inconsistency in the figures and the words presented on the cheque.</P>
-                                        <P>• When there is no seal/ stamp of the company that has issued the cheque.</P>
-                                        <P>• When there is inconsistency in the account number in the cheque.</P>
-                                        <P>• When the cheque has been issued from a joint account where signatures of both the account holders are required but the cheque only bears one sign.</P>
-                                        <P>• In case the drawer or the drawee has died.</P>
-                                        <P>• When the drawer has turned insolvent.</P>
-                                        <P>• When the drawer has turned insane.</P>
-                                        <P>• In case of a crossed cheque (a crossed cheque is when the drawer specifies a general instruction to the bank in relation to the cheque).</P>
-                                        <P>• In case the cheque has been issued against the rules of trust.</P>
-                                        <P>• In case there have been alterations in the cheque.</P>
-                                        <P>• In case the bank has doubt in the authenticity of the cheque.</P>
-                                        <P>• In case the drawee presents the cheque at the wrong branch of the bank.</P>
-                                        <P>• In case the mentioned cheque amount crosses the limit of the cheque overdraft (it is the maximum limit that a bank allows its consumers to withdraw).</P>
-                                        <br>
-                                        <p> <b>What happens if there is a cheque bounce?</b></b>
-                                        </p>
-                                        <P>When the cheque bounces, the payee has to file a legal notice within 30 days of return memo from bank. After this, if the drawer makes the payment, there is no need to file the case. If he doesn’t make the payment
-                                            then case has to be filed within 30 days.</P>
-                                        <br>
-
-                                        <p> <b>What are the legal requirements for legal notice for Cheque Bounce:</b></b>
-                                        </p>
-                                        <P>Following are the key requirements for Cheque Bounce notice:</P>
-                                        <P>• The Cheque should be towards a specific liability. Moreover, it should be within a validity period. </P>
-                                        <P>• The cheque should be returned due to insufficient funds. </P>
-                                        <P>• The notice should be given within 30 days of cheque bounce. </P>
-                                        <P>• The drawer has failed to make the payments within 15 days of Cheque bounce notice, legal action can be taken against him within 30 days.</P>
-
-
-
-
+                                        <p>
+                                                <b>The different reasons for cheque bounce are as follows:</b></b>
+                                            </p>
+                                            <P>• When the signatures on the cheque and the signatures on the official documents of the bank account like passbook etc. do not match.</P>
+                                            <P>• Where there is clear overwriting on the cheque</P>
+                                            <P>• When the cheque is presented after the expiry of 3 months (validity of a cheque), i.e. after the cheque has expired.</P>
+                                            <P>• In case the bank account has been closed by the account holder or by the bank itself.</P>
+                                            <P>• When there are insufficient funds in the bank account of the drawer.</P>
+                                            <P>• In case payment has been stopped by the account holder i.e. the drawer.</P>
+                                            <P>• When the opening balance in the bank account is insufficient.</P>
+                                            <P>• When there is clear inconsistency in the figures and the words presented on the cheque.</P>
+                                            <P>• When there is no seal/ stamp of the company that has issued the cheque.</P>
+                                            <P>• When there is inconsistency in the account number in the cheque.</P>
+                                            <P>• When the cheque has been issued from a joint account where signatures of both the account holders are required but the cheque only bears one sign.</P>
+                                            <P>• In case the drawer or the drawee has died.</P>
+                                            <P>• When the drawer has turned insolvent.</P>
+                                            <P>• When the drawer has turned insane.</P>
+                                            <P>• In case of a crossed cheque (a crossed cheque is when the drawer specifies a general instruction to the bank in relation to the cheque).</P>
+                                            <P>• In case the cheque has been issued against the rules of trust.</P>
+                                            <P>• In case there have been alterations in the cheque.</P>
+                                            <P>• In case the bank has doubt in the authenticity of the cheque.</P>
+                                            <P>• In case the drawee presents the cheque at the wrong branch of the bank.</P>
+                                            <P>• In case the mentioned cheque amount crosses the limit of the cheque overdraft (it is the maximum limit that a bank allows its consumers to withdraw).</P>
+                                            
+                                            <p>
+                                                <b>What happens if there is a cheque bounce?</b></b>
+                                            </p>
+                                            <P>
+                                                When the cheque bounces, the payee has to file a legal notice within 30 days of return memo from bank. After this, if the drawer makes the payment, there is no need to file the case. If he doesn’t make the payment
+                                                then case has to be filed within 30 days.
+                                            </P>
+                    
+                                            <p>
+                                                <b>What are the legal requirements for legal notice for Cheque Bounce:</b></b>
+                                            </p>
+                                            <P>Following are the key requirements for Cheque Bounce notice:</P>
+                                            <P>• The Cheque should be towards a specific liability. Moreover, it should be within a validity period. </P>
+                                            <P>• The cheque should be returned due to insufficient funds. </P>
+                                            <P>• The notice should be given within 30 days of cheque bounce. </P>
+                                            <P>• The drawer has failed to make the payments within 15 days of Cheque bounce notice, legal action can be taken against him within 30 days.</P>                    
                                     </div>
 
                                 </div>
@@ -293,44 +298,38 @@
 
                                 <div id="nav-3" style="display: none">
                                     <br>
-                                    <div>
-                                        <P>• The Drawee has to firstly send a demand notice to the drawer within 30 days of return memo through a registered post. </P>
-                                        <P>• Once the notice is received, the drawer has to make the payment within 15 days. </P>
-                                        <P>• If the payments are not made the drawee has the right to lodge a complaint. </P>
-                                        <P>• Once the Court receives complaint, the accused will be summoned. </P>
-                                        <P>• Proceeding will be initiated under Section 138 of Negotiable Instrument Act.</P>
-                                        <br>
-                                        <P><b>Elements of Cheque Bounce Notice:</b></P>
-                                        <P>A Cheque Bounce Notice shall contain the following elements:</P>
-                                        <P>• Firstly, it should have the details of the drawer. </P>
-                                        <P>• Secondly, it should state that the Cheque is for the discharge of debt/liability in whole/part and not given as a gift or loan. </P>
-                                        <P>• The Cheque was present within the validity period. </P>
-                                        <P>• It should mention the return date of Cheque accompanied with reasons for such return. </P>
-                                        <P>• Additionally, one has to send a demand notice within 30 days of intimation of cheque bounce, giving 15 days time period for making payments. </P>
-                                        <P>• If the payments are not done accordingly, the drawer can approach the Court and file a criminal complaint under section 138. </P>
-                                        <P>• Lastly, the notice should be sent through registered post.</P>
-                                        <br>
-                                        <P><b>Time limit for filing a suit:</b></P>
-                                        <P>After receiving the bank return memo when a cheque bounces, you have to immediately issue demand notice within the span of 30 days from the receipt of information. </P>
-                                        <P>If the accused does not make the payments within 30 days from the receipt of the notice, we can file the complaint under section 138 of the Negotiable Instrument Act. A complaint has to be filed within 30 days.
-                                        </P>
-                                        <P>If complainant delays in filing the complaint, an application for condonation of delay has to be filed stating the reason for delay or else you will lose your right to file a case under section 138.</P>
-
-
-                                    </div>
+                                        <div>
+                                                <P>• The Drawee has to firstly send a demand notice to the drawer within 30 days of return memo through a registered post. </P>
+                                                <P>• Once the notice is received, the drawer has to make the payment within 15 days. </P>
+                                                <P>• If the payments are not made the drawee has the right to lodge a complaint. </P>
+                                                <P>• Once the Court receives complaint, the accused will be summoned. </P>
+                                                <P>• Proceeding will be initiated under Section 138 of Negotiable Instrument Act.</P>
+                                                
+                                                <P><b>Elements of Cheque Bounce Notice:</b></P>
+                                                <P>A Cheque Bounce Notice shall contain the following elements:</P>
+                                                <P>• Firstly, it should have the details of the drawer. </P>
+                                                <P>• Secondly, it should state that the Cheque is for the discharge of debt/liability in whole/part and not given as a gift or loan. </P>
+                                                <P>• The Cheque was present within the validity period. </P>
+                                                <P>• It should mention the return date of Cheque accompanied with reasons for such return. </P>
+                                                <P>• Additionally, one has to send a demand notice within 30 days of intimation of cheque bounce, giving 15 days time period for making payments. </P>
+                                                <P>• If the payments are not done accordingly, the drawer can approach the Court and file a criminal complaint under section 138. </P>
+                                                <P>• Lastly, the notice should be sent through registered post.</P>
+                                                
+                                                <P><b>Time limit for filing a suit:</b></P>
+                                                <P>After receiving the bank return memo when a cheque bounces, you have to immediately issue demand notice within the span of 30 days from the receipt of information. </P>
+                                                <P>
+                                                    If the accused does not make the payments within 30 days from the receipt of the notice, we can file the complaint under section 138 of the Negotiable Instrument Act. A complaint has to be filed within 30 days.
+                                                </P>
+                                                <P>If complainant delays in filing the complaint, an application for condonation of delay has to be filed stating the reason for delay or else you will lose your right to file a case under section 138.</P>
+                        
+                        
+                                            </div>
 
                                 </div>
-
-
-
-
-
+                                </div>
                             </div>
 
-
                         </div>
-
-                    </div>
                 </section>
 
                 <!-- --------------------end of the tab-------------------------------- -->
@@ -360,11 +359,7 @@
 
 
 
-                <!--End of Advantage -->
-
-                <!-- ======= F.A.Q Section ======= -->
-
-                <!-- End of F.A.Q Section -->
+          
 
 
 
@@ -377,7 +372,7 @@
                                 <div class="col-sm-4 footer-block">
                                     <div class="footer-widget widget_text">
                                         <div class="footer-logo">
-                                            <a href="#"><img src="img/logo.png" alt="" height="40" width="222"></a>
+                                            <a href="#"><img src="img/logo__.png" alt="" height="40" width="222"></a>
                                         </div>
                                         <p>Apoyo, To support businesses in all non-core areas ensuring entrepreneurs focus on the core area of expertise and thus fulfill their dream</p>
 
@@ -421,17 +416,21 @@
 
                     <div class="copyright-section">
                         <div class="container clearfix">
-                            <span class="copytext">Copyright &copy; 2020 | <a href="https://uicookies.com/downloads/x-corporation-free-bootstrap-html-template/">APOYO</a> 
-            <ul class="list-inline pull-right">
-                <li class="active"><a href="#">Home</a></li>
-                <li><a href="about.html">About Us</a></li>
-                <li><a href="services.html">Services</a></li>
-                <li><a href="#">Portfolio</a></li>
-                <li><a href="#">Blog</a></li>
-                <li><a href="contact.html">Contact</a></li>
-            </ul>
-        </div><!-- .container -->
-    </div><!-- .copyright-section -->
+                            <span class="copytext"><span class="m-r-10">Copyright &copy; 2020</span> | 
+                                <a href="#">
+                                    <img src="img/logo.png" alt="" height="40" width="40">
+                                </a>
+                                <ul class="list-inline pull-right">
+                                    <li class="active"><a href="#">Home</a></li>
+                                    <li><a href="about.html">About Us</a></li>
+                                    <li><a href="services.html">Services</a></li>
+                                    <li><a href="#">Portfolio</a></li>
+                                    <li><a href="#">Blog</a></li>
+                                    <li><a href="contact.html">Contact</a></li>
+                                </ul>
+                            </span>
+                        </div><!-- .container -->
+                </div><!-- .copyright-section -->
 </footer>
 <!-- .footer -->
 
@@ -440,20 +439,6 @@
 </div>
 <!-- .offcanvas-pusher -->
 
-<div class="uc-mobile-menu uc-mobile-menu-effect">
-    <button type="button" class="close" aria-hidden="true" data-toggle="offcanvas"
-            id="uc-mobile-menu-close-btn">&times;</button>
-    <div>
-        <div>
-            <ul id="menu">
-                <li><a href="index.html">Home</a></li>
-                <li><a href="about.html">About</a></li>
-                <li><a href="services.html">Services</a></li>
-                <li><a href="contact.html">Contact</a></li>
-            </ul>
-        </div>
-    </div>
-</div>
 <!-- .uc-mobile-menu -->
 
 
@@ -466,7 +451,6 @@
         integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS"
         crossorigin="anonymous"></script>
 <script src="js/smoothscroll.js"></script>
-<script src="js/mobile-menu.js"></script>
 <script src="js/flexSlider/jquery.flexslider-min.js"></script>
 <script src="js/scripts.js"></script>
 </body>

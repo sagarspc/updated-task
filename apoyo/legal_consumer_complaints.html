@@ -10,8 +10,9 @@
     <link rel="icon" href="img/favicon.png" type="image/png" sizes="20x20">
     <title>Apoyo-Accounting</title>
     <!-- web-fonts -->
-    <link href='https://fonts.googleapis.com/css?family=Roboto:400,700,500' rel='stylesheet' type='text/css'>
-    <link href='http://fonts.googleapis.com/css?family=Montserrat:400,700' rel='stylesheet' type='text/css'>
+    <!-- <link href='https://fonts.googleapis.com/css?family=Roboto:400,700,500' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=Montserrat:400,700' rel='stylesheet' type='text/css'> -->
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;500&display=swap" rel="stylesheet">
     <!-- off-canvas -->
     <link href="css/mobile-menu.css" rel="stylesheet">
     <!-- font-awesome -->
@@ -45,29 +46,29 @@
         <div class="uc-mobile-menu-pusher">
 
             <div class="content-wrapper">
-                <nav class="navbar m-menu navbar-default navbar-fixed-top btco-hover-menu">
+                <nav class="navbar navbar-default navbar-fixed-top m-menu">
                     <div class="container">
                         <!-- Brand and toggle get grouped for better mobile display -->
                         <div class="navbar-header">
-                            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar-collapse-1">
-                 <span class="sr-only">Toggle navigation</span>
-                    <span class="icon-bar"></span>
-                         <span class="icon-bar"></span>
-                     <span class="icon-bar"></span>
-                 </button>
-                            <a class="navbar-brand" href="index.html"><img src="img/logo--.png" alt="" height="40" width="222"></a>
+                            <button class="navbar-toggle" type="button" data-toggle="collapse" data-target=".js-navbar-collapse">
+                            <span class="sr-only">Toggle navigation</span>
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                            </button>
+                        <a class="navbar-brand" href="index.html"><img src="img/logo--.png" alt="" height="40" width="222"></a>
                         </div>
 
 
-                        <div class="collapse navbar-collapse" id="#navbar-collapse-1">
+                        <div class="collapse navbar-collapse js-navbar-collapse">
 
                             <ul class="nav navbar-nav navbar-right main-nav BACK">
                                 <li><a href="index.html" class="effect-underline">Home</a></li>
                                 <li><a href="about.html" class="effect-underline">About Us</a></li>
                                 <li class="dropdown m-menu-fw">
-                                    <a href="services.html" class="effect-underline" data-toggle="dropdown" class="dropdown-toggle">
+                                    <a href="services.html" class="active effect-underline" data-toggle="dropdown" class="dropdown-toggle">
                                  Services
-                             <span><i class="fa fa-angle-down"></i></span>
+                             <span class="pull-right"><i class="fa fa-angle-down"></i></span>
                          </a>
                                     <ul class="dropdown-menu">
                                         <li>
@@ -146,14 +147,15 @@
 
                 <!-- .page-banner -->
 
-                <section id="pg-header" class="container">
+                <section id="pg-header" class="container center">
                     <div class="row">
-                        <div class="col-lg-6 text-center">
-                            <h2 style="color : #fff; font-size: 60px;">Consumer Complaints:</h2>
+                        <div class="col-lg-12 text-center">
+                            <h2 class="m-t-30" style="color : #fff; font-size: 60px;"> Consumer Complaints</h2>
+
                             <br>
 
 
-                            <div id='hd_panel' class="panel panel-default">
+                            <div id='hd_panel' class="col-lg-6 panel panel-default">
                                 <div class="panel-body">
                                     <form>
                                         <div class="form-row">
@@ -190,28 +192,41 @@
                 <!-- .page-banner -->
 
                 <!-- .Page-Trademark-Process -->
-                <section class="ptb-90 container text-left">
+                <section class="container text-left">
                     <br>
-                    <h2>Who is a consumer?</h2>
-                    <P>Consumer means any person who:</P>
-                    <P>• buys any goods for a consideration which has been paid or promised or partly paid and partly promised, or under any system of deferred payment and includes any user of such goods other than the person who buys such goods for consideration
+                    <div class="section-title">
+                        <div class="container text-center">
+                            <h2 style=color:darkblue>Who is a consumer?</h2>
+                            <span class="bordered-icon m-b-25"><i class="fa fa-circle-thin"></i></span>
+                        </div>
+                    </div>
+                    <P class="p2">Consumer means any person who:</P>
+                    <P class="p2">
+                        • buys any goods for a consideration which has been paid or promised or partly paid and partly promised, or under any system of deferred payment and includes any user of such goods other than the person who buys such goods for consideration
                         paid or promised or partly paid or partly promised, or under any system of deferred payment when such use is made with the approval of such person, but does not include a person who obtains such goods for resale or for any commercial
                         purpose; or
                     </P>
-                    <P>• hires or avails of any services for a consideration which has been paid or promised or partly paid and partly promised, or under any system of deferred payment and includes any beneficiary of such services other than the person who
+                    <P class="p2">
+                        • hires or avails of any services for a consideration which has been paid or promised or partly paid and partly promised, or under any system of deferred payment and includes any beneficiary of such services other than the person who
                         hires or avails of the services for consideration paid or promised, or partly paid and partly promised, or under any system of deferred payment, when such services are availed of with the approval of the first mentioned person
-                        but does not include a person who avails of such services for any commercial purpose </P>
-                    <P>Therefore, to be a consumer, the following conditions must be satisfied:</P>
-                    <P>• the goods or services must have been purchased or hired or availed of for consideration which has been paid in full or in part or under any system of deferred payment, i.e. in respect of hire purchase transactions;</P>
-                    <P>• goods purchased should not be meant for re-sale or for a commercial purpose. Goods purchased by a dealer in the ordinary course of his business and those which are in the course of his business to supply would be deemed to be for
-                        ‘re-sale’; and</P>
-                    <P>• in addition to the purchaser(s) of goods, or hirer(s) or users of services, any beneficiary of such services, using the goods/services with the approval of the purchaser or hirer or user would also be deemed a ‘consumer under the
+                        but does not include a person who avails of such services for any commercial purpose
+                    </P>
+                    <P class="p2">Therefore, to be a consumer, the following conditions must be satisfied:</P>
+                    <P class="p2">• the goods or services must have been purchased or hired or availed of for consideration which has been paid in full or in part or under any system of deferred payment, i.e. in respect of hire purchase transactions;</P>
+                    <P class="p2">
+                        • goods purchased should not be meant for re-sale or for a commercial purpose. Goods purchased by a dealer in the ordinary course of his business and those which are in the course of his business to supply would be deemed to be for
+                        ‘re-sale’; and
+                    </P>
+                    <P class="p2">
+                        • in addition to the purchaser(s) of goods, or hirer(s) or users of services, any beneficiary of such services, using the goods/services with the approval of the purchaser or hirer or user would also be deemed a ‘consumer under the
                         Act.
                     </P>
+                    <br>
+
                 </section>
 
                 <!-- ----------------------add tab----------------------- -->
-                <nav class="navbar navbar-default" style="background-color: #6c6055; border-bottom: solid 3px #f78829">
+                <nav class="navbar navbar-default global-tab-panel container">
                     <div class="container">
 
 
@@ -220,10 +235,6 @@
                                 <li class="myli myactive" id="link-1">
                                     <a href="javascript:void(0)" class="mytext">What qualifies as a complaint?</a>
                                 </li>
-
-
-
-
 
 
                             </ul>
@@ -239,13 +250,14 @@
                     <div class="container">
                         <div class="row">
 
-                            <div class="col-lg-12 col-xs-12 col-md-12">
+                            <div class="col-lg-12 col-xs-12 col-md-12 tab-section-info m-b-30">
 
 
                                 <div id="nav-1" style="">
-                                    <br>
 
                                     <div>
+                                        <!-- <h3 style="color: orange;"><b>Procedure for registration of trademark:</b></h3> -->
+                                        <br>
                                         <P><b>Complaint means any allegation in writing made, with a view to obtaining any relief, by a complainant that</b></P>
                                         <P>• an unfair trade practice or a restrictive trade practice has been adopted by any trader or service provider</P>
                                         <P>• the goods bought by him or agreed to be bought by him suffer from one or more defects;</P>
@@ -258,88 +270,77 @@
                                         <P>• goods which will be hazardous to life and safety when used are being offered for sale to the public,—</P>
                                         <P>in contravention of any standards relating to safety of such goods as required to be complied with, by or under any law for the time being in force;</P>
                                         <P> - if the trader could have known with due diligence that the goods so offered are unsafe to the public.</P>
-                                        <P>• services which are hazardous or likely to be hazardous to life and safety of the public when used, are being offered by the service provider which such person could have known with due diligence to be injurious
-                                            to life and safety.</P>
-
-
+                                        <P>
+                                            • services which are hazardous or likely to be hazardous to life and safety of the public when used, are being offered by the service provider which such person could have known with due diligence to be injurious
+                                            to life and safety.
+                                        </P>
+                                        
+                                        <P><b>The basic rights of consumers are as follows:</b></P>
+                                        <P>• the right to be protected against marketing of goods and services which are hazardous to life and property;</P>
+                                        <P>• the right to be informed about the quality, quantity, potency, purity, standard and price of goods, or services so as to protect the consumer against unfair trade practices;</P>
+                                        <P>• the right to be assured, wherever possible, access to variety of goods and services at competitive prices;</P>
+                                        <P>• the right to be heard and to be assured that consumers interests will receive due consideration at appropriate forums; </P>
+                                        <P>• the right to seek redressal against unfair trade practices or restrictive trade practices or unscrupulous exploitation of consumers; and </P>
+                                        <P>• right to consumer education. </P>
+        
+        
+                                        <P><b>Who can file a consumer complaint?</b></P>
+                                        <P>The following can file a consumer complaint:</P>
+                                        <P>• A consumer;</P>
+                                        <P>• any registered voluntary consumer association; or</P>
+                                        <P>• the central government or any state government; or</P>
+                                        <P>• One or more consumers, where there are numerous consumers having the same interest; or</P>
+                                        <P>• In case of death of a consumer, his legal heir or representative.</P>
+                                        <P>Redressal Machinery for redressal of consumer disputes and grievances:</P>
+        
+        
+        
+                                        <div>
+                                            <h2></h2>
+                                            <table class="table table-bordered custom-table">
+                                                <thead class="thead-dark">
+                                                    <tr>
+                                                        <th scope="col">Particulars</th>
+                                                        <th scope="col">District Forum</th>
+                                                        <th scope="col">State Commission</th>
+                                                        <th scope="col">National Commission</th>
+                                                    </tr>
+                                                </thead>
+                                                <tbody>
+                                                    <tr>
+                                                        <td>Territorial Limits</td>
+                                                        <td>Extends to whole of the district</td>
+                                                        <td>Extends to whole of the State</td>
+                                                        <td>Extends to whole of nation</td>
+                                                    </tr>
+        
+                                                    <tr>
+                                                        <td>Pecuniary Limits</td>
+                                                        <td>Value of goods does not exceed 20 lakhs </td>
+                                                        <td>Value of goods exceeds 20 lakhs but does not exceed Rs. 1 Crore</td>
+                                                        <td>Value of goods exceeds Rs. 1 Crore</td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td>Appeals</td>
+                                                        <td>To state commission</td>
+                                                        <td>To National Commission</td>
+                                                        <td>To Supreme Court</td>
+                                                    </tr>
+        
+                                                </tbody>
+                                            </table>
+                                        </div>
                                     </div>
 
-                                    <!-- --------------our leadership------------------ -->
-
-
-                                    <!-- --------------our leadership------------------ -->
-
-
-
-                                    <div id="nav-3" style="">
-                                        <br>
-
-                                        <section class="ptb-90 aclient-logo ptb-50 ">
-
-                                            <div>
-                                                <P><b>The basic rights of consumers are as follows:</b></P>
-                                                <P>• the right to be protected against marketing of goods and services which are hazardous to life and property;</P>
-                                                <P>• the right to be informed about the quality, quantity, potency, purity, standard and price of goods, or services so as to protect the consumer against unfair trade practices;</P>
-                                                <P>• the right to be assured, wherever possible, access to variety of goods and services at competitive prices;</P>
-                                                <P>• the right to be heard and to be assured that consumers interests will receive due consideration at appropriate forums; </P>
-                                                <P>• the right to seek redressal against unfair trade practices or restrictive trade practices or unscrupulous exploitation of consumers; and </P>
-                                                <P>• right to consumer education. </P>
-
-
-                                                <P><b>Who can file a consumer complaint?</b></P>
-                                                <P>The following can file a consumer complaint:</P>
-                                                <P>• A consumer;</P>
-                                                <P>• any registered voluntary consumer association; or</P>
-                                                <P>• the central government or any state government; or</P>
-                                                <P>• One or more consumers, where there are numerous consumers having the same interest; or</P>
-                                                <P>• In case of death of a consumer, his legal heir or representative.</P>
-                                                <P>Redressal Machinery for redressal of consumer disputes and grievances:</P>
-
-
-
-                                                <div>
-                                                    <h2></h2>
-                                                    <table class="table table-bordered">
-                                                        <thead class="thead-dark">
-                                                            <tr>
-                                                                <th scope="col">Particulars</th>
-                                                                <th scope="col">District Forum</th>
-                                                                <th scope="col">State Commission</th>
-                                                                <th scope="col">National Commission</th>
-                                                            </tr>
-                                                        </thead>
-                                                        <tbody>
-                                                            <tr>
-                                                                <td>Territorial Limits</td>
-                                                                <td>Extends to whole of the district</td>
-                                                                <td>Extends to whole of the State</td>
-                                                                <td>Extends to whole of nation</td>
-                                                            </tr>
-
-                                                            <tr>
-                                                                <td>Pecuniary Limits</td>
-                                                                <td>Value of goods does not exceed 20 lakhs </td>
-                                                                <td>Value of goods exceeds 20 lakhs but does not exceed Rs. 1 Crore</td>
-                                                                <td>Value of goods exceeds Rs. 1 Crore</td>
-                                                            </tr>
-                                                            <tr>
-                                                                <td>Appeals</td>
-                                                                <td>To state commission</td>
-                                                                <td>To National Commission</td>
-                                                                <td>To Supreme Court</td>
-                                                            </tr>
-
-                                                        </tbody>
-                                                    </table>
-                                                </div>
-                                            </div>
-                                            <!--end of .container -->
-                                        </section>
-
-                                    </div>
                                 </div>
 
+                                <!-- --------------our leadership------------------ -->
 
+
+                                <!-- --------------our leadership------------------ -->
+
+
+                                </div>
                             </div>
 
                         </div>
@@ -372,11 +373,7 @@
 
 
 
-                <!--End of Advantage -->
-
-                <!-- ======= F.A.Q Section ======= -->
-
-                <!-- End of F.A.Q Section -->
+          
 
 
 
@@ -389,7 +386,7 @@
                                 <div class="col-sm-4 footer-block">
                                     <div class="footer-widget widget_text">
                                         <div class="footer-logo">
-                                            <a href="#"><img src="img/logo.png" alt="" height="40" width="222"></a>
+                                            <a href="#"><img src="img/logo__.png" alt="" height="40" width="222"></a>
                                         </div>
                                         <p>Apoyo, To support businesses in all non-core areas ensuring entrepreneurs focus on the core area of expertise and thus fulfill their dream</p>
 
@@ -433,17 +430,21 @@
 
                     <div class="copyright-section">
                         <div class="container clearfix">
-                            <span class="copytext">Copyright &copy; 2020 | <a href="https://uicookies.com/downloads/x-corporation-free-bootstrap-html-template/">APOYO</a> 
-            <ul class="list-inline pull-right">
-                <li class="active"><a href="#">Home</a></li>
-                <li><a href="about.html">About Us</a></li>
-                <li><a href="services.html">Services</a></li>
-                <li><a href="#">Portfolio</a></li>
-                <li><a href="#">Blog</a></li>
-                <li><a href="contact.html">Contact</a></li>
-            </ul>
-        </div><!-- .container -->
-    </div><!-- .copyright-section -->
+                            <span class="copytext"><span class="m-r-10">Copyright &copy; 2020</span> | 
+                                <a href="#">
+                                    <img src="img/logo.png" alt="" height="40" width="40">
+                                </a>
+                                <ul class="list-inline pull-right">
+                                    <li class="active"><a href="#">Home</a></li>
+                                    <li><a href="about.html">About Us</a></li>
+                                    <li><a href="services.html">Services</a></li>
+                                    <li><a href="#">Portfolio</a></li>
+                                    <li><a href="#">Blog</a></li>
+                                    <li><a href="contact.html">Contact</a></li>
+                                </ul>
+                            </span>
+                        </div><!-- .container -->
+                </div><!-- .copyright-section -->
 </footer>
 <!-- .footer -->
 
@@ -452,20 +453,6 @@
 </div>
 <!-- .offcanvas-pusher -->
 
-<div class="uc-mobile-menu uc-mobile-menu-effect">
-    <button type="button" class="close" aria-hidden="true" data-toggle="offcanvas"
-            id="uc-mobile-menu-close-btn">&times;</button>
-    <div>
-        <div>
-            <ul id="menu">
-                <li><a href="index.html">Home</a></li>
-                <li><a href="about.html">About</a></li>
-                <li><a href="services.html">Services</a></li>
-                <li><a href="contact.html">Contact</a></li>
-            </ul>
-        </div>
-    </div>
-</div>
 <!-- .uc-mobile-menu -->
 
 
@@ -478,7 +465,6 @@
         integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS"
         crossorigin="anonymous"></script>
 <script src="js/smoothscroll.js"></script>
-<script src="js/mobile-menu.js"></script>
 <script src="js/flexSlider/jquery.flexslider-min.js"></script>
 <script src="js/scripts.js"></script>
 </body>

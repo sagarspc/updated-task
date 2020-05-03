@@ -10,8 +10,9 @@
     <link rel="icon" href="img/favicon.png" type="image/png" sizes="20x20">
     <title>Apoyo-Accounting</title>
     <!-- web-fonts -->
-    <link href='https://fonts.googleapis.com/css?family=Roboto:400,700,500' rel='stylesheet' type='text/css'>
-    <link href='http://fonts.googleapis.com/css?family=Montserrat:400,700' rel='stylesheet' type='text/css'>
+    <!-- <link href='https://fonts.googleapis.com/css?family=Roboto:400,700,500' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=Montserrat:400,700' rel='stylesheet' type='text/css'> -->
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;500&display=swap" rel="stylesheet">
     <!-- off-canvas -->
     <link href="css/mobile-menu.css" rel="stylesheet">
     <!-- font-awesome -->
@@ -45,29 +46,29 @@
         <div class="uc-mobile-menu-pusher">
 
             <div class="content-wrapper">
-                <nav class="navbar m-menu navbar-default navbar-fixed-top btco-hover-menu">
+                <nav class="navbar navbar-default navbar-fixed-top m-menu">
                     <div class="container">
                         <!-- Brand and toggle get grouped for better mobile display -->
                         <div class="navbar-header">
-                            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar-collapse-1">
-                 <span class="sr-only">Toggle navigation</span>
-                    <span class="icon-bar"></span>
-                         <span class="icon-bar"></span>
-                     <span class="icon-bar"></span>
-                 </button>
-                            <a class="navbar-brand" href="index.html"><img src="img/logo--.png" alt="" height="40" width="222"></a>
+                            <button class="navbar-toggle" type="button" data-toggle="collapse" data-target=".js-navbar-collapse">
+                            <span class="sr-only">Toggle navigation</span>
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                            </button>
+                        <a class="navbar-brand" href="index.html"><img src="img/logo--.png" alt="" height="40" width="222"></a>
                         </div>
 
 
-                        <div class="collapse navbar-collapse" id="#navbar-collapse-1">
+                        <div class="collapse navbar-collapse js-navbar-collapse">
 
                             <ul class="nav navbar-nav navbar-right main-nav BACK">
                                 <li><a href="index.html" class="effect-underline">Home</a></li>
                                 <li><a href="about.html" class="effect-underline">About Us</a></li>
                                 <li class="dropdown m-menu-fw">
-                                    <a href="services.html" class="effect-underline" data-toggle="dropdown" class="dropdown-toggle">
+                                    <a href="services.html" class="active effect-underline" data-toggle="dropdown" class="dropdown-toggle">
                                  Services
-                             <span><i class="fa fa-angle-down"></i></span>
+                             <span class="pull-right"><i class="fa fa-angle-down"></i></span>
                          </a>
                                     <ul class="dropdown-menu">
                                         <li>
@@ -146,14 +147,15 @@
 
                 <!-- .page-banner -->
 
-                <section id="pg-header" class="container">
+                <section id="pg-header" class="container center">
                     <div class="row">
-                        <div class="col-lg-6 text-center">
-                            <h2 style="color : #fff; font-size: 60px;">Cheque Bounce</h2>
+                        <div class="col-lg-12 text-center">
+                            <h2 class="m-t-30" style="color : #fff; font-size: 60px;"> Legal Notice</h2>
+
                             <br>
 
 
-                            <div id='hd_panel' class="panel panel-default">
+                            <div id='hd_panel' class="col-lg-6 panel panel-default">
                                 <div class="panel-body">
                                     <form>
                                         <div class="form-row">
@@ -190,33 +192,36 @@
                 <!-- .page-banner -->
 
                 <!-- .Page-Trademark-Process -->
-                <section class="ptb-90 container text-center">
+                <section class="container text-left">
                     <br>
-                    <h2>What is a Legal Notice?</h2>
-                    <p>Legal Notice is the formal communication to a person or entity informing him that we intend to undertake legal proceedings against him. It is a step taken before filing a suit, and is meant to warn the other party that legal action
-                        may be taken against him, if he fails to comply with some pre-specified condition.</p>
-
+                    <div class="section-title">
+                        <div class="container text-center">
+                            <h2 style=color:darkblue>Legal Notice</h2>
+                            <span class="bordered-icon m-b-25"><i class="fa fa-circle-thin"></i></span>
+                        </div>
+                    </div>
+                    <p class="p2"> 
+                            Legal Notice is the formal communication to a person or entity informing him that we intend to undertake legal proceedings against him. It is a step taken before filing a suit, and is meant to warn the other party that legal action may be taken against him, if he fails to comply with some pre-specified condition.       
+                    </p><br>
 
                 </section>
 
                 <!-- ----------------------add tab----------------------- -->
-                <nav class="navbar navbar-default" style="background-color: #6c6055; border-bottom: solid 3px #f78829">
+                <nav class="navbar navbar-default global-tab-panel container">
                     <div class="container">
 
 
                         <div class="collapse navbar-collapse1 in" id="nav-acumen" aria-expanded="true">
                             <ul class="nav navbar-nav text-center" id="navpadding" style="padding-top: 7px">
                                 <li class="myli myactive" id="link-1">
-                                    <a href="javascript:void(0)" class="mytext">When can you send a legal notice:</a>
+                                    <a href="javascript:void(0)" class="mytext">When can you send a legal notice</a>
                                 </li>
 
 
                                 <li class="myli" id="link-3">
-                                    <a href="javascript:void(0)" class="mytext">Procedure of filing a Legal Notice:</a>
+                                    <a href="javascript:void(0)" class="mytext">Procedure of filing a Legal Notice
+                                        </a>
                                 </li>
-
-
-
 
 
                             </ul>
@@ -232,47 +237,50 @@
                     <div class="container">
                         <div class="row">
 
-                            <div class="col-lg-12 col-xs-12 col-md-12">
+                            <div class="col-lg-12 col-xs-12 col-md-12 tab-section-info m-b-30">
 
 
                                 <div id="nav-1" style="">
-                                    <br>
 
                                     <div>
-
-                                        <P>The most common cases where legal notices are sent are property disputes, cheque dishonor, family disputes arising from asset distributions, marital disputes as a warning before taking legal action against the other
-                                            spouse, consumer complaints and cases where salary commitments are not followed.</P>
-                                        <P><b>Importance of filing a Legal Notice?</b></P>
-                                        <P>Certain situations may arise where you get confused about how to initiate legal action in order to resolve your matter. The filing of a legal notice gives a new beginning to your journey of litigation. Therefore
-                                            it has various aspects in which it is important:</P>
-                                        <P>• By sending legal notice it can give a clear intention on the part of the sender to file a lawsuit for the purpose of resolving the issue to which the other party might respond immediately to save oneself from
-                                            court proceedings.</P>
-                                        <P>• A person can easily describe his grievance in a legal notice with the help of an Advocate.</P>
-                                        <p>• It acts as a reminder for the receiver of the legal notice about the acts that have intentionally or unintentionally have created a problem for the sender.</p>
-                                        <BR>
-                                        <p>
-                                            <B>Essentials of Legal Notice:</B>
-                                        </p>
-                                        <p>Following are the essentials of a legal notice:</p>
-                                        <p>• Name, description, and place of residence of the sender of the notice.</p>
-                                        <p>• Statement of cause of action</p>
-                                        <p>• The relief claimed by the sender of the notice. </p>
-                                        <p>• Summary of the legal basis for the relief claimed.</p>
-                                        <BR>
-                                        <p>
-                                            <B>Points to be noted while drafting Legal Notice:</B>
-                                        </p>
-
-                                        <p>• One can draft a legal notice on their own, however, contacting a lawyer is always a better option.</p>
-                                        <p>• Make sure the notice is drafted in lawyer’s letter pad.</p>
-                                        <p>• Prefer colour printout of the notice where lawyer’s logo, if any is available.</p>
-                                        <p>• Always keep two copies of notice, one with you one with your lawyer.</p>
-                                        <p>• Post the notice in an envelope having lawyers logo. Ask him to provide the envelope.</p>
-                                        <p>• Client’s and lawyer’s signature is a must in the notice. </p>
-
-
-
-                                    </div>
+                                        <!-- <h3 style="color: orange;"><b>Procedure for registration of trademark:</b></h3> -->
+                                        <br>
+                                        <P>
+                                                The most common cases where legal notices are sent are property disputes, cheque dishonor, family disputes arising from asset distributions, marital disputes as a warning before taking legal action against the other
+                                                spouse, consumer complaints and cases where salary commitments are not followed.
+                                            </P>
+                                            <P><b>Importance of filing a Legal Notice?</b></P>
+                                            <P>
+                                                Certain situations may arise where you get confused about how to initiate legal action in order to resolve your matter. The filing of a legal notice gives a new beginning to your journey of litigation. Therefore
+                                                it has various aspects in which it is important:
+                                            </P>
+                                            <P>
+                                                • By sending legal notice it can give a clear intention on the part of the sender to file a lawsuit for the purpose of resolving the issue to which the other party might respond immediately to save oneself from
+                                                court proceedings.
+                                            </P>
+                                            <P>• A person can easily describe his grievance in a legal notice with the help of an Advocate.</P>
+                                            <p>• It acts as a reminder for the receiver of the legal notice about the acts that have intentionally or unintentionally have created a problem for the sender.</p>
+                                            
+                                            <p>
+                                                <B>Essentials of Legal Notice:</B>
+                                            </p>
+                                            <p>Following are the essentials of a legal notice:</p>
+                                            <p>• Name, description, and place of residence of the sender of the notice.</p>
+                                            <p>• Statement of cause of action</p>
+                                            <p>• The relief claimed by the sender of the notice. </p>
+                                            <p>• Summary of the legal basis for the relief claimed.</p>
+                                            
+                                            <p>
+                                                <B>Points to be noted while drafting Legal Notice:</B>
+                                            </p>
+                    
+                                            <p>• One can draft a legal notice on their own, however, contacting a lawyer is always a better option.</p>
+                                            <p>• Make sure the notice is drafted in lawyer’s letter pad.</p>
+                                            <p>• Prefer colour printout of the notice where lawyer’s logo, if any is available.</p>
+                                            <p>• Always keep two copies of notice, one with you one with your lawyer.</p>
+                                            <p>• Post the notice in an envelope having lawyers logo. Ask him to provide the envelope.</p>
+                                            <p>• Client’s and lawyer’s signature is a must in the notice. </p>
+                                        </div>
 
                                 </div>
 
@@ -285,33 +293,31 @@
 
                                 <div id="nav-3" style="display: none">
                                     <br>
-                                    <div>
-                                        <P><b>Following is the procedure for filing a Legal Notice:</b></P>
-                                        <P>Step 1: Seek for an advocate who possesses good drafting skills. A Legal Notice can be sent in any of the Indian languages but usually English is a preferred choice. The Notice should address the opposite party
-                                            against whom you want to file a complaint or suit.</P>
-                                        <P>Step 2: While Consulting to your advocate, explain the information in detail with names of the parties involved, the address of the parties, dates of transaction done or need to be done, problems or issues faced
-                                            any previous attempts of communication, etc.</P>
-                                        <P>Step 3: Advocate then carefully examines the matter through the information provided, makes relevant and required points in the conversation with you and looks for any additional information if required.</P>
-                                        <P>Step 4: The advocate then starts the drafting of the legal notice in the legal language clearly stating the reason for the sending of notice, all previous communications with the addressee regarding the grievances
-                                            of the sender and provides a reasonable time frame of 15 days or 30 days to the addressee to settle the matter in hand by negotiating and performing the required action.</P>
-                                        <P>Usually lawyers on behalf of the sender of the notice depending on their grievance stress on the action to be performed in the mentioned time period to either fulfill the demand or seek for a reply.</P>
-                                        <P>Step 5: The notice is then signed by both the advocate and the client and is sent to Registered AD post and it is ensured that the acknowledgment is retained. Usually, advocate keeps a copy of the notice with him/her.</P>
-                                        <P>Step 6: It is expected that the other party will reply to the notice after they receive the notice, but as a usual practice, the advocate calls the other party after some time.</P>
-
-                                    </div>
+                                        <div>
+                                                <P><b>Following is the procedure for filing a Legal Notice:</b></P>
+                        <P>
+                            Step 1: Seek for an advocate who possesses good drafting skills. A Legal Notice can be sent in any of the Indian languages but usually English is a preferred choice. The Notice should address the opposite party
+                            against whom you want to file a complaint or suit.
+                        </P>
+                        <P>
+                            Step 2: While Consulting to your advocate, explain the information in detail with names of the parties involved, the address of the parties, dates of transaction done or need to be done, problems or issues faced
+                            any previous attempts of communication, etc.
+                        </P>
+                        <P>Step 3: Advocate then carefully examines the matter through the information provided, makes relevant and required points in the conversation with you and looks for any additional information if required.</P>
+                        <P>
+                            Step 4: The advocate then starts the drafting of the legal notice in the legal language clearly stating the reason for the sending of notice, all previous communications with the addressee regarding the grievances
+                            of the sender and provides a reasonable time frame of 15 days or 30 days to the addressee to settle the matter in hand by negotiating and performing the required action.
+                        </P>
+                        <P>Usually lawyers on behalf of the sender of the notice depending on their grievance stress on the action to be performed in the mentioned time period to either fulfill the demand or seek for a reply.</P>
+                        <P>Step 5: The notice is then signed by both the advocate and the client and is sent to Registered AD post and it is ensured that the acknowledgment is retained. Usually, advocate keeps a copy of the notice with him/her.</P>
+                        <P>Step 6: It is expected that the other party will reply to the notice after they receive the notice, but as a usual practice, the advocate calls the other party after some time.</P>
+                                            </div>
 
                                 </div>
-
-
-
-
-
+                                </div>
                             </div>
 
-
                         </div>
-
-                    </div>
                 </section>
 
                 <!-- --------------------end of the tab-------------------------------- -->
@@ -341,11 +347,7 @@
 
 
 
-                <!--End of Advantage -->
-
-                <!-- ======= F.A.Q Section ======= -->
-
-                <!-- End of F.A.Q Section -->
+          
 
 
 
@@ -358,7 +360,7 @@
                                 <div class="col-sm-4 footer-block">
                                     <div class="footer-widget widget_text">
                                         <div class="footer-logo">
-                                            <a href="#"><img src="img/logo.png" alt="" height="40" width="222"></a>
+                                            <a href="#"><img src="img/logo__.png" alt="" height="40" width="222"></a>
                                         </div>
                                         <p>Apoyo, To support businesses in all non-core areas ensuring entrepreneurs focus on the core area of expertise and thus fulfill their dream</p>
 
@@ -402,17 +404,21 @@
 
                     <div class="copyright-section">
                         <div class="container clearfix">
-                            <span class="copytext">Copyright &copy; 2020 | <a href="https://uicookies.com/downloads/x-corporation-free-bootstrap-html-template/">APOYO</a> 
-            <ul class="list-inline pull-right">
-                <li class="active"><a href="#">Home</a></li>
-                <li><a href="about.html">About Us</a></li>
-                <li><a href="services.html">Services</a></li>
-                <li><a href="#">Portfolio</a></li>
-                <li><a href="#">Blog</a></li>
-                <li><a href="contact.html">Contact</a></li>
-            </ul>
-        </div><!-- .container -->
-    </div><!-- .copyright-section -->
+                            <span class="copytext"><span class="m-r-10">Copyright &copy; 2020</span> | 
+                                <a href="#">
+                                    <img src="img/logo.png" alt="" height="40" width="40">
+                                </a>
+                                <ul class="list-inline pull-right">
+                                    <li class="active"><a href="#">Home</a></li>
+                                    <li><a href="about.html">About Us</a></li>
+                                    <li><a href="services.html">Services</a></li>
+                                    <li><a href="#">Portfolio</a></li>
+                                    <li><a href="#">Blog</a></li>
+                                    <li><a href="contact.html">Contact</a></li>
+                                </ul>
+                            </span>
+                        </div><!-- .container -->
+                </div><!-- .copyright-section -->
 </footer>
 <!-- .footer -->
 
@@ -421,20 +427,6 @@
 </div>
 <!-- .offcanvas-pusher -->
 
-<div class="uc-mobile-menu uc-mobile-menu-effect">
-    <button type="button" class="close" aria-hidden="true" data-toggle="offcanvas"
-            id="uc-mobile-menu-close-btn">&times;</button>
-    <div>
-        <div>
-            <ul id="menu">
-                <li><a href="index.html">Home</a></li>
-                <li><a href="about.html">About</a></li>
-                <li><a href="services.html">Services</a></li>
-                <li><a href="contact.html">Contact</a></li>
-            </ul>
-        </div>
-    </div>
-</div>
 <!-- .uc-mobile-menu -->
 
 
@@ -447,7 +439,6 @@
         integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS"
         crossorigin="anonymous"></script>
 <script src="js/smoothscroll.js"></script>
-<script src="js/mobile-menu.js"></script>
 <script src="js/flexSlider/jquery.flexslider-min.js"></script>
 <script src="js/scripts.js"></script>
 </body>
