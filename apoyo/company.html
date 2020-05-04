@@ -10,8 +10,9 @@
     <link rel="icon" href="img/favicon.png" type="image/png" sizes="20x20">
     <title>Apoyo-Accounting</title>
     <!-- web-fonts -->
-    <link href='https://fonts.googleapis.com/css?family=Roboto:400,700,500' rel='stylesheet' type='text/css'>
-    <link href='http://fonts.googleapis.com/css?family=Montserrat:400,700' rel='stylesheet' type='text/css'>
+    <!-- <link href='https://fonts.googleapis.com/css?family=Roboto:400,700,500' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=Montserrat:400,700' rel='stylesheet' type='text/css'> -->
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;500&display=swap" rel="stylesheet">
     <!-- off-canvas -->
     <link href="css/mobile-menu.css" rel="stylesheet">
     <!-- font-awesome -->
@@ -45,29 +46,29 @@
         <div class="uc-mobile-menu-pusher">
 
             <div class="content-wrapper">
-                <nav class="navbar m-menu navbar-default navbar-fixed-top btco-hover-menu">
+                <nav class="navbar navbar-default navbar-fixed-top m-menu">
                     <div class="container">
                         <!-- Brand and toggle get grouped for better mobile display -->
                         <div class="navbar-header">
-                            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar-collapse-1">
-                 <span class="sr-only">Toggle navigation</span>
-                    <span class="icon-bar"></span>
-                         <span class="icon-bar"></span>
-                     <span class="icon-bar"></span>
-                 </button>
-                            <a class="navbar-brand" href="index.html"><img src="img/logo--.png" alt="" height="40" width="222"></a>
+                            <button class="navbar-toggle" type="button" data-toggle="collapse" data-target=".js-navbar-collapse">
+                            <span class="sr-only">Toggle navigation</span>
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                            </button>
+                        <a class="navbar-brand" href="index.html"><img src="img/logo--.png" alt="" height="40" width="222"></a>
                         </div>
 
 
-                        <div class="collapse navbar-collapse" id="#navbar-collapse-1">
+                        <div class="collapse navbar-collapse js-navbar-collapse">
 
                             <ul class="nav navbar-nav navbar-right main-nav BACK">
                                 <li><a href="index.html" class="effect-underline">Home</a></li>
                                 <li><a href="about.html" class="effect-underline">About Us</a></li>
                                 <li class="dropdown m-menu-fw">
-                                    <a href="services.html" class="effect-underline" data-toggle="dropdown" class="dropdown-toggle">
+                                    <a href="services.html" class="active effect-underline" data-toggle="dropdown" class="dropdown-toggle">
                                  Services
-                             <span><i class="fa fa-angle-down"></i></span>
+                             <span class="pull-right"><i class="fa fa-angle-down"></i></span>
                          </a>
                                     <ul class="dropdown-menu">
                                         <li>
@@ -93,6 +94,7 @@
 
                                     <ul class="col-sm-3 " ">
 
+                                                    <li class="dropdown-header ">Intellectual Property Services</li>
                                                     <li><a href="trademark.html">Trademark</a></li>
                                                     <li><a href="# ">Patent</a></li>
                                                     <li><a href="# ">Copyright</a></li>
@@ -145,10 +147,11 @@
 
                 <!-- .page-banner -->
 
-                <section id="pg-header" class="container">
+                <section id="pg-header" class="container center">
                     <div class="row">
-                        <div class="col-lg-12 comman-section-header text-center">
-                            <h2 style="color : #fff; font-size: 60px;">Company Closure:</h2>
+                        <div class="col-lg-12 text-center">
+                            <h2 class="m-t-30" style="color : #fff; font-size: 60px;"> Company Closure</h2>
+
                             <br>
 
 
@@ -189,39 +192,45 @@
                 <!-- .page-banner -->
 
                 <!-- .Page-Trademark-Process -->
-                <section class="ptb-90 container text-center">
+                <section class="container text-left">
                     <br>
-                    <h2>Company Closure:</h2>
-                    <p>Due to several reasons, business owners may decide to close their private limited company. There are certain steps and procedures to be followed when closing a private limited company. Business owners must abide by certain legal laws
-                        and regulations when closing a company which is registered as a private limited company.</p>
+                    <div class="section-title">
+                        <div class="container text-center">
+                            <h2 style=color:darkblue>Company Closure</h2>
+                            <span class="bordered-icon m-b-25"><i class="fa fa-circle-thin"></i></span>
+                        </div>
+                    </div>
+                    <p class="p2">Due to several reasons, business owners may decide to close their private limited company. There are certain steps and procedures to be followed when closing a private limited company. Business owners must abide by certain legal laws
+                            and regulations when closing a company which is registered as a private limited company.</p>
+    
+                        <P class="p2">When a Company can apply for closure?</P>
+                        <P class="p2">• No commencement of business within 1 (one) year of incorporation; or</P>
+                        <P class="p2">• When the Company is not carrying out any business or Activity for preceding 2 financial years and has not sought the status of Dormant Company under Section 455 of the Act.</P>
+                    <br>
 
-                    <P>When a Company can apply for closure?</P>
-                    <P>• No commencement of business within 1 (one) year of incorporation; or</P>
-                    <P>• When the Company is not carrying out any business or Activity for preceding 2 financial years and has not sought the status of Dormant Company under Section 455 of the Act.</P>
                 </section>
 
                 <!-- ----------------------add tab----------------------- -->
-                <nav class="navbar navbar-default" style="background-color: #6c6055; border-bottom: solid 3px #f78829">
+                <nav class="navbar navbar-default global-tab-panel container">
                     <div class="container">
 
 
                         <div class="collapse navbar-collapse1 in" id="nav-acumen" aria-expanded="true">
                             <ul class="nav navbar-nav text-center" id="navpadding" style="padding-top: 7px">
                                 <li class="myli myactive" id="link-1">
-                                    <a href="javascript:void(0)" class="mytext">Ways in which Company can be closed:</a>
+                                    <a href="javascript:void(0)" class="mytext">Ways in which Company can be closed</a>
                                 </li>
 
 
                                 <li class="myli" id="link-3">
                                     <a href="javascript:void(0)" class="mytext">Documents Required
-                                        :</a>
-                                </li>
-                                <li class="myli" id="link-4">
-                                    <a href="javascript:void(0)" class="mytext">Companies which cannot be wound up voluntarily:
                                     </a>
                                 </li>
 
-
+                                <li class="myli" id="link-4">
+                                    <a href="javascript:void(0)" class="mytext">Companies which cannot be wound up voluntarily
+                                    </a>
+                                </li>
                             </ul>
                         </div>
 
@@ -235,10 +244,10 @@
                     <div class="container">
                         <div class="row">
 
-                            <div class="col-lg-12 col-xs-12 col-md-12">
+                            <div class="col-lg-12 col-xs-12 col-md-12 tab-section-info m-b-30">
 
 
-                                <div id="nav-1" style="padding: 30px">
+                                <div id="nav-1" style="">
 
                                     <div>
                                         <!-- <h3 style="color: orange;"><b>Procedure for registration of trademark:</b></h3> -->
@@ -249,7 +258,7 @@
                                         <P>Where the Registrar has reasonable cause to believe that a company has not commenced its operations or inactive since last 2 years, he shall send a notice to the company and all the directors of the company, in
                                             form STK-­1, of his intention to remove the name of the company from the register of companies and requesting them to send their representations along with copies of the relevant documents, if any, within a
                                             period of thirty (30) days from the date of the notice. Generally, ROC closes the company based on the non-filing of Financial Statements and Annual Return.</P>
-                                        <br>
+                                        
                                         <p>
                                             </b> <b>2. Voluntary Winding-up:</b></b>
                                             <P>A company may on its own file an application in Form STK-2 to the Registrar for removing the name of the Company after extinguishing all its liabilities and after passing a special resolution. Form STK-2 is
@@ -261,9 +270,7 @@
                                                 <P>2. No liability should exist</P>
                                                 <P>3. Convene an EOGM for passing special resolution.</P>
                                                 <P>4. File Special Resolution in Form MGT-14.</P>
-                                                <P>5. File Form STK-2</P>
-
-
+                                                <P>5. File Form STK-2</P> 
                                     </div>
 
                                 </div>
@@ -275,33 +282,32 @@
 
 
 
-                                <div id="nav-3" style="display: none;padding: 30px">
+                                <div id="nav-3" style="display: none">
                                     <br>
+                                        <div>
+                                                <P>1. Indemnity Bond in Form STK-3</P>
+                                                <P>2. Affidavit in Form STK-4</P>
+                                                <P>3. Statement of accounts certified by Chartered Accountant</P>
+                                                <P>4. Certified True Copy of EOGM</P>
+                                                <P>5. Statement of pending litigations, involving the Company</P>
+                                        </div>
 
-                                    <P>1. Indemnity Bond in Form STK-3</P>
-                                    <P>2. Affidavit in Form STK-4</P>
-                                    <P>3. Statement of accounts certified by Chartered Accountant</P>
-                                    <P>4. Certified True Copy of EOGM</P>
-                                    <P>5. Statement of pending litigations, involving the Company</P>
-
+                                </div>
+                                <div id="nav-4" style="display: none;">
+                                       <br>
+                                        <P>1. Listed Companies;</P>
+                                        <P>2. Section 8 Companies;</P>
+                                        <P>3. Companies in which prosecution proceedings are pending;</P>
+                                        <P>4. Companies that have been delisted due to non-compliance of listing regulations;</P>
+                                        <P>5. Companies which have any outstanding public deposits;</P>
+                                        <P>6. Companies having outstanding charges which are pending for satisfaction;</P>
+                                        <P>7. Companies whose application for compounding is pending before the competent court in respect to offences committed by the company or any of its officers.</P>
+        
+                                    </div>
                                 </div>
                             </div>
 
-                            <div id="nav-4" style="display: none;padding: 30px">
-                                <br>
-
-                                <P>1. Listed Companies;</P>
-                                <P>2. Section 8 Companies;</P>
-                                <P>3. Companies in which prosecution proceedings are pending;</P>
-                                <P>4. Companies that have been delisted due to non-compliance of listing regulations;</P>
-                                <P>5. Companies which have any outstanding public deposits;</P>
-                                <P>6. Companies having outstanding charges which are pending for satisfaction;</P>
-                                <P>7. Companies whose application for compounding is pending before the competent court in respect to offences committed by the company or any of its officers.</P>
-
-                            </div>
                         </div>
-
-                    </div>
                 </section>
 
                 <!-- --------------------end of the tab-------------------------------- -->
@@ -331,72 +337,7 @@
 
 
 
-                <!--End of Advantage -->
-
-                <!-- ======= F.A.Q Section ======= -->
-                <section id="faq" class="faq section-bg">
-                    <div class="container">
-                        <br>
-                        <div class="section-title text-center" data-aos="fade-up">
-                            <h2>F.A.Q</h2>
-
-                        </div>
-
-                        <ul class="faq-list">
-
-
-
-                            <li data-aos="fade-up" data-aos-delay="200">
-                                <a data-toggle="collapse" href="#faq2" class="collapsed">1. Why Company Closure?</a>
-                                <div id="faq2" class="collapse" data-parent=".faq-list">
-                                    <P>Since Company being a separate legal entity you are required to close the Company.</P>
-                                </div>
-                            </li>
-
-                            <li data-aos="fade-up" data-aos-delay="300">
-                                <a data-toggle="collapse" href="#faq3" class="collapsed">2. What are documents required for Company Closure?</a>
-                                <div id="faq3" class="collapse" data-parent=".faq-list">
-                                    <P>1. Affidavit</P>
-                                    <P>2. Indemnity Bond</P>
-                                    <P>3. Statement of Assets and Liabilities</P>
-                                    <P>4. Board Resolution</P>
-                                    <P>5. Statement of Pending Litigations</P>
-                                </div>
-                            </li>
-
-                            <li data-aos="fade-up" data-aos-delay="400">
-                                <a data-toggle="collapse" href="#faq4" class="collapsed">3. What is the Government Fees for Company Closure?</a>
-                                <div id="faq4" class="collapse" data-parent=".faq-list">
-                                    <p>Rs. 10,000 is the Government fees for Company Closure.</p>
-                                </div>
-                            </li>
-
-                            <li data-aos="fade-up" data-aos-delay="500">
-                                <a data-toggle="collapse" href="#faq5" class="collapsed">4. What is the time limit for Closure of Company?</a>
-                                <div id="faq5" class="collapse" data-parent=".faq-list">
-                                    <p>The complete process takes around 6 to 7 months.</p>
-                                </div>
-                            </li>
-
-                            <li data-aos="fade-up" data-aos-delay="200">
-                                <a data-toggle="collapse" href="#faq6" class="collapsed">5. Time limit to file closure documents:</a>
-                                <div id="faq6" class="collapse" data-parent=".faq-list">
-                                    <P>Within 30 days of signing the statement of assets and liabilities.</P>
-                                </div>
-                            </li>
-
-
-
-
-
-
-                        </ul>
-
-                    </div>
-
-
-                </section>
-                <!-- End of F.A.Q Section -->
+          
 
 
 
@@ -409,7 +350,7 @@
                                 <div class="col-sm-4 footer-block">
                                     <div class="footer-widget widget_text">
                                         <div class="footer-logo">
-                                            <a href="#"><img src="img/logo.png" alt="" height="40" width="222"></a>
+                                            <a href="#"><img src="img/logo__.png" alt="" height="40" width="222"></a>
                                         </div>
                                         <p>Apoyo, To support businesses in all non-core areas ensuring entrepreneurs focus on the core area of expertise and thus fulfill their dream</p>
 
@@ -453,18 +394,22 @@
 
                     <div class="copyright-section">
                         <div class="container clearfix">
-                            <span class="copytext">Copyright &copy; 2020 | <a href="https://uicookies.com/downloads/x-corporation-free-bootstrap-html-template/">APOYO</a> 
-            <ul class="list-inline pull-right">
-                <li class="active"><a href="#">Home</a></li>
-                <li><a href="about.html">About Us</a></li>
-                <li><a href="services.html">Services</a></li>
-                <li><a href="#">Portfolio</a></li>
-                <li><a href="#">Blog</a></li>
-                <li><a href="contact.html">Contact</a></li>
-            </ul>
-        </div><!-- .container -->
-    </div><!-- .copyright-section -->
-</footer>
+                            <span class="copytext"><span class="m-r-10">Copyright &copy; 2020</span> | 
+                                <a href="#">
+                                    <img src="img/logo.png" alt="" height="40" width="40">
+                                </a>
+                                <ul class="list-inline pull-right">
+                                    <li class="active"><a href="#">Home</a></li>
+                                    <li><a href="about.html">About Us</a></li>
+                                    <li><a href="services.html">Services</a></li>
+                                    <li><a href="#">Portfolio</a></li>
+                                    <li><a href="#">Blog</a></li>
+                                    <li><a href="contact.html">Contact</a></li>
+                                </ul>
+                            </span>
+                        </div><!-- .container -->
+                </div><!-- .copyright-section -->
+                </footer>
 <!-- .footer -->
 
 </div>
@@ -472,20 +417,6 @@
 </div>
 <!-- .offcanvas-pusher -->
 
-<div class="uc-mobile-menu uc-mobile-menu-effect">
-    <button type="button" class="close" aria-hidden="true" data-toggle="offcanvas"
-            id="uc-mobile-menu-close-btn">&times;</button>
-    <div>
-        <div>
-            <ul id="menu">
-                <li><a href="index.html">Home</a></li>
-                <li><a href="about.html">About</a></li>
-                <li><a href="services.html">Services</a></li>
-                <li><a href="contact.html">Contact</a></li>
-            </ul>
-        </div>
-    </div>
-</div>
 <!-- .uc-mobile-menu -->
 
 
@@ -498,7 +429,6 @@
         integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS"
         crossorigin="anonymous"></script>
 <script src="js/smoothscroll.js"></script>
-<script src="js/mobile-menu.js"></script>
 <script src="js/flexSlider/jquery.flexslider-min.js"></script>
 <script src="js/scripts.js"></script>
 </body>

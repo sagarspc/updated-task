@@ -4931,9 +4931,14 @@ padding: 6px 20px;
     .custom-cards br{
       display: none !important;
     }
+    .btn-patent{
+      padding: 12px 27px;
+    }
   }
   
-  
+  .promo-content h3{
+    font-size: 14px;
+  }
   /* reusable classes */
   .m-b-30 {
     margin-bottom: 30px !important;

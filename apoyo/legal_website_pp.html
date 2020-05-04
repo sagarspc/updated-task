@@ -10,8 +10,9 @@
     <link rel="icon" href="img/favicon.png" type="image/png" sizes="20x20">
     <title>Apoyo-Accounting</title>
     <!-- web-fonts -->
-    <link href='https://fonts.googleapis.com/css?family=Roboto:400,700,500' rel='stylesheet' type='text/css'>
-    <link href='http://fonts.googleapis.com/css?family=Montserrat:400,700' rel='stylesheet' type='text/css'>
+    <!-- <link href='https://fonts.googleapis.com/css?family=Roboto:400,700,500' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=Montserrat:400,700' rel='stylesheet' type='text/css'> -->
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;500&display=swap" rel="stylesheet">
     <!-- off-canvas -->
     <link href="css/mobile-menu.css" rel="stylesheet">
     <!-- font-awesome -->
@@ -45,29 +46,29 @@
         <div class="uc-mobile-menu-pusher">
 
             <div class="content-wrapper">
-                <nav class="navbar m-menu navbar-default navbar-fixed-top btco-hover-menu">
+                <nav class="navbar navbar-default navbar-fixed-top m-menu">
                     <div class="container">
                         <!-- Brand and toggle get grouped for better mobile display -->
                         <div class="navbar-header">
-                            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar-collapse-1">
-                 <span class="sr-only">Toggle navigation</span>
-                    <span class="icon-bar"></span>
-                         <span class="icon-bar"></span>
-                     <span class="icon-bar"></span>
-                 </button>
-                            <a class="navbar-brand" href="index.html"><img src="img/logo--.png" alt="" height="40" width="222"></a>
+                            <button class="navbar-toggle" type="button" data-toggle="collapse" data-target=".js-navbar-collapse">
+                            <span class="sr-only">Toggle navigation</span>
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                            </button>
+                        <a class="navbar-brand" href="index.html"><img src="img/logo--.png" alt="" height="40" width="222"></a>
                         </div>
 
 
-                        <div class="collapse navbar-collapse" id="#navbar-collapse-1">
+                        <div class="collapse navbar-collapse js-navbar-collapse">
 
                             <ul class="nav navbar-nav navbar-right main-nav BACK">
                                 <li><a href="index.html" class="effect-underline">Home</a></li>
                                 <li><a href="about.html" class="effect-underline">About Us</a></li>
                                 <li class="dropdown m-menu-fw">
-                                    <a href="services.html" class="effect-underline" data-toggle="dropdown" class="dropdown-toggle">
+                                    <a href="services.html" class="active effect-underline" data-toggle="dropdown" class="dropdown-toggle">
                                  Services
-                             <span><i class="fa fa-angle-down"></i></span>
+                             <span class="pull-right"><i class="fa fa-angle-down"></i></span>
                          </a>
                                     <ul class="dropdown-menu">
                                         <li>
@@ -146,14 +147,15 @@
 
                 <!-- .page-banner -->
 
-                <section id="pg-header" class="container">
+                <section id="pg-header" class="container center">
                     <div class="row">
-                        <div class="col-lg-6 text-center">
-                            <h2 style="color : #fff; font-size: 35px;">Privacy Policy</h2>
+                        <div class="col-lg-12 text-center">
+                            <h2 class="m-t-30" style="color : #fff; font-size: 60px;"> Privacy Policy</h2>
+
+                            <br>
 
 
-
-                            <div id='hd_panel' class="panel panel-default">
+                            <div id='hd_panel' class="col-lg-6 panel panel-default">
                                 <div class="panel-body">
                                     <form>
                                         <div class="form-row">
@@ -190,18 +192,23 @@
                 <!-- .page-banner -->
 
                 <!-- .Page-Trademark-Process -->
-                <section class="ptb-90 container text-left">
+                <section class="container text-left">
                     <br>
-                    <h2>What is a privacy policy?</h2>
-                    <P>A privacy policy is a statement contained on a website that details how the operators of the site will collect, store, protect, and utilize personal data provided by its users.</P>
-                    <P>The definition of personal data includes names, addresses (physical or e-mail), IP addresses, telephone numbers, date of birth, and financial information, such as debit or credit card details.</P>
-                    <P>In addition to outlining how the company will use the information, it also includes how it will meet its legal obligations, and how those sharing their data can seek recourse should the company fail to meet those responsibilities.</P>
-
+                    <div class="section-title">
+                        <div class="container text-center">
+                            <h2 style=color:darkblue>What is a privacy policy?</h2>
+                            <span class="bordered-icon m-b-25"><i class="fa fa-circle-thin"></i></span>
+                        </div>
+                    </div>
+                    <P class="p2">A privacy policy is a statement contained on a website that details how the operators of the site will collect, store, protect, and utilize personal data provided by its users.</P>
+                    <P class="p2">The definition of personal data includes names, addresses (physical or e-mail), IP addresses, telephone numbers, date of birth, and financial information, such as debit or credit card details.</P>
+                    <P class="p2">In addition to outlining how the company will use the information, it also includes how it will meet its legal obligations, and how those sharing their data can seek recourse should the company fail to meet those responsibilities.</P>
+                    <br>
 
                 </section>
 
                 <!-- ----------------------add tab----------------------- -->
-                <nav class="navbar navbar-default" style="background-color: #6c6055; border-bottom: solid 3px #f78829">
+                <nav class="navbar navbar-default global-tab-panel container">
                     <div class="container">
 
 
@@ -213,13 +220,14 @@
 
 
                                 <li class="myli" id="link-3">
-                                    <a href="javascript:void(0)" class="mytext">What to be included in a privacy policy?</a>
+                                    <a href="javascript:void(0)" class="mytext">What to be included in a privacy policy?
+                                        </a>
                                 </li>
+
                                 <li class="myli" id="link-4">
                                     <a href="javascript:void(0)" class="mytext">Drafting your Privacy Policy:
                                     </a>
                                 </li>
-
 
                             </ul>
                         </div>
@@ -234,16 +242,17 @@
                     <div class="container">
                         <div class="row">
 
-                            <div class="col-lg-12 col-xs-12 col-md-12">
+                            <div class="col-lg-12 col-xs-12 col-md-12 tab-section-info m-b-30">
 
 
                                 <div id="nav-1" style="">
-                                    <br>
 
                                     <div>
+                                        <!-- <h3 style="color: orange;"><b>Procedure for registration of trademark:</b></h3> -->
+                                        <br>
                                         <P>Any site that gathers any data about its users, even if it is simply through tracking their location, is required to have a privacy policy.</P>
                                         <P>Many websites require site users to indicate that they have read the policy when they first provide their information.</P>
-                                        <br>
+                                        
                                         <P><b>Why do we need a privacy policy?</b></P>
                                         <P>Following are the reasons that we need a privacy policy:</P>
                                         <P>• A carefully drafted, easy to understand, and maybe even entertaining Privacy Policy inspires trust in clients, encouraging them to sign up with you and stick around for a while. It makes users feel safe and cared
@@ -251,9 +260,6 @@
                                         <P>• A Privacy Policy teaches (or reminds) people that they have rights worth protecting.</P>
                                         <P>• A Privacy Policy clearly lays out where your boundaries are when it comes to the data you use and how you plan to use it.</P>
                                         <P>• A good Privacy Policy will protect you from fines and other penalties.</P>
-
-
-
                                     </div>
 
                                 </div>
@@ -267,31 +273,34 @@
 
                                 <div id="nav-3" style="display: none">
                                     <br>
-
-                                    <P><b>Following elements are to be included in the privacy policy:</b></P>
-                                    <P>• The exact information that will be collected from website users, which may include names, physical or e-mail addresses, IP addresses, and telephone numbers, and location tracking.</P>
-                                    <P>• If cookies are being used on the site, how to opt-out of them, and what effect this might have on the user's experience.</P>
-                                    <P>• How the information will be collected, and by whom, for example, if it is being collected by an advertising program.</P>
-                                    <P>• How the information will be collected, and by whom, for example, if it is being collected by an advertising program.</P>
-                                    <P>• How the information will be collected, and by whom, for example, if it is being collected by an advertising program.</P>
+                                        <div>
+                                            <P><b>Following elements are to be included in the privacy policy:</b></P>
+                                            <P>• The exact information that will be collected from website users, which may include names, physical or e-mail addresses, IP addresses, and telephone numbers, and location tracking.</P>
+                                            <P>• If cookies are being used on the site, how to opt-out of them, and what effect this might have on the user's experience.</P>
+                                            <P>• How the information will be collected, and by whom, for example, if it is being collected by an advertising program.</P>
+                                            <P>• How the information will be collected, and by whom, for example, if it is being collected by an advertising program.</P>
+                                            <P>• How the information will be collected, and by whom, for example, if it is being collected by an advertising program.</P>
+            
+                                        </div>
 
                                 </div>
-                                <br> <br> <br>
+
+                                <div id="nav-4" style="display: none">
+                                        <br>
+                                            <div>
+                                                    <P><b>Following points to be observed while drafting Privacy Policy:</b></P>
+                                                    <P>• When creating a Privacy Policy for your business, it helps to understand and consider the spirit of the law and not just the letter.</P>
+                                                    <P>• Your Privacy Policy exists first and foremost to protect client confidentiality.</P>
+                                                    <P>• Keep it separate from any other legal agreements you may have. Make sure it has its own section and is referenced as such.</P>
+                                                    <P>• Be accurate (and current) regarding what information you collect, why you collect it, what you’re using it for, and with which third parties you’ll be sharing it. </P>
+                                                    <P>• Make your Privacy Policy understandable.</P>
+                                            </div>
+    
+                                    </div>
+                                </div>
                             </div>
 
-                            <div id="nav-4" style="display: none">
-                                <P><b>Following points to be observed while drafting Privacy Policy:</b></P>
-                                <P>• When creating a Privacy Policy for your business, it helps to understand and consider the spirit of the law and not just the letter.</P>
-                                <P>• Your Privacy Policy exists first and foremost to protect client confidentiality.</P>
-                                <P>• Keep it separate from any other legal agreements you may have. Make sure it has its own section and is referenced as such.</P>
-                                <P>• Be accurate (and current) regarding what information you collect, why you collect it, what you’re using it for, and with which third parties you’ll be sharing it. </P>
-                                <P>• Make your Privacy Policy understandable.</P>
-
-                            </div>
-                            <br> <br>
                         </div>
-
-                    </div>
                 </section>
 
                 <!-- --------------------end of the tab-------------------------------- -->
@@ -321,21 +330,7 @@
 
 
 
-                <!--End of Advantage -->
-
-                <!-- ======= F.A.Q Section ======= -->
-
-                <!-- ------------------------------------------------------- -->
-                <!-- <nav class="navbar navbar-default" style="background-color: #ffffff; border-top: solid 2px #f78829 ">
-
-                    <div class=" text-center">
-                        <h2 style="color: rgb(0, 0, 0);">F.A.Q</h2>
-                    </div>
-
-                </nav> -->
-                <!-- --------------------------------------------------------------- -->
-
-                <!-- End of F.A.Q Section -->
+          
 
 
 
@@ -348,7 +343,7 @@
                                 <div class="col-sm-4 footer-block">
                                     <div class="footer-widget widget_text">
                                         <div class="footer-logo">
-                                            <a href="#"><img src="img/logo.png" alt="" height="40" width="222"></a>
+                                            <a href="#"><img src="img/logo__.png" alt="" height="40" width="222"></a>
                                         </div>
                                         <p>Apoyo, To support businesses in all non-core areas ensuring entrepreneurs focus on the core area of expertise and thus fulfill their dream</p>
 
@@ -392,17 +387,21 @@
 
                     <div class="copyright-section">
                         <div class="container clearfix">
-                            <span class="copytext">Copyright &copy; 2020 | <a href="https://uicookies.com/downloads/x-corporation-free-bootstrap-html-template/">APOYO</a> 
-            <ul class="list-inline pull-right">
-                <li class="active"><a href="#">Home</a></li>
-                <li><a href="about.html">About Us</a></li>
-                <li><a href="services.html">Services</a></li>
-                <li><a href="#">Portfolio</a></li>
-                <li><a href="#">Blog</a></li>
-                <li><a href="contact.html">Contact</a></li>
-            </ul>
-        </div><!-- .container -->
-    </div><!-- .copyright-section -->
+                            <span class="copytext"><span class="m-r-10">Copyright &copy; 2020</span> | 
+                                <a href="#">
+                                    <img src="img/logo.png" alt="" height="40" width="40">
+                                </a>
+                                <ul class="list-inline pull-right">
+                                    <li class="active"><a href="#">Home</a></li>
+                                    <li><a href="about.html">About Us</a></li>
+                                    <li><a href="services.html">Services</a></li>
+                                    <li><a href="#">Portfolio</a></li>
+                                    <li><a href="#">Blog</a></li>
+                                    <li><a href="contact.html">Contact</a></li>
+                                </ul>
+                            </span>
+                        </div><!-- .container -->
+                </div><!-- .copyright-section -->
 </footer>
 <!-- .footer -->
 
@@ -411,20 +410,6 @@
 </div>
 <!-- .offcanvas-pusher -->
 
-<div class="uc-mobile-menu uc-mobile-menu-effect">
-    <button type="button" class="close" aria-hidden="true" data-toggle="offcanvas"
-            id="uc-mobile-menu-close-btn">&times;</button>
-    <div>
-        <div>
-            <ul id="menu">
-                <li><a href="index.html">Home</a></li>
-                <li><a href="about.html">About</a></li>
-                <li><a href="services.html">Services</a></li>
-                <li><a href="contact.html">Contact</a></li>
-            </ul>
-        </div>
-    </div>
-</div>
 <!-- .uc-mobile-menu -->
 
 
@@ -437,7 +422,6 @@
         integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS"
         crossorigin="anonymous"></script>
 <script src="js/smoothscroll.js"></script>
-<script src="js/mobile-menu.js"></script>
 <script src="js/flexSlider/jquery.flexslider-min.js"></script>
 <script src="js/scripts.js"></script>
 </body>
