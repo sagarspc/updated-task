@@ -4935,6 +4935,9 @@ padding: 6px 20px;
     .btn-patent{
       padding: 12px 27px;
     }
+    .tab-section-info .plc-head{
+      font-size: 16px;
+    }
   }
   
   .promo-content h3{
