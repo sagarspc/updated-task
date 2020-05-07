@@ -26,6 +26,7 @@
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
     <!-- Style CSS -->
     <link href="css/style.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/demo.css">
  <style>
      
 body {
@@ -133,114 +134,117 @@ font-family: 'Montserrat', 'Helvetica Neue', Helvetica, Arial, sans-serif !impor
 <body>
     <div id="main-wrapper">
         <!-- Page Preloader -->
-        <div id="preloader">
+        <!-- <div id="preloader">
             <div id="status">
                 <div class="status-mes"></div>
             </div>
-        </div>
+        </div> -->
         <div class="uc-mobile-menu-pusher">
             <div class="content-wrapper">
-                    <nav class="navbar navbar-default navbar-fixed-top m-menu">
-                            <div class="container">
-                            <div class="navbar-header">
-                              <button class="navbar-toggle" type="button" data-toggle="collapse" data-target=".js-navbar-collapse">
-                                <span class="sr-only">Toggle navigation</span>
+                <nav class="navbar m-menu navbar-default navbar-fixed-top">
+                    <div class="container">
+                        <!-- Brand and toggle get grouped for better mobile display -->
+                        <div class="navbar-header">
+                            <!-- <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar-collapse-1">
+                             <span class="sr-only">Toggle navigation</span>
                                 <span class="icon-bar"></span>
-                                <span class="icon-bar"></span>
-                                <span class="icon-bar"></span>
-                              </button>
-                              <a class="navbar-brand" href="#">
-                                    <img src="img/logo.png" alt="" height="40" width="222">
-                              </a>
-                            </div>
-                            <div class="collapse navbar-collapse js-navbar-collapse">
-                                <ul class="nav navbar-nav navbar-right main-nav BACK">
-                                <li><a href="index.html" class="effect-underline active">Home</a></li>
+                                     <span class="icon-bar"></span>
+                                 <span class="icon-bar"></span>
+                            
+                                </button> -->
+                                <a class="toggle" href="#">
+                                    <span></span>
+                                    
+                                </a>
+                               
+                            <a class="navbar-brand" href="index.html"><img src="img/logo--.png" alt="" height="40" width="222"></a>
+                        </div>
+
+
+                        <div class="collapse navbar-collapse" id="#navbar-collapse-1">
+
+                            <ul class="nav navbar-nav navbar-right main-nav BACK">
+                                <li><a href="index.html" class="effect-underline">Home</a></li>
                                 <li><a href="about.html" class="effect-underline">About Us</a></li>
                                 <li class="dropdown m-menu-fw">
-                                        <a href="services.html" class="effect-underline" data-toggle="dropdown" class="dropdown-toggle">
-                                                Services
-                                                <span class="pull-right"><i class="fa fa-angle-down"></i></span>
-                                            </a>
-                                            <ul class="dropdown-menu">
-                                                <li>
-                                                    <div class="m-menu-content">
-        
-                                                        <ul class="col-sm-3">
-                                                            
-                                                            <li class="dropdown-header ">Accounting and Taxation</li>
-                                                            <li><a href=" # "> Accounting & Book-Keeping services</a></li>
-                                                            <li><a href=" # ">Direct Tax</a></li>
-                                                            <li><a href=" # "> Indirect Tax</a></li>
-                                                            <li><a href=" # ">MIS</a></li>
-                                                            <li><a href=" # ">Virtual CFO Services</a></li>
-                                                                                                           
-                                                        </ul>
-        
-                                                        <ul class=" col-sm-3 " ">
-        
-                                                            <li class="dropdown-header ">Intellectual Property Services</li>
-                                                            <li><a href="trademark.html">Trademark search</a></li>
-                                                            <li><a href="trademark.html">Trademark</a></li>
-                                                            <li><a href="patent.html">Patent</a></li>
-                                                            <li><a href="ipr_copyright.html">Copyright</a></li>
-                                                             <li><a href="ipr_design.html">Design</a></li>
-        
-                                                            <br>
-        
-                                                            <li class=" dropdown-header ">IT & Digital Marketing</li>
-                                                            <li><a href=" # ">Design & Devlopment</a></li>
-                                                            <li><a href=" # ">Digital Marketing</a></li>
-                                                            <li><a href=" # ">Mobile Applications</a></li>
-                                                            <li><a href=" # ">Artificial Intelligence</a></li>
-                                                            <li><a href=" # ">Custom Solutions</a></li>
-        
-                                                        </ul>
-                                                        <ul class="col-sm-3">
-        
-                                                            <li class="dropdown-header ">Compliance & Regulatory</li>
-                                                            <li><a href="incorporation.html">Incorporation</a></li>
-                                                            <li><a href="roc.html">ROC Services</a></li>
-                                                            <li><a href="compliances.html">Compliances</a></li>
-                                                            <li><a <li><a href="dsc.html">DSC Services</a></li>
-                                                            <li><a href="licenses.html">Licenses</a></li>
-        
-                                                            <br>
-        
-        
-                                                            <li class="dropdown-header ">HR</li>
-                                                            <li><a href="employee_onboarding.html">Employee onboarding</a></li>
-                                                            <li><a href="employee-lifecycle-management.html">Employee Lifecycle Management</a></li>
-                                                            <li><a href="statutory_compliances.html">Statutory Compliances</a></li>
-                                                            <li><a href="expenseand_benefits.html"> Expense & Benefits</a></li>
-                                                           <li><a href="other_services.html"> Other services</a></li>
-        
-                                                        </ul>
-                                                        <ul class="col-sm-3">
-                                                            <li class="dropdown-header ">Legal Services</li>
-                                                            <li><a href="legal_drft_agreements.html"> Drafting of agreements & contracts</a></li>
-                                                            <li><a href="legal_notices.html">Drafting of legal notices/ suits</a></li>
-                                                           <li><a href="legal_Website.html"> Website/ Mobile Apps Policies</a></li>
-                                                            <li><a href="legal_disputes.html">Handling of legal disputes</a></li>
-                                                            <li><a href="legal_kyc.html">KYC & Due Diligence Services.</a></li>
-        
-        
-                                                        </ul>
-        
-                                                    </div>
-                                                </li>
-                                            </ul>
-                        
+                                    <a href="services.html" class="active effect-underline" data-toggle="dropdown" class="dropdown-toggle">
+                                             Services
+                                         <span><i class="fa fa-angle-down"></i></span>
+                                     </a>
+                                    <ul class="dropdown-menu">
+                                        <li>
+                                            <div class="m-menu-content">
+                                                <ul class="col-sm-3" ">
+                                                    <li class="dropdown-header ">Accounting and Taxation</li>
+                                                    <li><a href="# "> Accounting & Book-Keeping services</a></li>
+                                                    <li><a href="# ">Direct Tax</a></li>
+                                                    <li><a href="# "> Indirect Tax</a></li>
+                                                    <li><a href="# ">MIS</a></li>
+                                                    <li><a href="# ">Virtual CFO Services</a></li>
+
+                                                    <li class="dropdown-header ">IT & Digital Marketing</li>
+                                                    <li><a href="# ">Design & Devlopment</a></li>
+                                                    <li><a href="# ">Digital Marketing</a></li>
+                                                    <li><a href="# ">Mobile Applications</a></li>
+                                                    <li><a href="# ">Artificial Intelligence</a></li>
+                                                    <li><a href="# ">Custom Solutions</a></li>
+                                                    <li><a href="# ">Artificial Intelligence</a></li>
+
+
+                                                </ul>
+
+                                                <ul class="col-sm-3 " ">
+
+                                                    <li class="dropdown-header ">Intellectual Property Services</li>
+                                                    <li><a href="trademark.html">Trademark</a></li>
+                                                    <li><a href="# ">Patent</a></li>
+                                                    <li><a href="# ">Copyright</a></li>
+                                                    <li><a href="# ">Design</a></li>
+
+                                                    <br>
+                                                    <BR>
+
+                                                    <li class="dropdown-header ">HR</li>
+                                                    <li><a href="# ">Employee onboarding</a></li>
+                                                    <li><a href="# ">Employee Lifecycle Management</a></li>
+                                                    <li><a href="# ">Statutory Compliances</a></li>
+                                                    <li><a href="# "> Expense & Benefits</a></li>
+                                                    <li><a href="# "> Other services</a></li>
+                                                </ul>
+                                                <ul class="col-sm-3">
+
+                                                    <li class="dropdown-header ">Compliance & Regulatory</li>
+                                                    <li><a href="# ">Incorporation</a></li>
+                                                    <li><a href="# ">ROC Services</a></li>
+                                                    <li><a href="# ">Compliances</a></li>
+                                                    <li><a href="# ">DSC Services</a></li>
+                                                    <li><a href="# ">Licenses</a></li>
+
+                                                </ul>
+                                                <ul class="col-sm-3">
+                                                    <li class="dropdown-header ">Legal Services</li>
+                                                    <li><a href="# "> Drafting of agreements  & contracts</a></li>
+                                                    <li><a href="# ">Drafting of legal notices/ suits</a></li>
+                                                    <li><a href="# "> Website/ Mobile Apps Policies</a></li>
+                                                    <li><a href="# ">Handling of legal disputes</a></li>
+                                                    <li><a href="# ">KYC & Due Diligence Services.</a></li>
+
+
+                                                </ul>
+
+                                            </div>
+                                        </li>
+                                    </ul>
                                 </li>
-                                <li><a href="#" class="effect-underline">Media</a></li>
-                                <li><a href="#" class="effect-underline">Blogs</a></li>
-                              </ul>
-                        
-                            </div>
-                            </div>
-                            <!-- /.nav-collapse -->
-                    </nav>
-                <!-- .nav -->
+                                <li><a href="" class="effect-underline">Media</a></li>
+                                <li><a href="" class="effect-underline">Blogs</a></li>
+                            </ul>
+                        </div>
+                        <!-- .navbar-collapse -->
+                    </div>
+                    <!-- .container -->
+                </nav>
+                <!-- .nav -->   <!-- .nav -->
 
                 <!-- contact data -->
                 <nav id="sidebar0" class="sidebar">
@@ -980,32 +984,147 @@ font-family: 'Montserrat', 'Helvetica Neue', Helvetica, Arial, sans-serif !impor
             </div>
         </div>
 
-        <!-- <div class="uc-mobile-menu uc-mobile-menu-effect">
+        <div class="uc-mobile-menu uc-mobile-menu-effect">
             <button type="button" class="close" aria-hidden="true" data-toggle="offcanvas"
                 id="uc-mobile-menu-close-btn">&times;</button>
-            <div>
-                <div>
-                    <ul id="menu">
-                        <li><a href="index.html">Home</a></li>
-                        <li><a href="about.html">About </a></li>
-                        <li><a href="services.html">Services</a></li>
-                        <li><a href="LOGIN.html">LOGIN</a></li>
-                        <li><a href="contact.html">Contact</a></li>
+               <div class="wrapper cf" >
+                <nav id="main-nav">
+
+                    <ul class="first-nav">
+                      <!-- <li class="search" data-nav-custom-content>
+                        <div class="form-container">
+                          <form class="search-form" action="https://www.google.com/search" target="_blank" method="get">
+                            <input type="text" name="q" placeholder="Search..." autocomplete="off">
+                          </form>
+                        </div>
+                      </li> -->
+                      <li class="collections"><a href="#collections">Home</a></li>
+                      <li class="collections"><a href="#collections">About Us</a></li>
+                      <li class="cryptocurrency">
+                        <a href="https://www.google.com/search?q=Crypto" target="_blank">Services</a>
+                        <ul>
+                          <li><a href="#">Accounting and Taxation</a>
+                            <ul>
+                                <li><a href="#">Intellectual Property Services</a></li>
+                                <li><a href="#">Compliances and Regulatory</a></li>
+                            </ul>
+                         </li>
+                          <li><a href="#">Intellectual Property Services</a></li>
+                          <li><a href="#">Compliances and Regulatory</a></li>
+                          <li><a href="#">Legal Serives</a></li>
+                          <li><a href="#">IT and Digital Marketing</a></li>
+                          <li><a href="#">HR</a></li>
+                        </ul>
+                      </li>
+                      <li class="collections"><a href="#collections">Media</a></li>
+                      <li class="collections"><a href="#collections">Blogs</a></li>
                     </ul>
-                </div>
-            </div>
-        </div> -->
+        
+                  </nav>
+               </div>
+        </div>
        
 
             </div>
 
             <script src="js/jquery-2.1.4.min.js"></script>
-            <script src="js/scripts.js"></script>
             <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+            <script src="js/scripts.js"></script>
+            <script src="js/hc-offcanvas-nav.js"></script>
+            <script src="js/mobile-menu.js"></script>
             <script src="js/smoothscroll.js"></script>
             <script src="js/flexSlider/jquery.flexslider-min.js"></script>
             <script src="js/toucheffects.js"></script>
             <script src="js/modernizr.custom.js"></script>
+            <!-- <script src="js/scripts.js"></script> -->
+            <!-- <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+            <script src="js/smoothscroll.js"></script>
+            <script src="js/flexSlider/jquery.flexslider-min.js"></script>
+            <script src="js/toucheffects.js"></script>
+            <script src="js/modernizr.custom.js"></script> -->
+            <script>
+                (function($) {
+                  var $main_nav = $('#main-nav');
+                  var $toggle = $('.toggle');
+        
+                  var defaultOptions = {
+                    disableAt: false,
+                    customToggle: $toggle,
+                    levelSpacing: 40,
+                    navTitle: 'All Categories',
+                    levelTitles: true,
+                    levelTitleAsBack: true,
+                    pushContent: '#container',
+                    insertClose: 2
+                  };
+        
+                  // call our plugin
+                  var Nav = $main_nav.hcOffcanvasNav(defaultOptions);
+        
+                  // add new items to original nav
+                  $main_nav.find('li.add').children('a').on('click', function() {
+                    var $this = $(this);
+                    var $li = $this.parent();
+                    var items = eval('(' + $this.attr('data-add') + ')');
+        
+                    $li.before('<li class="new"><a href="#">'+items[0]+'</a></li>');
+        
+                    items.shift();
+        
+                    if (!items.length) {
+                      $li.remove();
+                    }
+                    else {
+                      $this.attr('data-add', JSON.stringify(items));
+                    }
+        
+                    Nav.update(true);
+                  });
+        
+                  // demo settings update
+        
+                  const update = (settings) => {
+                    if (Nav.isOpen()) {
+                      Nav.on('close.once', function() {
+                        Nav.update(settings);
+                        Nav.open();
+                      });
+        
+                      Nav.close();
+                    }
+                    else {
+                      Nav.update(settings);
+                    }
+                  };
+        
+                  $('.actions').find('a').on('click', function(e) {
+                    e.preventDefault();
+        
+                    var $this = $(this).addClass('active');
+                    var $siblings = $this.parent().siblings().children('a').removeClass('active');
+                    var settings = eval('(' + $this.data('demo') + ')');
+        
+                    update(settings);
+                  });
+        
+                  $('.actions').find('input').on('change', function() {
+                    var $this = $(this);
+                    var settings = eval('(' + $this.data('demo') + ')');
+        
+                    if ($this.is(':checked')) {
+                      update(settings);
+                    }
+                    else {
+                      var removeData = {};
+                      $.each(settings, function(index, value) {
+                        removeData[index] = false;
+                      });
+        
+                      update(removeData);
+                    }
+                  });
+                })(jQuery);
+              </script>
 </body>
 
 </html>

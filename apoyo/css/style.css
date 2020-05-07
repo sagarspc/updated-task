@@ -346,13 +346,22 @@ body {
    NAVIGATION & HEADER STYLE
   --------------------------------*/
   
-  
+  .hc-nav-trigger.hc-nav-1{
+    display: none !important;
+  }
   /*Navigation*/
   
   @media screen and (max-width: 768px) {
       /* .navbar-collapse.collapse {
           display: none !important;
       } */
+      .hc-nav-trigger.hc-nav-1{
+        display: block !important;
+        float: right;
+        top: 5px;
+        right: 12px;
+      }
+    
     .navbar-default {
       background: #ffffff !important;
       padding: 10px 0;
@@ -5105,3 +5114,4 @@ padding: 6px 20px;
 .vis-icon p b{
 font-weight: 300;
 }
+
