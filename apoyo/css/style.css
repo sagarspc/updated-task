@@ -1284,8 +1284,8 @@ body {
   }
   
   .footer .copyright-section .copytext a img {
-    width: 150px !important;
-    height: 30px;
+    width: 125px !important;
+    height: 26px;
     margin-left: 10px;
   }
   
@@ -1300,7 +1300,7 @@ body {
   }
   
   .aclient-logo a img {
-    width: 65%;
+    width: 50%;
     opacity: 0.5;
     -webkit-transition: all 0.8s ease 0s;
     -moz-transition: all 0.8s ease 0s;
@@ -4997,6 +4997,10 @@ padding: 6px 20px;
     border-width: 1px;
     padding: 20px; 
     margin-bottom: 25px;  
+    height: 420px;
+  }
+  .eq-height-auto{
+    height: auto !important;
   }
   .custom-cards p {
     font-weight: 300;
