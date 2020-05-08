@@ -4856,7 +4856,7 @@ padding: 6px 20px;
    .custom-cards{
     margin: 20px;
     padding-bottom: 0px !important;
-    height: auto;
+    height: auto !important;
    }
    .sgallery-list{
        display: block;
