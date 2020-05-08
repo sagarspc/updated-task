@@ -4835,6 +4835,7 @@ padding: 6px 20px;
   /* classes for responsive */
   
   @media screen and (max-width: 768px) {
+
     .hero-slide .carousel-control.left, .hero-slide .carousel-control.right{
       display: block !important;
     }
@@ -4855,6 +4856,7 @@ padding: 6px 20px;
    .custom-cards{
     margin: 20px;
     padding-bottom: 0px !important;
+    height: auto;
    }
    .sgallery-list{
        display: block;
