@@ -768,6 +768,7 @@ body {
   
   .hero-slide .carousel-control.left,
   .hero-slide .carousel-control.right {
+    display: none;
     width: 50px;
     height: 50px;
     line-height: 46px;
@@ -4834,6 +4835,9 @@ padding: 6px 20px;
   /* classes for responsive */
   
   @media screen and (max-width: 768px) {
+    .hero-slide .carousel-control.left, .hero-slide .carousel-control.right{
+      display: block !important;
+    }
     .mydivclass a div{
       text-align: left;
     }
