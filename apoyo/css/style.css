@@ -5125,8 +5125,29 @@ padding: 6px 20px;
 font-weight: 300;
 }
 
-@media (min-width:769px) and (max-width:1024px){
-  .custom-cards{
-    height: 460px;
-  }
+.row-flex {
+  display: flex;
+  flex-wrap: wrap;
 }
+.navbar-brand img{
+  width: 180px !important;
+}
+/* @media (min-width:769px) and (max-width:1024px){
+  
+} */
+
+/* @media only screen 
+  and (min-device-width: 768px) 
+  and (max-device-width: 1024px) 
+  and (orientation: landscape) 
+  and (-webkit-min-device-pixel-ratio: 1) {
+    .eq-height-325{
+      height: 325px !important;
+    }
+    .eq-height-370{
+      height: 370px !important;
+    }
+    .eq-height-518{
+      height: 518px !important;
+    }
+} */
